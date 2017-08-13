@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using Firebase;
 using Firebase.Database;
 using Firebase.Unity.Editor;
@@ -6,6 +7,11 @@ using Firebase.Unity.Editor;
 public class MainDBScript : MonoBehaviour
 {
 	DatabaseReference reference; 
+	
+	[SerializeField]
+	private GameObject parentOfAllPrompts;
+
+	public GameObject promptContent_prefab;
 	    void Start()
     {
         // Set this before calling into the realtime database.
@@ -15,24 +21,33 @@ public class MainDBScript : MonoBehaviour
         reference = FirebaseDatabase.DefaultInstance.RootReference;
 		Debug.Log(reference.ToString());
 
-		writeNewUser("taylorjames9", "James Taylor", "taylorjames9@gmail.com");
-		writeNewUser("billoby", "Bill Wighton", "bill@hotmail.com");
+        /////writeNewUser("taylorjames9", "James Taylor", "taylorjames9@gmail.com");
+        /////writeNewUser("billoby", "Bill Wighton", "bill@hotmail.com");
 
         FirebaseDatabase.DefaultInstance
-  .GetReference("users")
+  .GetReference("prompts")
   .GetValueAsync().ContinueWith(task =>
   {
       if (task.IsFaulted)
       {
-              // Handle the error...
-          }
+          // Handle the error...
+          Debug.Log("There was an error retrieving the data...");
+      }
       else if (task.IsCompleted)
       {
-          DataSnapshot snapshot = task.Result;
-              Debug.Log("Snapshot = "+snapshot.ChildrenCount.ToString());
-			  Debug.Log("printing my name = "+snapshot.Child("taylorjames9").Child("username").GetValue(true));
-			  Debug.Log("printing my name = "+snapshot.Child("taylorjames9").Child("email").GetValue(true));
+          DataSnapshot allPrompts = task.Result;
+          Debug.Log("Snapshot = " + allPrompts.ChildrenCount.ToString());
+          Debug.Log("printing content of prompt 3" + allPrompts.Child("prompt003").Child("content").GetRawJsonValue());
+          int i = 1;
+		  foreach (var prompt in allPrompts.Children)
+          {
+				Debug.Log("00"+prompt.Child("promptID").GetRawJsonValue());
+				GameObject newPromptAndContent_Empty = Instantiate(promptContent_prefab, parentOfAllPrompts.transform, true) as GameObject;
+				newPromptAndContent_Empty.name = "Prompt00"+prompt.Child("promptID").GetRawJsonValue();
+				newPromptAndContent_Empty.transform.GetChild(0).transform.GetChild(0).GetComponent<Text>().text = allPrompts.Child("prompt00"+i.ToString()).Child("content").GetRawJsonValue().ToString();
+				i++;
           }
+      }
   });
 
     }
