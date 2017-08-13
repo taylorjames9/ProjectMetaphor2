@@ -29,16 +29,16 @@ struct  TlsServerCertificate_t905088469  : public HandshakeMessage_t3938752374
 {
 public:
 	// Mono.Security.X509.X509CertificateCollection Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificate::certificates
-	X509CertificateCollection_t3592472866 * ___certificates_10;
+	X509CertificateCollection_t3592472866 * ___certificates_11;
 
 public:
-	inline static int32_t get_offset_of_certificates_10() { return static_cast<int32_t>(offsetof(TlsServerCertificate_t905088469, ___certificates_10)); }
-	inline X509CertificateCollection_t3592472866 * get_certificates_10() const { return ___certificates_10; }
-	inline X509CertificateCollection_t3592472866 ** get_address_of_certificates_10() { return &___certificates_10; }
-	inline void set_certificates_10(X509CertificateCollection_t3592472866 * value)
+	inline static int32_t get_offset_of_certificates_11() { return static_cast<int32_t>(offsetof(TlsServerCertificate_t905088469, ___certificates_11)); }
+	inline X509CertificateCollection_t3592472866 * get_certificates_11() const { return ___certificates_11; }
+	inline X509CertificateCollection_t3592472866 ** get_address_of_certificates_11() { return &___certificates_11; }
+	inline void set_certificates_11(X509CertificateCollection_t3592472866 * value)
 	{
-		___certificates_10 = value;
-		Il2CppCodeGenWriteBarrier(&___certificates_10, value);
+		___certificates_11 = value;
+		Il2CppCodeGenWriteBarrier(&___certificates_11, value);
 	}
 };
 

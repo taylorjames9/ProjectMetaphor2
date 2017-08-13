@@ -133,34 +133,38 @@ public:
 	EventHandler_t277755526 * ___abortHandler_39;
 	// System.Int32 System.Net.HttpWebRequest::aborted
 	int32_t ___aborted_40;
+	// System.Boolean System.Net.HttpWebRequest::gotRequestStream
+	bool ___gotRequestStream_41;
 	// System.Int32 System.Net.HttpWebRequest::redirects
-	int32_t ___redirects_41;
+	int32_t ___redirects_42;
 	// System.Boolean System.Net.HttpWebRequest::expectContinue
-	bool ___expectContinue_42;
+	bool ___expectContinue_43;
 	// System.Boolean System.Net.HttpWebRequest::authCompleted
-	bool ___authCompleted_43;
+	bool ___authCompleted_44;
 	// System.Byte[] System.Net.HttpWebRequest::bodyBuffer
-	ByteU5BU5D_t3397334013* ___bodyBuffer_44;
+	ByteU5BU5D_t3397334013* ___bodyBuffer_45;
 	// System.Int32 System.Net.HttpWebRequest::bodyBufferLength
-	int32_t ___bodyBufferLength_45;
+	int32_t ___bodyBufferLength_46;
 	// System.Boolean System.Net.HttpWebRequest::getResponseCalled
-	bool ___getResponseCalled_46;
+	bool ___getResponseCalled_47;
 	// System.Exception System.Net.HttpWebRequest::saved_exc
-	Exception_t1927440687 * ___saved_exc_47;
+	Exception_t1927440687 * ___saved_exc_48;
 	// System.Object System.Net.HttpWebRequest::locker
-	Il2CppObject * ___locker_48;
+	Il2CppObject * ___locker_49;
 	// System.Boolean System.Net.HttpWebRequest::is_ntlm_auth
-	bool ___is_ntlm_auth_49;
+	bool ___is_ntlm_auth_50;
 	// System.Boolean System.Net.HttpWebRequest::finished_reading
-	bool ___finished_reading_50;
+	bool ___finished_reading_51;
 	// System.Net.WebConnection System.Net.HttpWebRequest::WebConnection
-	WebConnection_t324679648 * ___WebConnection_51;
+	WebConnection_t324679648 * ___WebConnection_52;
 	// System.Net.DecompressionMethods System.Net.HttpWebRequest::auto_decomp
-	int32_t ___auto_decomp_52;
+	int32_t ___auto_decomp_53;
+	// System.Int32 System.Net.HttpWebRequest::maxResponseHeadersLength
+	int32_t ___maxResponseHeadersLength_54;
 	// System.Int32 System.Net.HttpWebRequest::readWriteTimeout
-	int32_t ___readWriteTimeout_54;
+	int32_t ___readWriteTimeout_56;
 	// System.Boolean System.Net.HttpWebRequest::unsafe_auth_blah
-	bool ___unsafe_auth_blah_55;
+	bool ___unsafe_auth_blah_57;
 
 public:
 	inline static int32_t get_offset_of_requestUri_6() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___requestUri_6)); }
@@ -463,120 +467,136 @@ public:
 		___aborted_40 = value;
 	}
 
-	inline static int32_t get_offset_of_redirects_41() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___redirects_41)); }
-	inline int32_t get_redirects_41() const { return ___redirects_41; }
-	inline int32_t* get_address_of_redirects_41() { return &___redirects_41; }
-	inline void set_redirects_41(int32_t value)
+	inline static int32_t get_offset_of_gotRequestStream_41() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___gotRequestStream_41)); }
+	inline bool get_gotRequestStream_41() const { return ___gotRequestStream_41; }
+	inline bool* get_address_of_gotRequestStream_41() { return &___gotRequestStream_41; }
+	inline void set_gotRequestStream_41(bool value)
 	{
-		___redirects_41 = value;
+		___gotRequestStream_41 = value;
 	}
 
-	inline static int32_t get_offset_of_expectContinue_42() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___expectContinue_42)); }
-	inline bool get_expectContinue_42() const { return ___expectContinue_42; }
-	inline bool* get_address_of_expectContinue_42() { return &___expectContinue_42; }
-	inline void set_expectContinue_42(bool value)
+	inline static int32_t get_offset_of_redirects_42() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___redirects_42)); }
+	inline int32_t get_redirects_42() const { return ___redirects_42; }
+	inline int32_t* get_address_of_redirects_42() { return &___redirects_42; }
+	inline void set_redirects_42(int32_t value)
 	{
-		___expectContinue_42 = value;
+		___redirects_42 = value;
 	}
 
-	inline static int32_t get_offset_of_authCompleted_43() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___authCompleted_43)); }
-	inline bool get_authCompleted_43() const { return ___authCompleted_43; }
-	inline bool* get_address_of_authCompleted_43() { return &___authCompleted_43; }
-	inline void set_authCompleted_43(bool value)
+	inline static int32_t get_offset_of_expectContinue_43() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___expectContinue_43)); }
+	inline bool get_expectContinue_43() const { return ___expectContinue_43; }
+	inline bool* get_address_of_expectContinue_43() { return &___expectContinue_43; }
+	inline void set_expectContinue_43(bool value)
 	{
-		___authCompleted_43 = value;
+		___expectContinue_43 = value;
 	}
 
-	inline static int32_t get_offset_of_bodyBuffer_44() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___bodyBuffer_44)); }
-	inline ByteU5BU5D_t3397334013* get_bodyBuffer_44() const { return ___bodyBuffer_44; }
-	inline ByteU5BU5D_t3397334013** get_address_of_bodyBuffer_44() { return &___bodyBuffer_44; }
-	inline void set_bodyBuffer_44(ByteU5BU5D_t3397334013* value)
+	inline static int32_t get_offset_of_authCompleted_44() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___authCompleted_44)); }
+	inline bool get_authCompleted_44() const { return ___authCompleted_44; }
+	inline bool* get_address_of_authCompleted_44() { return &___authCompleted_44; }
+	inline void set_authCompleted_44(bool value)
 	{
-		___bodyBuffer_44 = value;
-		Il2CppCodeGenWriteBarrier(&___bodyBuffer_44, value);
+		___authCompleted_44 = value;
 	}
 
-	inline static int32_t get_offset_of_bodyBufferLength_45() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___bodyBufferLength_45)); }
-	inline int32_t get_bodyBufferLength_45() const { return ___bodyBufferLength_45; }
-	inline int32_t* get_address_of_bodyBufferLength_45() { return &___bodyBufferLength_45; }
-	inline void set_bodyBufferLength_45(int32_t value)
+	inline static int32_t get_offset_of_bodyBuffer_45() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___bodyBuffer_45)); }
+	inline ByteU5BU5D_t3397334013* get_bodyBuffer_45() const { return ___bodyBuffer_45; }
+	inline ByteU5BU5D_t3397334013** get_address_of_bodyBuffer_45() { return &___bodyBuffer_45; }
+	inline void set_bodyBuffer_45(ByteU5BU5D_t3397334013* value)
 	{
-		___bodyBufferLength_45 = value;
+		___bodyBuffer_45 = value;
+		Il2CppCodeGenWriteBarrier(&___bodyBuffer_45, value);
 	}
 
-	inline static int32_t get_offset_of_getResponseCalled_46() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___getResponseCalled_46)); }
-	inline bool get_getResponseCalled_46() const { return ___getResponseCalled_46; }
-	inline bool* get_address_of_getResponseCalled_46() { return &___getResponseCalled_46; }
-	inline void set_getResponseCalled_46(bool value)
+	inline static int32_t get_offset_of_bodyBufferLength_46() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___bodyBufferLength_46)); }
+	inline int32_t get_bodyBufferLength_46() const { return ___bodyBufferLength_46; }
+	inline int32_t* get_address_of_bodyBufferLength_46() { return &___bodyBufferLength_46; }
+	inline void set_bodyBufferLength_46(int32_t value)
 	{
-		___getResponseCalled_46 = value;
+		___bodyBufferLength_46 = value;
 	}
 
-	inline static int32_t get_offset_of_saved_exc_47() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___saved_exc_47)); }
-	inline Exception_t1927440687 * get_saved_exc_47() const { return ___saved_exc_47; }
-	inline Exception_t1927440687 ** get_address_of_saved_exc_47() { return &___saved_exc_47; }
-	inline void set_saved_exc_47(Exception_t1927440687 * value)
+	inline static int32_t get_offset_of_getResponseCalled_47() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___getResponseCalled_47)); }
+	inline bool get_getResponseCalled_47() const { return ___getResponseCalled_47; }
+	inline bool* get_address_of_getResponseCalled_47() { return &___getResponseCalled_47; }
+	inline void set_getResponseCalled_47(bool value)
 	{
-		___saved_exc_47 = value;
-		Il2CppCodeGenWriteBarrier(&___saved_exc_47, value);
+		___getResponseCalled_47 = value;
 	}
 
-	inline static int32_t get_offset_of_locker_48() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___locker_48)); }
-	inline Il2CppObject * get_locker_48() const { return ___locker_48; }
-	inline Il2CppObject ** get_address_of_locker_48() { return &___locker_48; }
-	inline void set_locker_48(Il2CppObject * value)
+	inline static int32_t get_offset_of_saved_exc_48() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___saved_exc_48)); }
+	inline Exception_t1927440687 * get_saved_exc_48() const { return ___saved_exc_48; }
+	inline Exception_t1927440687 ** get_address_of_saved_exc_48() { return &___saved_exc_48; }
+	inline void set_saved_exc_48(Exception_t1927440687 * value)
 	{
-		___locker_48 = value;
-		Il2CppCodeGenWriteBarrier(&___locker_48, value);
+		___saved_exc_48 = value;
+		Il2CppCodeGenWriteBarrier(&___saved_exc_48, value);
 	}
 
-	inline static int32_t get_offset_of_is_ntlm_auth_49() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___is_ntlm_auth_49)); }
-	inline bool get_is_ntlm_auth_49() const { return ___is_ntlm_auth_49; }
-	inline bool* get_address_of_is_ntlm_auth_49() { return &___is_ntlm_auth_49; }
-	inline void set_is_ntlm_auth_49(bool value)
+	inline static int32_t get_offset_of_locker_49() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___locker_49)); }
+	inline Il2CppObject * get_locker_49() const { return ___locker_49; }
+	inline Il2CppObject ** get_address_of_locker_49() { return &___locker_49; }
+	inline void set_locker_49(Il2CppObject * value)
 	{
-		___is_ntlm_auth_49 = value;
+		___locker_49 = value;
+		Il2CppCodeGenWriteBarrier(&___locker_49, value);
 	}
 
-	inline static int32_t get_offset_of_finished_reading_50() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___finished_reading_50)); }
-	inline bool get_finished_reading_50() const { return ___finished_reading_50; }
-	inline bool* get_address_of_finished_reading_50() { return &___finished_reading_50; }
-	inline void set_finished_reading_50(bool value)
+	inline static int32_t get_offset_of_is_ntlm_auth_50() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___is_ntlm_auth_50)); }
+	inline bool get_is_ntlm_auth_50() const { return ___is_ntlm_auth_50; }
+	inline bool* get_address_of_is_ntlm_auth_50() { return &___is_ntlm_auth_50; }
+	inline void set_is_ntlm_auth_50(bool value)
 	{
-		___finished_reading_50 = value;
+		___is_ntlm_auth_50 = value;
 	}
 
-	inline static int32_t get_offset_of_WebConnection_51() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___WebConnection_51)); }
-	inline WebConnection_t324679648 * get_WebConnection_51() const { return ___WebConnection_51; }
-	inline WebConnection_t324679648 ** get_address_of_WebConnection_51() { return &___WebConnection_51; }
-	inline void set_WebConnection_51(WebConnection_t324679648 * value)
+	inline static int32_t get_offset_of_finished_reading_51() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___finished_reading_51)); }
+	inline bool get_finished_reading_51() const { return ___finished_reading_51; }
+	inline bool* get_address_of_finished_reading_51() { return &___finished_reading_51; }
+	inline void set_finished_reading_51(bool value)
 	{
-		___WebConnection_51 = value;
-		Il2CppCodeGenWriteBarrier(&___WebConnection_51, value);
+		___finished_reading_51 = value;
 	}
 
-	inline static int32_t get_offset_of_auto_decomp_52() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___auto_decomp_52)); }
-	inline int32_t get_auto_decomp_52() const { return ___auto_decomp_52; }
-	inline int32_t* get_address_of_auto_decomp_52() { return &___auto_decomp_52; }
-	inline void set_auto_decomp_52(int32_t value)
+	inline static int32_t get_offset_of_WebConnection_52() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___WebConnection_52)); }
+	inline WebConnection_t324679648 * get_WebConnection_52() const { return ___WebConnection_52; }
+	inline WebConnection_t324679648 ** get_address_of_WebConnection_52() { return &___WebConnection_52; }
+	inline void set_WebConnection_52(WebConnection_t324679648 * value)
 	{
-		___auto_decomp_52 = value;
+		___WebConnection_52 = value;
+		Il2CppCodeGenWriteBarrier(&___WebConnection_52, value);
 	}
 
-	inline static int32_t get_offset_of_readWriteTimeout_54() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___readWriteTimeout_54)); }
-	inline int32_t get_readWriteTimeout_54() const { return ___readWriteTimeout_54; }
-	inline int32_t* get_address_of_readWriteTimeout_54() { return &___readWriteTimeout_54; }
-	inline void set_readWriteTimeout_54(int32_t value)
+	inline static int32_t get_offset_of_auto_decomp_53() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___auto_decomp_53)); }
+	inline int32_t get_auto_decomp_53() const { return ___auto_decomp_53; }
+	inline int32_t* get_address_of_auto_decomp_53() { return &___auto_decomp_53; }
+	inline void set_auto_decomp_53(int32_t value)
 	{
-		___readWriteTimeout_54 = value;
+		___auto_decomp_53 = value;
 	}
 
-	inline static int32_t get_offset_of_unsafe_auth_blah_55() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___unsafe_auth_blah_55)); }
-	inline bool get_unsafe_auth_blah_55() const { return ___unsafe_auth_blah_55; }
-	inline bool* get_address_of_unsafe_auth_blah_55() { return &___unsafe_auth_blah_55; }
-	inline void set_unsafe_auth_blah_55(bool value)
+	inline static int32_t get_offset_of_maxResponseHeadersLength_54() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___maxResponseHeadersLength_54)); }
+	inline int32_t get_maxResponseHeadersLength_54() const { return ___maxResponseHeadersLength_54; }
+	inline int32_t* get_address_of_maxResponseHeadersLength_54() { return &___maxResponseHeadersLength_54; }
+	inline void set_maxResponseHeadersLength_54(int32_t value)
 	{
-		___unsafe_auth_blah_55 = value;
+		___maxResponseHeadersLength_54 = value;
+	}
+
+	inline static int32_t get_offset_of_readWriteTimeout_56() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___readWriteTimeout_56)); }
+	inline int32_t get_readWriteTimeout_56() const { return ___readWriteTimeout_56; }
+	inline int32_t* get_address_of_readWriteTimeout_56() { return &___readWriteTimeout_56; }
+	inline void set_readWriteTimeout_56(int32_t value)
+	{
+		___readWriteTimeout_56 = value;
+	}
+
+	inline static int32_t get_offset_of_unsafe_auth_blah_57() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513, ___unsafe_auth_blah_57)); }
+	inline bool get_unsafe_auth_blah_57() const { return ___unsafe_auth_blah_57; }
+	inline bool* get_address_of_unsafe_auth_blah_57() { return &___unsafe_auth_blah_57; }
+	inline void set_unsafe_auth_blah_57(bool value)
+	{
+		___unsafe_auth_blah_57 = value;
 	}
 };
 
@@ -584,15 +604,15 @@ struct HttpWebRequest_t1951404513_StaticFields
 {
 public:
 	// System.Int32 System.Net.HttpWebRequest::defaultMaxResponseHeadersLength
-	int32_t ___defaultMaxResponseHeadersLength_53;
+	int32_t ___defaultMaxResponseHeadersLength_55;
 
 public:
-	inline static int32_t get_offset_of_defaultMaxResponseHeadersLength_53() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513_StaticFields, ___defaultMaxResponseHeadersLength_53)); }
-	inline int32_t get_defaultMaxResponseHeadersLength_53() const { return ___defaultMaxResponseHeadersLength_53; }
-	inline int32_t* get_address_of_defaultMaxResponseHeadersLength_53() { return &___defaultMaxResponseHeadersLength_53; }
-	inline void set_defaultMaxResponseHeadersLength_53(int32_t value)
+	inline static int32_t get_offset_of_defaultMaxResponseHeadersLength_55() { return static_cast<int32_t>(offsetof(HttpWebRequest_t1951404513_StaticFields, ___defaultMaxResponseHeadersLength_55)); }
+	inline int32_t get_defaultMaxResponseHeadersLength_55() const { return ___defaultMaxResponseHeadersLength_55; }
+	inline int32_t* get_address_of_defaultMaxResponseHeadersLength_55() { return &___defaultMaxResponseHeadersLength_55; }
+	inline void set_defaultMaxResponseHeadersLength_55(int32_t value)
 	{
-		___defaultMaxResponseHeadersLength_53 = value;
+		___defaultMaxResponseHeadersLength_55 = value;
 	}
 };
 

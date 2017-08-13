@@ -14,6 +14,8 @@
 
 // System.ComponentModel.IComponent
 struct IComponent_t1000253244;
+// System.ComponentModel.EventDescriptorCollection
+struct EventDescriptorCollection_t3053042509;
 // System.ComponentModel.PropertyDescriptorCollection
 struct PropertyDescriptorCollection_t3166009492;
 
@@ -31,27 +33,38 @@ struct  ComponentInfo_t2742875487  : public Info_t42715200
 {
 public:
 	// System.ComponentModel.IComponent System.ComponentModel.ComponentInfo::_component
-	Il2CppObject * ____component_2;
+	Il2CppObject * ____component_6;
+	// System.ComponentModel.EventDescriptorCollection System.ComponentModel.ComponentInfo::_events
+	EventDescriptorCollection_t3053042509 * ____events_7;
 	// System.ComponentModel.PropertyDescriptorCollection System.ComponentModel.ComponentInfo::_properties
-	PropertyDescriptorCollection_t3166009492 * ____properties_3;
+	PropertyDescriptorCollection_t3166009492 * ____properties_8;
 
 public:
-	inline static int32_t get_offset_of__component_2() { return static_cast<int32_t>(offsetof(ComponentInfo_t2742875487, ____component_2)); }
-	inline Il2CppObject * get__component_2() const { return ____component_2; }
-	inline Il2CppObject ** get_address_of__component_2() { return &____component_2; }
-	inline void set__component_2(Il2CppObject * value)
+	inline static int32_t get_offset_of__component_6() { return static_cast<int32_t>(offsetof(ComponentInfo_t2742875487, ____component_6)); }
+	inline Il2CppObject * get__component_6() const { return ____component_6; }
+	inline Il2CppObject ** get_address_of__component_6() { return &____component_6; }
+	inline void set__component_6(Il2CppObject * value)
 	{
-		____component_2 = value;
-		Il2CppCodeGenWriteBarrier(&____component_2, value);
+		____component_6 = value;
+		Il2CppCodeGenWriteBarrier(&____component_6, value);
 	}
 
-	inline static int32_t get_offset_of__properties_3() { return static_cast<int32_t>(offsetof(ComponentInfo_t2742875487, ____properties_3)); }
-	inline PropertyDescriptorCollection_t3166009492 * get__properties_3() const { return ____properties_3; }
-	inline PropertyDescriptorCollection_t3166009492 ** get_address_of__properties_3() { return &____properties_3; }
-	inline void set__properties_3(PropertyDescriptorCollection_t3166009492 * value)
+	inline static int32_t get_offset_of__events_7() { return static_cast<int32_t>(offsetof(ComponentInfo_t2742875487, ____events_7)); }
+	inline EventDescriptorCollection_t3053042509 * get__events_7() const { return ____events_7; }
+	inline EventDescriptorCollection_t3053042509 ** get_address_of__events_7() { return &____events_7; }
+	inline void set__events_7(EventDescriptorCollection_t3053042509 * value)
 	{
-		____properties_3 = value;
-		Il2CppCodeGenWriteBarrier(&____properties_3, value);
+		____events_7 = value;
+		Il2CppCodeGenWriteBarrier(&____events_7, value);
+	}
+
+	inline static int32_t get_offset_of__properties_8() { return static_cast<int32_t>(offsetof(ComponentInfo_t2742875487, ____properties_8)); }
+	inline PropertyDescriptorCollection_t3166009492 * get__properties_8() const { return ____properties_8; }
+	inline PropertyDescriptorCollection_t3166009492 ** get_address_of__properties_8() { return &____properties_8; }
+	inline void set__properties_8(PropertyDescriptorCollection_t3166009492 * value)
+	{
+		____properties_8 = value;
+		Il2CppCodeGenWriteBarrier(&____properties_8, value);
 	}
 };
 

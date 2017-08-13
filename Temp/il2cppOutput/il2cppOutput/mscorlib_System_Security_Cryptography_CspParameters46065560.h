@@ -12,9 +12,12 @@
 
 #include "mscorlib_System_Object2689449295.h"
 #include "mscorlib_System_Security_Cryptography_CspProviderFl105264000.h"
+#include "mscorlib_System_IntPtr2504060609.h"
 
 // System.String
 struct String_t;
+// System.Security.SecureString
+struct SecureString_t412202620;
 
 
 
@@ -39,6 +42,10 @@ public:
 	String_t* ___ProviderName_3;
 	// System.Int32 System.Security.Cryptography.CspParameters::ProviderType
 	int32_t ___ProviderType_4;
+	// System.Security.SecureString System.Security.Cryptography.CspParameters::_password
+	SecureString_t412202620 * ____password_5;
+	// System.IntPtr System.Security.Cryptography.CspParameters::_windowHandle
+	IntPtr_t ____windowHandle_6;
 
 public:
 	inline static int32_t get_offset_of__Flags_0() { return static_cast<int32_t>(offsetof(CspParameters_t46065560, ____Flags_0)); }
@@ -81,6 +88,23 @@ public:
 	inline void set_ProviderType_4(int32_t value)
 	{
 		___ProviderType_4 = value;
+	}
+
+	inline static int32_t get_offset_of__password_5() { return static_cast<int32_t>(offsetof(CspParameters_t46065560, ____password_5)); }
+	inline SecureString_t412202620 * get__password_5() const { return ____password_5; }
+	inline SecureString_t412202620 ** get_address_of__password_5() { return &____password_5; }
+	inline void set__password_5(SecureString_t412202620 * value)
+	{
+		____password_5 = value;
+		Il2CppCodeGenWriteBarrier(&____password_5, value);
+	}
+
+	inline static int32_t get_offset_of__windowHandle_6() { return static_cast<int32_t>(offsetof(CspParameters_t46065560, ____windowHandle_6)); }
+	inline IntPtr_t get__windowHandle_6() const { return ____windowHandle_6; }
+	inline IntPtr_t* get_address_of__windowHandle_6() { return &____windowHandle_6; }
+	inline void set__windowHandle_6(IntPtr_t value)
+	{
+		____windowHandle_6 = value;
 	}
 };
 

@@ -33,38 +33,38 @@ struct  ConfigurationRemoveElement_t3305291330  : public ConfigurationElement_t1
 {
 public:
 	// System.Configuration.ConfigurationPropertyCollection System.Configuration.ConfigurationElementCollection/ConfigurationRemoveElement::properties
-	ConfigurationPropertyCollection_t3473514151 * ___properties_13;
+	ConfigurationPropertyCollection_t3473514151 * ___properties_14;
 	// System.Configuration.ConfigurationElement System.Configuration.ConfigurationElementCollection/ConfigurationRemoveElement::_origElement
-	ConfigurationElement_t1776195828 * ____origElement_14;
+	ConfigurationElement_t1776195828 * ____origElement_15;
 	// System.Configuration.ConfigurationElementCollection System.Configuration.ConfigurationElementCollection/ConfigurationRemoveElement::_origCollection
-	ConfigurationElementCollection_t1911180302 * ____origCollection_15;
+	ConfigurationElementCollection_t1911180302 * ____origCollection_16;
 
 public:
-	inline static int32_t get_offset_of_properties_13() { return static_cast<int32_t>(offsetof(ConfigurationRemoveElement_t3305291330, ___properties_13)); }
-	inline ConfigurationPropertyCollection_t3473514151 * get_properties_13() const { return ___properties_13; }
-	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_13() { return &___properties_13; }
-	inline void set_properties_13(ConfigurationPropertyCollection_t3473514151 * value)
+	inline static int32_t get_offset_of_properties_14() { return static_cast<int32_t>(offsetof(ConfigurationRemoveElement_t3305291330, ___properties_14)); }
+	inline ConfigurationPropertyCollection_t3473514151 * get_properties_14() const { return ___properties_14; }
+	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_14() { return &___properties_14; }
+	inline void set_properties_14(ConfigurationPropertyCollection_t3473514151 * value)
 	{
-		___properties_13 = value;
-		Il2CppCodeGenWriteBarrier(&___properties_13, value);
+		___properties_14 = value;
+		Il2CppCodeGenWriteBarrier(&___properties_14, value);
 	}
 
-	inline static int32_t get_offset_of__origElement_14() { return static_cast<int32_t>(offsetof(ConfigurationRemoveElement_t3305291330, ____origElement_14)); }
-	inline ConfigurationElement_t1776195828 * get__origElement_14() const { return ____origElement_14; }
-	inline ConfigurationElement_t1776195828 ** get_address_of__origElement_14() { return &____origElement_14; }
-	inline void set__origElement_14(ConfigurationElement_t1776195828 * value)
+	inline static int32_t get_offset_of__origElement_15() { return static_cast<int32_t>(offsetof(ConfigurationRemoveElement_t3305291330, ____origElement_15)); }
+	inline ConfigurationElement_t1776195828 * get__origElement_15() const { return ____origElement_15; }
+	inline ConfigurationElement_t1776195828 ** get_address_of__origElement_15() { return &____origElement_15; }
+	inline void set__origElement_15(ConfigurationElement_t1776195828 * value)
 	{
-		____origElement_14 = value;
-		Il2CppCodeGenWriteBarrier(&____origElement_14, value);
+		____origElement_15 = value;
+		Il2CppCodeGenWriteBarrier(&____origElement_15, value);
 	}
 
-	inline static int32_t get_offset_of__origCollection_15() { return static_cast<int32_t>(offsetof(ConfigurationRemoveElement_t3305291330, ____origCollection_15)); }
-	inline ConfigurationElementCollection_t1911180302 * get__origCollection_15() const { return ____origCollection_15; }
-	inline ConfigurationElementCollection_t1911180302 ** get_address_of__origCollection_15() { return &____origCollection_15; }
-	inline void set__origCollection_15(ConfigurationElementCollection_t1911180302 * value)
+	inline static int32_t get_offset_of__origCollection_16() { return static_cast<int32_t>(offsetof(ConfigurationRemoveElement_t3305291330, ____origCollection_16)); }
+	inline ConfigurationElementCollection_t1911180302 * get__origCollection_16() const { return ____origCollection_16; }
+	inline ConfigurationElementCollection_t1911180302 ** get_address_of__origCollection_16() { return &____origCollection_16; }
+	inline void set__origCollection_16(ConfigurationElementCollection_t1911180302 * value)
 	{
-		____origCollection_15 = value;
-		Il2CppCodeGenWriteBarrier(&____origCollection_15, value);
+		____origCollection_16 = value;
+		Il2CppCodeGenWriteBarrier(&____origCollection_16, value);
 	}
 };
 

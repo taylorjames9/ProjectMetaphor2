@@ -38,38 +38,38 @@ struct SocketElement_t792962077_StaticFields
 {
 public:
 	// System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.SocketElement::properties
-	ConfigurationPropertyCollection_t3473514151 * ___properties_13;
+	ConfigurationPropertyCollection_t3473514151 * ___properties_14;
 	// System.Configuration.ConfigurationProperty System.Net.Configuration.SocketElement::alwaysUseCompletionPortsForAcceptProp
-	ConfigurationProperty_t2048066811 * ___alwaysUseCompletionPortsForAcceptProp_14;
+	ConfigurationProperty_t2048066811 * ___alwaysUseCompletionPortsForAcceptProp_15;
 	// System.Configuration.ConfigurationProperty System.Net.Configuration.SocketElement::alwaysUseCompletionPortsForConnectProp
-	ConfigurationProperty_t2048066811 * ___alwaysUseCompletionPortsForConnectProp_15;
+	ConfigurationProperty_t2048066811 * ___alwaysUseCompletionPortsForConnectProp_16;
 
 public:
-	inline static int32_t get_offset_of_properties_13() { return static_cast<int32_t>(offsetof(SocketElement_t792962077_StaticFields, ___properties_13)); }
-	inline ConfigurationPropertyCollection_t3473514151 * get_properties_13() const { return ___properties_13; }
-	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_13() { return &___properties_13; }
-	inline void set_properties_13(ConfigurationPropertyCollection_t3473514151 * value)
+	inline static int32_t get_offset_of_properties_14() { return static_cast<int32_t>(offsetof(SocketElement_t792962077_StaticFields, ___properties_14)); }
+	inline ConfigurationPropertyCollection_t3473514151 * get_properties_14() const { return ___properties_14; }
+	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_14() { return &___properties_14; }
+	inline void set_properties_14(ConfigurationPropertyCollection_t3473514151 * value)
 	{
-		___properties_13 = value;
-		Il2CppCodeGenWriteBarrier(&___properties_13, value);
+		___properties_14 = value;
+		Il2CppCodeGenWriteBarrier(&___properties_14, value);
 	}
 
-	inline static int32_t get_offset_of_alwaysUseCompletionPortsForAcceptProp_14() { return static_cast<int32_t>(offsetof(SocketElement_t792962077_StaticFields, ___alwaysUseCompletionPortsForAcceptProp_14)); }
-	inline ConfigurationProperty_t2048066811 * get_alwaysUseCompletionPortsForAcceptProp_14() const { return ___alwaysUseCompletionPortsForAcceptProp_14; }
-	inline ConfigurationProperty_t2048066811 ** get_address_of_alwaysUseCompletionPortsForAcceptProp_14() { return &___alwaysUseCompletionPortsForAcceptProp_14; }
-	inline void set_alwaysUseCompletionPortsForAcceptProp_14(ConfigurationProperty_t2048066811 * value)
+	inline static int32_t get_offset_of_alwaysUseCompletionPortsForAcceptProp_15() { return static_cast<int32_t>(offsetof(SocketElement_t792962077_StaticFields, ___alwaysUseCompletionPortsForAcceptProp_15)); }
+	inline ConfigurationProperty_t2048066811 * get_alwaysUseCompletionPortsForAcceptProp_15() const { return ___alwaysUseCompletionPortsForAcceptProp_15; }
+	inline ConfigurationProperty_t2048066811 ** get_address_of_alwaysUseCompletionPortsForAcceptProp_15() { return &___alwaysUseCompletionPortsForAcceptProp_15; }
+	inline void set_alwaysUseCompletionPortsForAcceptProp_15(ConfigurationProperty_t2048066811 * value)
 	{
-		___alwaysUseCompletionPortsForAcceptProp_14 = value;
-		Il2CppCodeGenWriteBarrier(&___alwaysUseCompletionPortsForAcceptProp_14, value);
+		___alwaysUseCompletionPortsForAcceptProp_15 = value;
+		Il2CppCodeGenWriteBarrier(&___alwaysUseCompletionPortsForAcceptProp_15, value);
 	}
 
-	inline static int32_t get_offset_of_alwaysUseCompletionPortsForConnectProp_15() { return static_cast<int32_t>(offsetof(SocketElement_t792962077_StaticFields, ___alwaysUseCompletionPortsForConnectProp_15)); }
-	inline ConfigurationProperty_t2048066811 * get_alwaysUseCompletionPortsForConnectProp_15() const { return ___alwaysUseCompletionPortsForConnectProp_15; }
-	inline ConfigurationProperty_t2048066811 ** get_address_of_alwaysUseCompletionPortsForConnectProp_15() { return &___alwaysUseCompletionPortsForConnectProp_15; }
-	inline void set_alwaysUseCompletionPortsForConnectProp_15(ConfigurationProperty_t2048066811 * value)
+	inline static int32_t get_offset_of_alwaysUseCompletionPortsForConnectProp_16() { return static_cast<int32_t>(offsetof(SocketElement_t792962077_StaticFields, ___alwaysUseCompletionPortsForConnectProp_16)); }
+	inline ConfigurationProperty_t2048066811 * get_alwaysUseCompletionPortsForConnectProp_16() const { return ___alwaysUseCompletionPortsForConnectProp_16; }
+	inline ConfigurationProperty_t2048066811 ** get_address_of_alwaysUseCompletionPortsForConnectProp_16() { return &___alwaysUseCompletionPortsForConnectProp_16; }
+	inline void set_alwaysUseCompletionPortsForConnectProp_16(ConfigurationProperty_t2048066811 * value)
 	{
-		___alwaysUseCompletionPortsForConnectProp_15 = value;
-		Il2CppCodeGenWriteBarrier(&___alwaysUseCompletionPortsForConnectProp_15, value);
+		___alwaysUseCompletionPortsForConnectProp_16 = value;
+		Il2CppCodeGenWriteBarrier(&___alwaysUseCompletionPortsForConnectProp_16, value);
 	}
 };
 

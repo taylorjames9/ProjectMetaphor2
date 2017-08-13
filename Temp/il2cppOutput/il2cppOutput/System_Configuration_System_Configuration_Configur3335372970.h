@@ -26,6 +26,10 @@ struct ConfigurationLocationCollection_t1903842989;
 struct SectionGroupInfo_t2346323570;
 // System.Configuration.Internal.IConfigSystem
 struct IConfigSystem_t2950865222;
+// System.Configuration.ContextInformation
+struct ContextInformation_t250854957;
+// System.Configuration.ConfigurationSaveEventHandler
+struct ConfigurationSaveEventHandler_t3118213159;
 
 
 
@@ -64,6 +68,8 @@ public:
 	String_t* ___locationConfigPath_10;
 	// System.String System.Configuration.Configuration::locationSubPath
 	String_t* ___locationSubPath_11;
+	// System.Configuration.ContextInformation System.Configuration.Configuration::evaluationContext
+	ContextInformation_t250854957 * ___evaluationContext_12;
 
 public:
 	inline static int32_t get_offset_of_parent_0() { return static_cast<int32_t>(offsetof(Configuration_t3335372970, ___parent_0)); }
@@ -171,6 +177,43 @@ public:
 	{
 		___locationSubPath_11 = value;
 		Il2CppCodeGenWriteBarrier(&___locationSubPath_11, value);
+	}
+
+	inline static int32_t get_offset_of_evaluationContext_12() { return static_cast<int32_t>(offsetof(Configuration_t3335372970, ___evaluationContext_12)); }
+	inline ContextInformation_t250854957 * get_evaluationContext_12() const { return ___evaluationContext_12; }
+	inline ContextInformation_t250854957 ** get_address_of_evaluationContext_12() { return &___evaluationContext_12; }
+	inline void set_evaluationContext_12(ContextInformation_t250854957 * value)
+	{
+		___evaluationContext_12 = value;
+		Il2CppCodeGenWriteBarrier(&___evaluationContext_12, value);
+	}
+};
+
+struct Configuration_t3335372970_StaticFields
+{
+public:
+	// System.Configuration.ConfigurationSaveEventHandler System.Configuration.Configuration::SaveStart
+	ConfigurationSaveEventHandler_t3118213159 * ___SaveStart_13;
+	// System.Configuration.ConfigurationSaveEventHandler System.Configuration.Configuration::SaveEnd
+	ConfigurationSaveEventHandler_t3118213159 * ___SaveEnd_14;
+
+public:
+	inline static int32_t get_offset_of_SaveStart_13() { return static_cast<int32_t>(offsetof(Configuration_t3335372970_StaticFields, ___SaveStart_13)); }
+	inline ConfigurationSaveEventHandler_t3118213159 * get_SaveStart_13() const { return ___SaveStart_13; }
+	inline ConfigurationSaveEventHandler_t3118213159 ** get_address_of_SaveStart_13() { return &___SaveStart_13; }
+	inline void set_SaveStart_13(ConfigurationSaveEventHandler_t3118213159 * value)
+	{
+		___SaveStart_13 = value;
+		Il2CppCodeGenWriteBarrier(&___SaveStart_13, value);
+	}
+
+	inline static int32_t get_offset_of_SaveEnd_14() { return static_cast<int32_t>(offsetof(Configuration_t3335372970_StaticFields, ___SaveEnd_14)); }
+	inline ConfigurationSaveEventHandler_t3118213159 * get_SaveEnd_14() const { return ___SaveEnd_14; }
+	inline ConfigurationSaveEventHandler_t3118213159 ** get_address_of_SaveEnd_14() { return &___SaveEnd_14; }
+	inline void set_SaveEnd_14(ConfigurationSaveEventHandler_t3118213159 * value)
+	{
+		___SaveEnd_14 = value;
+		Il2CppCodeGenWriteBarrier(&___SaveEnd_14, value);
 	}
 };
 

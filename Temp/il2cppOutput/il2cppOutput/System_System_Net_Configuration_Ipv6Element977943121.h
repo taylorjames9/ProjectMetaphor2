@@ -38,27 +38,27 @@ struct Ipv6Element_t977943121_StaticFields
 {
 public:
 	// System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.Ipv6Element::properties
-	ConfigurationPropertyCollection_t3473514151 * ___properties_13;
+	ConfigurationPropertyCollection_t3473514151 * ___properties_14;
 	// System.Configuration.ConfigurationProperty System.Net.Configuration.Ipv6Element::enabledProp
-	ConfigurationProperty_t2048066811 * ___enabledProp_14;
+	ConfigurationProperty_t2048066811 * ___enabledProp_15;
 
 public:
-	inline static int32_t get_offset_of_properties_13() { return static_cast<int32_t>(offsetof(Ipv6Element_t977943121_StaticFields, ___properties_13)); }
-	inline ConfigurationPropertyCollection_t3473514151 * get_properties_13() const { return ___properties_13; }
-	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_13() { return &___properties_13; }
-	inline void set_properties_13(ConfigurationPropertyCollection_t3473514151 * value)
+	inline static int32_t get_offset_of_properties_14() { return static_cast<int32_t>(offsetof(Ipv6Element_t977943121_StaticFields, ___properties_14)); }
+	inline ConfigurationPropertyCollection_t3473514151 * get_properties_14() const { return ___properties_14; }
+	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_14() { return &___properties_14; }
+	inline void set_properties_14(ConfigurationPropertyCollection_t3473514151 * value)
 	{
-		___properties_13 = value;
-		Il2CppCodeGenWriteBarrier(&___properties_13, value);
+		___properties_14 = value;
+		Il2CppCodeGenWriteBarrier(&___properties_14, value);
 	}
 
-	inline static int32_t get_offset_of_enabledProp_14() { return static_cast<int32_t>(offsetof(Ipv6Element_t977943121_StaticFields, ___enabledProp_14)); }
-	inline ConfigurationProperty_t2048066811 * get_enabledProp_14() const { return ___enabledProp_14; }
-	inline ConfigurationProperty_t2048066811 ** get_address_of_enabledProp_14() { return &___enabledProp_14; }
-	inline void set_enabledProp_14(ConfigurationProperty_t2048066811 * value)
+	inline static int32_t get_offset_of_enabledProp_15() { return static_cast<int32_t>(offsetof(Ipv6Element_t977943121_StaticFields, ___enabledProp_15)); }
+	inline ConfigurationProperty_t2048066811 * get_enabledProp_15() const { return ___enabledProp_15; }
+	inline ConfigurationProperty_t2048066811 ** get_address_of_enabledProp_15() { return &___enabledProp_15; }
+	inline void set_enabledProp_15(ConfigurationProperty_t2048066811 * value)
 	{
-		___enabledProp_14 = value;
-		Il2CppCodeGenWriteBarrier(&___enabledProp_14, value);
+		___enabledProp_15 = value;
+		Il2CppCodeGenWriteBarrier(&___enabledProp_15, value);
 	}
 };
 

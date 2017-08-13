@@ -36,16 +36,16 @@ struct DefaultSection_t3840532724_StaticFields
 {
 public:
 	// System.Configuration.ConfigurationPropertyCollection System.Configuration.DefaultSection::properties
-	ConfigurationPropertyCollection_t3473514151 * ___properties_17;
+	ConfigurationPropertyCollection_t3473514151 * ___properties_18;
 
 public:
-	inline static int32_t get_offset_of_properties_17() { return static_cast<int32_t>(offsetof(DefaultSection_t3840532724_StaticFields, ___properties_17)); }
-	inline ConfigurationPropertyCollection_t3473514151 * get_properties_17() const { return ___properties_17; }
-	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_17() { return &___properties_17; }
-	inline void set_properties_17(ConfigurationPropertyCollection_t3473514151 * value)
+	inline static int32_t get_offset_of_properties_18() { return static_cast<int32_t>(offsetof(DefaultSection_t3840532724_StaticFields, ___properties_18)); }
+	inline ConfigurationPropertyCollection_t3473514151 * get_properties_18() const { return ___properties_18; }
+	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_18() { return &___properties_18; }
+	inline void set_properties_18(ConfigurationPropertyCollection_t3473514151 * value)
 	{
-		___properties_17 = value;
-		Il2CppCodeGenWriteBarrier(&___properties_17, value);
+		___properties_18 = value;
+		Il2CppCodeGenWriteBarrier(&___properties_18, value);
 	}
 };
 

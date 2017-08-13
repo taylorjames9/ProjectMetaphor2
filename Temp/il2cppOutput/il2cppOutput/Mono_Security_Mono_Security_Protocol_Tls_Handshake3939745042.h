@@ -36,16 +36,16 @@ struct TlsClientFinished_t3939745042_StaticFields
 {
 public:
 	// System.Byte[] Mono.Security.Protocol.Tls.Handshake.Client.TlsClientFinished::Ssl3Marker
-	ByteU5BU5D_t3397334013* ___Ssl3Marker_10;
+	ByteU5BU5D_t3397334013* ___Ssl3Marker_11;
 
 public:
-	inline static int32_t get_offset_of_Ssl3Marker_10() { return static_cast<int32_t>(offsetof(TlsClientFinished_t3939745042_StaticFields, ___Ssl3Marker_10)); }
-	inline ByteU5BU5D_t3397334013* get_Ssl3Marker_10() const { return ___Ssl3Marker_10; }
-	inline ByteU5BU5D_t3397334013** get_address_of_Ssl3Marker_10() { return &___Ssl3Marker_10; }
-	inline void set_Ssl3Marker_10(ByteU5BU5D_t3397334013* value)
+	inline static int32_t get_offset_of_Ssl3Marker_11() { return static_cast<int32_t>(offsetof(TlsClientFinished_t3939745042_StaticFields, ___Ssl3Marker_11)); }
+	inline ByteU5BU5D_t3397334013* get_Ssl3Marker_11() const { return ___Ssl3Marker_11; }
+	inline ByteU5BU5D_t3397334013** get_address_of_Ssl3Marker_11() { return &___Ssl3Marker_11; }
+	inline void set_Ssl3Marker_11(ByteU5BU5D_t3397334013* value)
 	{
-		___Ssl3Marker_10 = value;
-		Il2CppCodeGenWriteBarrier(&___Ssl3Marker_10, value);
+		___Ssl3Marker_11 = value;
+		Il2CppCodeGenWriteBarrier(&___Ssl3Marker_11, value);
 	}
 };
 

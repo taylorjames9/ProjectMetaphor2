@@ -28,38 +28,49 @@ struct String_t;
 struct  XmlRootAttribute_t3527426713  : public Attribute_t542643598
 {
 public:
+	// System.String System.Xml.Serialization.XmlRootAttribute::dataType
+	String_t* ___dataType_0;
 	// System.String System.Xml.Serialization.XmlRootAttribute::elementName
-	String_t* ___elementName_0;
+	String_t* ___elementName_1;
 	// System.Boolean System.Xml.Serialization.XmlRootAttribute::isNullable
-	bool ___isNullable_1;
+	bool ___isNullable_2;
 	// System.String System.Xml.Serialization.XmlRootAttribute::ns
-	String_t* ___ns_2;
+	String_t* ___ns_3;
 
 public:
-	inline static int32_t get_offset_of_elementName_0() { return static_cast<int32_t>(offsetof(XmlRootAttribute_t3527426713, ___elementName_0)); }
-	inline String_t* get_elementName_0() const { return ___elementName_0; }
-	inline String_t** get_address_of_elementName_0() { return &___elementName_0; }
-	inline void set_elementName_0(String_t* value)
+	inline static int32_t get_offset_of_dataType_0() { return static_cast<int32_t>(offsetof(XmlRootAttribute_t3527426713, ___dataType_0)); }
+	inline String_t* get_dataType_0() const { return ___dataType_0; }
+	inline String_t** get_address_of_dataType_0() { return &___dataType_0; }
+	inline void set_dataType_0(String_t* value)
 	{
-		___elementName_0 = value;
-		Il2CppCodeGenWriteBarrier(&___elementName_0, value);
+		___dataType_0 = value;
+		Il2CppCodeGenWriteBarrier(&___dataType_0, value);
 	}
 
-	inline static int32_t get_offset_of_isNullable_1() { return static_cast<int32_t>(offsetof(XmlRootAttribute_t3527426713, ___isNullable_1)); }
-	inline bool get_isNullable_1() const { return ___isNullable_1; }
-	inline bool* get_address_of_isNullable_1() { return &___isNullable_1; }
-	inline void set_isNullable_1(bool value)
+	inline static int32_t get_offset_of_elementName_1() { return static_cast<int32_t>(offsetof(XmlRootAttribute_t3527426713, ___elementName_1)); }
+	inline String_t* get_elementName_1() const { return ___elementName_1; }
+	inline String_t** get_address_of_elementName_1() { return &___elementName_1; }
+	inline void set_elementName_1(String_t* value)
 	{
-		___isNullable_1 = value;
+		___elementName_1 = value;
+		Il2CppCodeGenWriteBarrier(&___elementName_1, value);
 	}
 
-	inline static int32_t get_offset_of_ns_2() { return static_cast<int32_t>(offsetof(XmlRootAttribute_t3527426713, ___ns_2)); }
-	inline String_t* get_ns_2() const { return ___ns_2; }
-	inline String_t** get_address_of_ns_2() { return &___ns_2; }
-	inline void set_ns_2(String_t* value)
+	inline static int32_t get_offset_of_isNullable_2() { return static_cast<int32_t>(offsetof(XmlRootAttribute_t3527426713, ___isNullable_2)); }
+	inline bool get_isNullable_2() const { return ___isNullable_2; }
+	inline bool* get_address_of_isNullable_2() { return &___isNullable_2; }
+	inline void set_isNullable_2(bool value)
 	{
-		___ns_2 = value;
-		Il2CppCodeGenWriteBarrier(&___ns_2, value);
+		___isNullable_2 = value;
+	}
+
+	inline static int32_t get_offset_of_ns_3() { return static_cast<int32_t>(offsetof(XmlRootAttribute_t3527426713, ___ns_3)); }
+	inline String_t* get_ns_3() const { return ___ns_3; }
+	inline String_t** get_address_of_ns_3() { return &___ns_3; }
+	inline void set_ns_3(String_t* value)
+	{
+		___ns_3 = value;
+		Il2CppCodeGenWriteBarrier(&___ns_3, value);
 	}
 };
 

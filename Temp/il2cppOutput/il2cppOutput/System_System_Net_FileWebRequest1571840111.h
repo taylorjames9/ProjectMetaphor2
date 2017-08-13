@@ -23,6 +23,8 @@ struct ICredentials_t3855617113;
 struct String_t;
 // System.Net.IWebProxy
 struct IWebProxy_t3916853445;
+// System.IO.Stream
+struct Stream_t3255436806;
 // System.Net.FileWebResponse
 struct FileWebResponse_t1934981865;
 // System.Threading.AutoResetEvent
@@ -61,14 +63,16 @@ public:
 	bool ___preAuthenticate_14;
 	// System.Int32 System.Net.FileWebRequest::timeout
 	int32_t ___timeout_15;
+	// System.IO.Stream System.Net.FileWebRequest::requestStream
+	Stream_t3255436806 * ___requestStream_16;
 	// System.Net.FileWebResponse System.Net.FileWebRequest::webResponse
-	FileWebResponse_t1934981865 * ___webResponse_16;
+	FileWebResponse_t1934981865 * ___webResponse_17;
 	// System.Threading.AutoResetEvent System.Net.FileWebRequest::requestEndEvent
-	AutoResetEvent_t15112628 * ___requestEndEvent_17;
+	AutoResetEvent_t15112628 * ___requestEndEvent_18;
 	// System.Boolean System.Net.FileWebRequest::requesting
-	bool ___requesting_18;
+	bool ___requesting_19;
 	// System.Boolean System.Net.FileWebRequest::asyncResponding
-	bool ___asyncResponding_19;
+	bool ___asyncResponding_20;
 
 public:
 	inline static int32_t get_offset_of_uri_6() { return static_cast<int32_t>(offsetof(FileWebRequest_t1571840111, ___uri_6)); }
@@ -157,38 +161,47 @@ public:
 		___timeout_15 = value;
 	}
 
-	inline static int32_t get_offset_of_webResponse_16() { return static_cast<int32_t>(offsetof(FileWebRequest_t1571840111, ___webResponse_16)); }
-	inline FileWebResponse_t1934981865 * get_webResponse_16() const { return ___webResponse_16; }
-	inline FileWebResponse_t1934981865 ** get_address_of_webResponse_16() { return &___webResponse_16; }
-	inline void set_webResponse_16(FileWebResponse_t1934981865 * value)
+	inline static int32_t get_offset_of_requestStream_16() { return static_cast<int32_t>(offsetof(FileWebRequest_t1571840111, ___requestStream_16)); }
+	inline Stream_t3255436806 * get_requestStream_16() const { return ___requestStream_16; }
+	inline Stream_t3255436806 ** get_address_of_requestStream_16() { return &___requestStream_16; }
+	inline void set_requestStream_16(Stream_t3255436806 * value)
 	{
-		___webResponse_16 = value;
-		Il2CppCodeGenWriteBarrier(&___webResponse_16, value);
+		___requestStream_16 = value;
+		Il2CppCodeGenWriteBarrier(&___requestStream_16, value);
 	}
 
-	inline static int32_t get_offset_of_requestEndEvent_17() { return static_cast<int32_t>(offsetof(FileWebRequest_t1571840111, ___requestEndEvent_17)); }
-	inline AutoResetEvent_t15112628 * get_requestEndEvent_17() const { return ___requestEndEvent_17; }
-	inline AutoResetEvent_t15112628 ** get_address_of_requestEndEvent_17() { return &___requestEndEvent_17; }
-	inline void set_requestEndEvent_17(AutoResetEvent_t15112628 * value)
+	inline static int32_t get_offset_of_webResponse_17() { return static_cast<int32_t>(offsetof(FileWebRequest_t1571840111, ___webResponse_17)); }
+	inline FileWebResponse_t1934981865 * get_webResponse_17() const { return ___webResponse_17; }
+	inline FileWebResponse_t1934981865 ** get_address_of_webResponse_17() { return &___webResponse_17; }
+	inline void set_webResponse_17(FileWebResponse_t1934981865 * value)
 	{
-		___requestEndEvent_17 = value;
-		Il2CppCodeGenWriteBarrier(&___requestEndEvent_17, value);
+		___webResponse_17 = value;
+		Il2CppCodeGenWriteBarrier(&___webResponse_17, value);
 	}
 
-	inline static int32_t get_offset_of_requesting_18() { return static_cast<int32_t>(offsetof(FileWebRequest_t1571840111, ___requesting_18)); }
-	inline bool get_requesting_18() const { return ___requesting_18; }
-	inline bool* get_address_of_requesting_18() { return &___requesting_18; }
-	inline void set_requesting_18(bool value)
+	inline static int32_t get_offset_of_requestEndEvent_18() { return static_cast<int32_t>(offsetof(FileWebRequest_t1571840111, ___requestEndEvent_18)); }
+	inline AutoResetEvent_t15112628 * get_requestEndEvent_18() const { return ___requestEndEvent_18; }
+	inline AutoResetEvent_t15112628 ** get_address_of_requestEndEvent_18() { return &___requestEndEvent_18; }
+	inline void set_requestEndEvent_18(AutoResetEvent_t15112628 * value)
 	{
-		___requesting_18 = value;
+		___requestEndEvent_18 = value;
+		Il2CppCodeGenWriteBarrier(&___requestEndEvent_18, value);
 	}
 
-	inline static int32_t get_offset_of_asyncResponding_19() { return static_cast<int32_t>(offsetof(FileWebRequest_t1571840111, ___asyncResponding_19)); }
-	inline bool get_asyncResponding_19() const { return ___asyncResponding_19; }
-	inline bool* get_address_of_asyncResponding_19() { return &___asyncResponding_19; }
-	inline void set_asyncResponding_19(bool value)
+	inline static int32_t get_offset_of_requesting_19() { return static_cast<int32_t>(offsetof(FileWebRequest_t1571840111, ___requesting_19)); }
+	inline bool get_requesting_19() const { return ___requesting_19; }
+	inline bool* get_address_of_requesting_19() { return &___requesting_19; }
+	inline void set_requesting_19(bool value)
 	{
-		___asyncResponding_19 = value;
+		___requesting_19 = value;
+	}
+
+	inline static int32_t get_offset_of_asyncResponding_20() { return static_cast<int32_t>(offsetof(FileWebRequest_t1571840111, ___asyncResponding_20)); }
+	inline bool get_asyncResponding_20() const { return ___asyncResponding_20; }
+	inline bool* get_address_of_asyncResponding_20() { return &___asyncResponding_20; }
+	inline void set_asyncResponding_20(bool value)
+	{
+		___asyncResponding_20 = value;
 	}
 };
 

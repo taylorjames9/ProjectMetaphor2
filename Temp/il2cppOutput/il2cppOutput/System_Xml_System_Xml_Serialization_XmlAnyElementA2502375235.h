@@ -12,6 +12,8 @@
 
 #include "mscorlib_System_Attribute542643598.h"
 
+// System.String
+struct String_t;
 
 
 
@@ -26,16 +28,38 @@
 struct  XmlAnyElementAttribute_t2502375235  : public Attribute_t542643598
 {
 public:
+	// System.String System.Xml.Serialization.XmlAnyElementAttribute::elementName
+	String_t* ___elementName_0;
+	// System.String System.Xml.Serialization.XmlAnyElementAttribute::ns
+	String_t* ___ns_1;
 	// System.Int32 System.Xml.Serialization.XmlAnyElementAttribute::order
-	int32_t ___order_0;
+	int32_t ___order_2;
 
 public:
-	inline static int32_t get_offset_of_order_0() { return static_cast<int32_t>(offsetof(XmlAnyElementAttribute_t2502375235, ___order_0)); }
-	inline int32_t get_order_0() const { return ___order_0; }
-	inline int32_t* get_address_of_order_0() { return &___order_0; }
-	inline void set_order_0(int32_t value)
+	inline static int32_t get_offset_of_elementName_0() { return static_cast<int32_t>(offsetof(XmlAnyElementAttribute_t2502375235, ___elementName_0)); }
+	inline String_t* get_elementName_0() const { return ___elementName_0; }
+	inline String_t** get_address_of_elementName_0() { return &___elementName_0; }
+	inline void set_elementName_0(String_t* value)
 	{
-		___order_0 = value;
+		___elementName_0 = value;
+		Il2CppCodeGenWriteBarrier(&___elementName_0, value);
+	}
+
+	inline static int32_t get_offset_of_ns_1() { return static_cast<int32_t>(offsetof(XmlAnyElementAttribute_t2502375235, ___ns_1)); }
+	inline String_t* get_ns_1() const { return ___ns_1; }
+	inline String_t** get_address_of_ns_1() { return &___ns_1; }
+	inline void set_ns_1(String_t* value)
+	{
+		___ns_1 = value;
+		Il2CppCodeGenWriteBarrier(&___ns_1, value);
+	}
+
+	inline static int32_t get_offset_of_order_2() { return static_cast<int32_t>(offsetof(XmlAnyElementAttribute_t2502375235, ___order_2)); }
+	inline int32_t get_order_2() const { return ___order_2; }
+	inline int32_t* get_address_of_order_2() { return &___order_2; }
+	inline void set_order_2(int32_t value)
+	{
+		___order_2 = value;
 	}
 };
 

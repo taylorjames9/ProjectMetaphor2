@@ -14,6 +14,8 @@
 
 // System.Configuration.DefaultConfig
 struct DefaultConfig_t320482295;
+// System.Configuration.ConfigurationData
+struct ConfigurationData_t2583411386;
 
 
 
@@ -28,8 +30,18 @@ struct DefaultConfig_t320482295;
 struct  DefaultConfig_t320482295  : public Il2CppObject
 {
 public:
+	// System.Configuration.ConfigurationData System.Configuration.DefaultConfig::config
+	ConfigurationData_t2583411386 * ___config_1;
 
 public:
+	inline static int32_t get_offset_of_config_1() { return static_cast<int32_t>(offsetof(DefaultConfig_t320482295, ___config_1)); }
+	inline ConfigurationData_t2583411386 * get_config_1() const { return ___config_1; }
+	inline ConfigurationData_t2583411386 ** get_address_of_config_1() { return &___config_1; }
+	inline void set_config_1(ConfigurationData_t2583411386 * value)
+	{
+		___config_1 = value;
+		Il2CppCodeGenWriteBarrier(&___config_1, value);
+	}
 };
 
 struct DefaultConfig_t320482295_StaticFields

@@ -6,6 +6,8 @@ UnityEngine.Animator::ResetTriggerString
 UnityEngine.Animator::SetTriggerString
 UnityEngine.Application::get_isEditor
 UnityEngine.Application::get_isPlaying
+UnityEngine.Application::get_persistentDataPath
+UnityEngine.Application::get_unityVersion
 UnityEngine.Application::get_platform
 UnityEngine.AssetBundleCreateRequest::DisableCompatibilityChecks
 UnityEngine.AssetBundleCreateRequest::get_assetBundle
@@ -306,6 +308,7 @@ UnityEngine.iOS.RemoteNotification::get_applicationIconBadgeNumber
 UnityEngine.iOS.RemoteNotification::get_alertBody
 UnityEngine.iOS.RemoteNotification::get_soundName
 UnityEngine.iOS.RemoteNotification::Destroy
+UnityEngine.JsonUtility::ToJson
 UnityEngine.Material::HasProperty
 UnityEngine.Material::DisableKeyword
 UnityEngine.Material::EnableKeyword
@@ -434,6 +437,7 @@ UnityEngine.Sprites.DataUtility::INTERNAL_CALL_GetOuterUV
 UnityEngine.Sprites.DataUtility::INTERNAL_CALL_GetPadding
 UnityEngine.Sprites.DataUtility::Internal_GetMinSize
 UnityEngine.SystemInfo::get_operatingSystemFamily
+UnityEngine.TextAsset::get_text
 UnityEngine.TextGenerator::INTERNAL_CALL_Populate_Internal_cpp
 UnityEngine.TextGenerator::get_characterCount
 UnityEngine.TextGenerator::get_lineCount
@@ -484,3 +488,9 @@ UnityEngine.Transform::set_parentInternal
 UnityEngine.Transform::GetChild
 UnityEngine.Transform::get_parentInternal
 UnityEngine.UnhandledExceptionHandler::NativeUnhandledExceptionHandler
+UnityEngine.WWW::get_isDone
+UnityEngine.WWW::get_bytes
+UnityEngine.WWW::get_error
+UnityEngine.WWW::get_responseHeadersString
+UnityEngine.WWW::DestroyWWW
+UnityEngine.WWW::InitWWW

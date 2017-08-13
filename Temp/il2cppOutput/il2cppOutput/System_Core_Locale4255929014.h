@@ -23,7 +23,7 @@
 #endif
 
 // Locale
-struct  Locale_t4255929017  : public Il2CppObject
+struct  Locale_t4255929018  : public Il2CppObject
 {
 public:
 

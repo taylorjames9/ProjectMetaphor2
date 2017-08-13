@@ -26,8 +26,17 @@
 struct  RC2CryptoServiceProvider_t663781682  : public RC2_t3410342145
 {
 public:
+	// System.Boolean System.Security.Cryptography.RC2CryptoServiceProvider::_useSalt
+	bool ____useSalt_11;
 
 public:
+	inline static int32_t get_offset_of__useSalt_11() { return static_cast<int32_t>(offsetof(RC2CryptoServiceProvider_t663781682, ____useSalt_11)); }
+	inline bool get__useSalt_11() const { return ____useSalt_11; }
+	inline bool* get_address_of__useSalt_11() { return &____useSalt_11; }
+	inline void set__useSalt_11(bool value)
+	{
+		____useSalt_11 = value;
+	}
 };
 
 #ifdef __clang__

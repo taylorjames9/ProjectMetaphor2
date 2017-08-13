@@ -22,6 +22,8 @@ struct ConfigurationPropertyCollection_t3473514151;
 struct ConfigurationElementCollection_t1911180302;
 // System.Configuration.ElementInformation
 struct ElementInformation_t3165583784;
+// System.Configuration.ConfigurationElementProperty
+struct ConfigurationElementProperty_t4191736413;
 // System.Configuration.Configuration
 struct Configuration_t3335372970;
 // System.Configuration.ConfigurationLockCollection
@@ -54,18 +56,20 @@ public:
 	bool ___readOnly_5;
 	// System.Configuration.ElementInformation System.Configuration.ConfigurationElement::elementInfo
 	ElementInformation_t3165583784 * ___elementInfo_6;
+	// System.Configuration.ConfigurationElementProperty System.Configuration.ConfigurationElement::elementProperty
+	ConfigurationElementProperty_t4191736413 * ___elementProperty_7;
 	// System.Configuration.Configuration System.Configuration.ConfigurationElement::_configuration
-	Configuration_t3335372970 * ____configuration_7;
+	Configuration_t3335372970 * ____configuration_8;
 	// System.Configuration.ConfigurationLockCollection System.Configuration.ConfigurationElement::lockAllAttributesExcept
-	ConfigurationLockCollection_t1011762925 * ___lockAllAttributesExcept_8;
+	ConfigurationLockCollection_t1011762925 * ___lockAllAttributesExcept_9;
 	// System.Configuration.ConfigurationLockCollection System.Configuration.ConfigurationElement::lockAllElementsExcept
-	ConfigurationLockCollection_t1011762925 * ___lockAllElementsExcept_9;
+	ConfigurationLockCollection_t1011762925 * ___lockAllElementsExcept_10;
 	// System.Configuration.ConfigurationLockCollection System.Configuration.ConfigurationElement::lockAttributes
-	ConfigurationLockCollection_t1011762925 * ___lockAttributes_10;
+	ConfigurationLockCollection_t1011762925 * ___lockAttributes_11;
 	// System.Configuration.ConfigurationLockCollection System.Configuration.ConfigurationElement::lockElements
-	ConfigurationLockCollection_t1011762925 * ___lockElements_11;
+	ConfigurationLockCollection_t1011762925 * ___lockElements_12;
 	// System.Boolean System.Configuration.ConfigurationElement::lockItem
-	bool ___lockItem_12;
+	bool ___lockItem_13;
 
 public:
 	inline static int32_t get_offset_of_rawXml_0() { return static_cast<int32_t>(offsetof(ConfigurationElement_t1776195828, ___rawXml_0)); }
@@ -129,57 +133,66 @@ public:
 		Il2CppCodeGenWriteBarrier(&___elementInfo_6, value);
 	}
 
-	inline static int32_t get_offset_of__configuration_7() { return static_cast<int32_t>(offsetof(ConfigurationElement_t1776195828, ____configuration_7)); }
-	inline Configuration_t3335372970 * get__configuration_7() const { return ____configuration_7; }
-	inline Configuration_t3335372970 ** get_address_of__configuration_7() { return &____configuration_7; }
-	inline void set__configuration_7(Configuration_t3335372970 * value)
+	inline static int32_t get_offset_of_elementProperty_7() { return static_cast<int32_t>(offsetof(ConfigurationElement_t1776195828, ___elementProperty_7)); }
+	inline ConfigurationElementProperty_t4191736413 * get_elementProperty_7() const { return ___elementProperty_7; }
+	inline ConfigurationElementProperty_t4191736413 ** get_address_of_elementProperty_7() { return &___elementProperty_7; }
+	inline void set_elementProperty_7(ConfigurationElementProperty_t4191736413 * value)
 	{
-		____configuration_7 = value;
-		Il2CppCodeGenWriteBarrier(&____configuration_7, value);
+		___elementProperty_7 = value;
+		Il2CppCodeGenWriteBarrier(&___elementProperty_7, value);
 	}
 
-	inline static int32_t get_offset_of_lockAllAttributesExcept_8() { return static_cast<int32_t>(offsetof(ConfigurationElement_t1776195828, ___lockAllAttributesExcept_8)); }
-	inline ConfigurationLockCollection_t1011762925 * get_lockAllAttributesExcept_8() const { return ___lockAllAttributesExcept_8; }
-	inline ConfigurationLockCollection_t1011762925 ** get_address_of_lockAllAttributesExcept_8() { return &___lockAllAttributesExcept_8; }
-	inline void set_lockAllAttributesExcept_8(ConfigurationLockCollection_t1011762925 * value)
+	inline static int32_t get_offset_of__configuration_8() { return static_cast<int32_t>(offsetof(ConfigurationElement_t1776195828, ____configuration_8)); }
+	inline Configuration_t3335372970 * get__configuration_8() const { return ____configuration_8; }
+	inline Configuration_t3335372970 ** get_address_of__configuration_8() { return &____configuration_8; }
+	inline void set__configuration_8(Configuration_t3335372970 * value)
 	{
-		___lockAllAttributesExcept_8 = value;
-		Il2CppCodeGenWriteBarrier(&___lockAllAttributesExcept_8, value);
+		____configuration_8 = value;
+		Il2CppCodeGenWriteBarrier(&____configuration_8, value);
 	}
 
-	inline static int32_t get_offset_of_lockAllElementsExcept_9() { return static_cast<int32_t>(offsetof(ConfigurationElement_t1776195828, ___lockAllElementsExcept_9)); }
-	inline ConfigurationLockCollection_t1011762925 * get_lockAllElementsExcept_9() const { return ___lockAllElementsExcept_9; }
-	inline ConfigurationLockCollection_t1011762925 ** get_address_of_lockAllElementsExcept_9() { return &___lockAllElementsExcept_9; }
-	inline void set_lockAllElementsExcept_9(ConfigurationLockCollection_t1011762925 * value)
+	inline static int32_t get_offset_of_lockAllAttributesExcept_9() { return static_cast<int32_t>(offsetof(ConfigurationElement_t1776195828, ___lockAllAttributesExcept_9)); }
+	inline ConfigurationLockCollection_t1011762925 * get_lockAllAttributesExcept_9() const { return ___lockAllAttributesExcept_9; }
+	inline ConfigurationLockCollection_t1011762925 ** get_address_of_lockAllAttributesExcept_9() { return &___lockAllAttributesExcept_9; }
+	inline void set_lockAllAttributesExcept_9(ConfigurationLockCollection_t1011762925 * value)
 	{
-		___lockAllElementsExcept_9 = value;
-		Il2CppCodeGenWriteBarrier(&___lockAllElementsExcept_9, value);
+		___lockAllAttributesExcept_9 = value;
+		Il2CppCodeGenWriteBarrier(&___lockAllAttributesExcept_9, value);
 	}
 
-	inline static int32_t get_offset_of_lockAttributes_10() { return static_cast<int32_t>(offsetof(ConfigurationElement_t1776195828, ___lockAttributes_10)); }
-	inline ConfigurationLockCollection_t1011762925 * get_lockAttributes_10() const { return ___lockAttributes_10; }
-	inline ConfigurationLockCollection_t1011762925 ** get_address_of_lockAttributes_10() { return &___lockAttributes_10; }
-	inline void set_lockAttributes_10(ConfigurationLockCollection_t1011762925 * value)
+	inline static int32_t get_offset_of_lockAllElementsExcept_10() { return static_cast<int32_t>(offsetof(ConfigurationElement_t1776195828, ___lockAllElementsExcept_10)); }
+	inline ConfigurationLockCollection_t1011762925 * get_lockAllElementsExcept_10() const { return ___lockAllElementsExcept_10; }
+	inline ConfigurationLockCollection_t1011762925 ** get_address_of_lockAllElementsExcept_10() { return &___lockAllElementsExcept_10; }
+	inline void set_lockAllElementsExcept_10(ConfigurationLockCollection_t1011762925 * value)
 	{
-		___lockAttributes_10 = value;
-		Il2CppCodeGenWriteBarrier(&___lockAttributes_10, value);
+		___lockAllElementsExcept_10 = value;
+		Il2CppCodeGenWriteBarrier(&___lockAllElementsExcept_10, value);
 	}
 
-	inline static int32_t get_offset_of_lockElements_11() { return static_cast<int32_t>(offsetof(ConfigurationElement_t1776195828, ___lockElements_11)); }
-	inline ConfigurationLockCollection_t1011762925 * get_lockElements_11() const { return ___lockElements_11; }
-	inline ConfigurationLockCollection_t1011762925 ** get_address_of_lockElements_11() { return &___lockElements_11; }
-	inline void set_lockElements_11(ConfigurationLockCollection_t1011762925 * value)
+	inline static int32_t get_offset_of_lockAttributes_11() { return static_cast<int32_t>(offsetof(ConfigurationElement_t1776195828, ___lockAttributes_11)); }
+	inline ConfigurationLockCollection_t1011762925 * get_lockAttributes_11() const { return ___lockAttributes_11; }
+	inline ConfigurationLockCollection_t1011762925 ** get_address_of_lockAttributes_11() { return &___lockAttributes_11; }
+	inline void set_lockAttributes_11(ConfigurationLockCollection_t1011762925 * value)
 	{
-		___lockElements_11 = value;
-		Il2CppCodeGenWriteBarrier(&___lockElements_11, value);
+		___lockAttributes_11 = value;
+		Il2CppCodeGenWriteBarrier(&___lockAttributes_11, value);
 	}
 
-	inline static int32_t get_offset_of_lockItem_12() { return static_cast<int32_t>(offsetof(ConfigurationElement_t1776195828, ___lockItem_12)); }
-	inline bool get_lockItem_12() const { return ___lockItem_12; }
-	inline bool* get_address_of_lockItem_12() { return &___lockItem_12; }
-	inline void set_lockItem_12(bool value)
+	inline static int32_t get_offset_of_lockElements_12() { return static_cast<int32_t>(offsetof(ConfigurationElement_t1776195828, ___lockElements_12)); }
+	inline ConfigurationLockCollection_t1011762925 * get_lockElements_12() const { return ___lockElements_12; }
+	inline ConfigurationLockCollection_t1011762925 ** get_address_of_lockElements_12() { return &___lockElements_12; }
+	inline void set_lockElements_12(ConfigurationLockCollection_t1011762925 * value)
 	{
-		___lockItem_12 = value;
+		___lockElements_12 = value;
+		Il2CppCodeGenWriteBarrier(&___lockElements_12, value);
+	}
+
+	inline static int32_t get_offset_of_lockItem_13() { return static_cast<int32_t>(offsetof(ConfigurationElement_t1776195828, ___lockItem_13)); }
+	inline bool get_lockItem_13() const { return ___lockItem_13; }
+	inline bool* get_address_of_lockItem_13() { return &___lockItem_13; }
+	inline void set_lockItem_13(bool value)
+	{
+		___lockItem_13 = value;
 	}
 };
 

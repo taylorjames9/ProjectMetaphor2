@@ -150,17 +150,28 @@ public:
 struct X509Crl_t1699034837_StaticFields
 {
 public:
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Security.X509.X509Crl::<>f__switch$map12
+	Dictionary_2_t3986656710 * ___U3CU3Ef__switchU24map12_10;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Security.X509.X509Crl::<>f__switch$map13
-	Dictionary_2_t3986656710 * ___U3CU3Ef__switchU24map13_10;
+	Dictionary_2_t3986656710 * ___U3CU3Ef__switchU24map13_11;
 
 public:
-	inline static int32_t get_offset_of_U3CU3Ef__switchU24map13_10() { return static_cast<int32_t>(offsetof(X509Crl_t1699034837_StaticFields, ___U3CU3Ef__switchU24map13_10)); }
-	inline Dictionary_2_t3986656710 * get_U3CU3Ef__switchU24map13_10() const { return ___U3CU3Ef__switchU24map13_10; }
-	inline Dictionary_2_t3986656710 ** get_address_of_U3CU3Ef__switchU24map13_10() { return &___U3CU3Ef__switchU24map13_10; }
-	inline void set_U3CU3Ef__switchU24map13_10(Dictionary_2_t3986656710 * value)
+	inline static int32_t get_offset_of_U3CU3Ef__switchU24map12_10() { return static_cast<int32_t>(offsetof(X509Crl_t1699034837_StaticFields, ___U3CU3Ef__switchU24map12_10)); }
+	inline Dictionary_2_t3986656710 * get_U3CU3Ef__switchU24map12_10() const { return ___U3CU3Ef__switchU24map12_10; }
+	inline Dictionary_2_t3986656710 ** get_address_of_U3CU3Ef__switchU24map12_10() { return &___U3CU3Ef__switchU24map12_10; }
+	inline void set_U3CU3Ef__switchU24map12_10(Dictionary_2_t3986656710 * value)
 	{
-		___U3CU3Ef__switchU24map13_10 = value;
-		Il2CppCodeGenWriteBarrier(&___U3CU3Ef__switchU24map13_10, value);
+		___U3CU3Ef__switchU24map12_10 = value;
+		Il2CppCodeGenWriteBarrier(&___U3CU3Ef__switchU24map12_10, value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Ef__switchU24map13_11() { return static_cast<int32_t>(offsetof(X509Crl_t1699034837_StaticFields, ___U3CU3Ef__switchU24map13_11)); }
+	inline Dictionary_2_t3986656710 * get_U3CU3Ef__switchU24map13_11() const { return ___U3CU3Ef__switchU24map13_11; }
+	inline Dictionary_2_t3986656710 ** get_address_of_U3CU3Ef__switchU24map13_11() { return &___U3CU3Ef__switchU24map13_11; }
+	inline void set_U3CU3Ef__switchU24map13_11(Dictionary_2_t3986656710 * value)
+	{
+		___U3CU3Ef__switchU24map13_11 = value;
+		Il2CppCodeGenWriteBarrier(&___U3CU3Ef__switchU24map13_11, value);
 	}
 };
 

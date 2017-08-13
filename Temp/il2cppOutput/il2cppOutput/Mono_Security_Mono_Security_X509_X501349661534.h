@@ -14,6 +14,8 @@
 
 // System.Byte[]
 struct ByteU5BU5D_t3397334013;
+// System.Collections.Generic.Dictionary`2<System.String,System.Int32>
+struct Dictionary_2_t3986656710;
 
 
 
@@ -65,6 +67,8 @@ public:
 	ByteU5BU5D_t3397334013* ___givenName_13;
 	// System.Byte[] Mono.Security.X509.X501::initial
 	ByteU5BU5D_t3397334013* ___initial_14;
+	// System.Collections.Generic.Dictionary`2<System.String,System.Int32> Mono.Security.X509.X501::<>f__switch$mapD
+	Dictionary_2_t3986656710 * ___U3CU3Ef__switchU24mapD_15;
 
 public:
 	inline static int32_t get_offset_of_countryName_0() { return static_cast<int32_t>(offsetof(X501_t349661535_StaticFields, ___countryName_0)); }
@@ -200,6 +204,15 @@ public:
 	{
 		___initial_14 = value;
 		Il2CppCodeGenWriteBarrier(&___initial_14, value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3Ef__switchU24mapD_15() { return static_cast<int32_t>(offsetof(X501_t349661535_StaticFields, ___U3CU3Ef__switchU24mapD_15)); }
+	inline Dictionary_2_t3986656710 * get_U3CU3Ef__switchU24mapD_15() const { return ___U3CU3Ef__switchU24mapD_15; }
+	inline Dictionary_2_t3986656710 ** get_address_of_U3CU3Ef__switchU24mapD_15() { return &___U3CU3Ef__switchU24mapD_15; }
+	inline void set_U3CU3Ef__switchU24mapD_15(Dictionary_2_t3986656710 * value)
+	{
+		___U3CU3Ef__switchU24mapD_15 = value;
+		Il2CppCodeGenWriteBarrier(&___U3CU3Ef__switchU24mapD_15, value);
 	}
 };
 

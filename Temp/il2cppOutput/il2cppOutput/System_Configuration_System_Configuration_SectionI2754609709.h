@@ -52,14 +52,22 @@ public:
 	bool ___require_permission_7;
 	// System.String System.Configuration.SectionInformation::config_source
 	String_t* ___config_source_8;
+	// System.Boolean System.Configuration.SectionInformation::force_update
+	bool ___force_update_9;
+	// System.Boolean System.Configuration.SectionInformation::is_declared
+	bool ___is_declared_10;
+	// System.Boolean System.Configuration.SectionInformation::is_locked
+	bool ___is_locked_11;
 	// System.String System.Configuration.SectionInformation::name
-	String_t* ___name_9;
+	String_t* ___name_12;
+	// System.String System.Configuration.SectionInformation::type_name
+	String_t* ___type_name_13;
 	// System.String System.Configuration.SectionInformation::raw_xml
-	String_t* ___raw_xml_10;
+	String_t* ___raw_xml_14;
 	// System.Configuration.ProtectedConfigurationProvider System.Configuration.SectionInformation::protection_provider
-	ProtectedConfigurationProvider_t3971982415 * ___protection_provider_11;
+	ProtectedConfigurationProvider_t3971982415 * ___protection_provider_15;
 	// System.String System.Configuration.SectionInformation::<ConfigFilePath>k__BackingField
-	String_t* ___U3CConfigFilePathU3Ek__BackingField_12;
+	String_t* ___U3CConfigFilePathU3Ek__BackingField_16;
 
 public:
 	inline static int32_t get_offset_of_parent_0() { return static_cast<int32_t>(offsetof(SectionInformation_t2754609709, ___parent_0)); }
@@ -136,40 +144,73 @@ public:
 		Il2CppCodeGenWriteBarrier(&___config_source_8, value);
 	}
 
-	inline static int32_t get_offset_of_name_9() { return static_cast<int32_t>(offsetof(SectionInformation_t2754609709, ___name_9)); }
-	inline String_t* get_name_9() const { return ___name_9; }
-	inline String_t** get_address_of_name_9() { return &___name_9; }
-	inline void set_name_9(String_t* value)
+	inline static int32_t get_offset_of_force_update_9() { return static_cast<int32_t>(offsetof(SectionInformation_t2754609709, ___force_update_9)); }
+	inline bool get_force_update_9() const { return ___force_update_9; }
+	inline bool* get_address_of_force_update_9() { return &___force_update_9; }
+	inline void set_force_update_9(bool value)
 	{
-		___name_9 = value;
-		Il2CppCodeGenWriteBarrier(&___name_9, value);
+		___force_update_9 = value;
 	}
 
-	inline static int32_t get_offset_of_raw_xml_10() { return static_cast<int32_t>(offsetof(SectionInformation_t2754609709, ___raw_xml_10)); }
-	inline String_t* get_raw_xml_10() const { return ___raw_xml_10; }
-	inline String_t** get_address_of_raw_xml_10() { return &___raw_xml_10; }
-	inline void set_raw_xml_10(String_t* value)
+	inline static int32_t get_offset_of_is_declared_10() { return static_cast<int32_t>(offsetof(SectionInformation_t2754609709, ___is_declared_10)); }
+	inline bool get_is_declared_10() const { return ___is_declared_10; }
+	inline bool* get_address_of_is_declared_10() { return &___is_declared_10; }
+	inline void set_is_declared_10(bool value)
 	{
-		___raw_xml_10 = value;
-		Il2CppCodeGenWriteBarrier(&___raw_xml_10, value);
+		___is_declared_10 = value;
 	}
 
-	inline static int32_t get_offset_of_protection_provider_11() { return static_cast<int32_t>(offsetof(SectionInformation_t2754609709, ___protection_provider_11)); }
-	inline ProtectedConfigurationProvider_t3971982415 * get_protection_provider_11() const { return ___protection_provider_11; }
-	inline ProtectedConfigurationProvider_t3971982415 ** get_address_of_protection_provider_11() { return &___protection_provider_11; }
-	inline void set_protection_provider_11(ProtectedConfigurationProvider_t3971982415 * value)
+	inline static int32_t get_offset_of_is_locked_11() { return static_cast<int32_t>(offsetof(SectionInformation_t2754609709, ___is_locked_11)); }
+	inline bool get_is_locked_11() const { return ___is_locked_11; }
+	inline bool* get_address_of_is_locked_11() { return &___is_locked_11; }
+	inline void set_is_locked_11(bool value)
 	{
-		___protection_provider_11 = value;
-		Il2CppCodeGenWriteBarrier(&___protection_provider_11, value);
+		___is_locked_11 = value;
 	}
 
-	inline static int32_t get_offset_of_U3CConfigFilePathU3Ek__BackingField_12() { return static_cast<int32_t>(offsetof(SectionInformation_t2754609709, ___U3CConfigFilePathU3Ek__BackingField_12)); }
-	inline String_t* get_U3CConfigFilePathU3Ek__BackingField_12() const { return ___U3CConfigFilePathU3Ek__BackingField_12; }
-	inline String_t** get_address_of_U3CConfigFilePathU3Ek__BackingField_12() { return &___U3CConfigFilePathU3Ek__BackingField_12; }
-	inline void set_U3CConfigFilePathU3Ek__BackingField_12(String_t* value)
+	inline static int32_t get_offset_of_name_12() { return static_cast<int32_t>(offsetof(SectionInformation_t2754609709, ___name_12)); }
+	inline String_t* get_name_12() const { return ___name_12; }
+	inline String_t** get_address_of_name_12() { return &___name_12; }
+	inline void set_name_12(String_t* value)
 	{
-		___U3CConfigFilePathU3Ek__BackingField_12 = value;
-		Il2CppCodeGenWriteBarrier(&___U3CConfigFilePathU3Ek__BackingField_12, value);
+		___name_12 = value;
+		Il2CppCodeGenWriteBarrier(&___name_12, value);
+	}
+
+	inline static int32_t get_offset_of_type_name_13() { return static_cast<int32_t>(offsetof(SectionInformation_t2754609709, ___type_name_13)); }
+	inline String_t* get_type_name_13() const { return ___type_name_13; }
+	inline String_t** get_address_of_type_name_13() { return &___type_name_13; }
+	inline void set_type_name_13(String_t* value)
+	{
+		___type_name_13 = value;
+		Il2CppCodeGenWriteBarrier(&___type_name_13, value);
+	}
+
+	inline static int32_t get_offset_of_raw_xml_14() { return static_cast<int32_t>(offsetof(SectionInformation_t2754609709, ___raw_xml_14)); }
+	inline String_t* get_raw_xml_14() const { return ___raw_xml_14; }
+	inline String_t** get_address_of_raw_xml_14() { return &___raw_xml_14; }
+	inline void set_raw_xml_14(String_t* value)
+	{
+		___raw_xml_14 = value;
+		Il2CppCodeGenWriteBarrier(&___raw_xml_14, value);
+	}
+
+	inline static int32_t get_offset_of_protection_provider_15() { return static_cast<int32_t>(offsetof(SectionInformation_t2754609709, ___protection_provider_15)); }
+	inline ProtectedConfigurationProvider_t3971982415 * get_protection_provider_15() const { return ___protection_provider_15; }
+	inline ProtectedConfigurationProvider_t3971982415 ** get_address_of_protection_provider_15() { return &___protection_provider_15; }
+	inline void set_protection_provider_15(ProtectedConfigurationProvider_t3971982415 * value)
+	{
+		___protection_provider_15 = value;
+		Il2CppCodeGenWriteBarrier(&___protection_provider_15, value);
+	}
+
+	inline static int32_t get_offset_of_U3CConfigFilePathU3Ek__BackingField_16() { return static_cast<int32_t>(offsetof(SectionInformation_t2754609709, ___U3CConfigFilePathU3Ek__BackingField_16)); }
+	inline String_t* get_U3CConfigFilePathU3Ek__BackingField_16() const { return ___U3CConfigFilePathU3Ek__BackingField_16; }
+	inline String_t** get_address_of_U3CConfigFilePathU3Ek__BackingField_16() { return &___U3CConfigFilePathU3Ek__BackingField_16; }
+	inline void set_U3CConfigFilePathU3Ek__BackingField_16(String_t* value)
+	{
+		___U3CConfigFilePathU3Ek__BackingField_16 = value;
+		Il2CppCodeGenWriteBarrier(&___U3CConfigFilePathU3Ek__BackingField_16, value);
 	}
 };
 

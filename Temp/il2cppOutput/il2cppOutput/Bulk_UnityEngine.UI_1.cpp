@@ -876,7 +876,7 @@ extern const MethodInfo* List_1_Add_m1346004230_MethodInfo_var;
 extern const uint32_t VertexHelper_AddVert_m4073901784_MetadataUsageId;
 extern Il2CppClass* VertexHelper_t385374196_il2cpp_TypeInfo_var;
 extern const uint32_t VertexHelper_AddVert_m2953034489_MetadataUsageId;
-extern const MethodInfo* List_1_Add_m688682013_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m2801927573_MethodInfo_var;
 extern const uint32_t VertexHelper_AddTriangle_m3666051761_MetadataUsageId;
 extern const uint32_t VertexHelper_AddUIVertexStream_m3599763288_MetadataUsageId;
 extern const uint32_t VertexHelper__cctor_m1150948588_MetadataUsageId;
@@ -1422,7 +1422,7 @@ extern "C"  void List_1_Add_m148291600_gshared (List_1_t1612828711 * __this, Vec
 // System.Void System.Collections.Generic.List`1<UnityEngine.Vector4>::Add(!0)
 extern "C"  void List_1_Add_m1346004230_gshared (List_1_t1612828713 * __this, Vector4_t2243707581  p0, const MethodInfo* method);
 // System.Void System.Collections.Generic.List`1<System.Int32>::Add(!0)
-extern "C"  void List_1_Add_m688682013_gshared (List_1_t1440998580 * __this, int32_t p0, const MethodInfo* method);
+extern "C"  void List_1_Add_m2801927573_gshared (List_1_t1440998580 * __this, int32_t p0, const MethodInfo* method);
 
 // System.Single UnityEngine.UI.LayoutUtility::GetMinWidth(UnityEngine.RectTransform)
 extern "C"  float LayoutUtility_GetMinWidth_m3099306786 (Il2CppObject * __this /* static, unused */, RectTransform_t3349966182 * ___rect0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -2623,7 +2623,7 @@ extern "C"  void Mesh_RecalculateBounds_m3559909024 (Mesh_t1356156583 * __this, 
 // System.Void UnityEngine.UI.VertexHelper::AddVert(UnityEngine.Vector3,UnityEngine.Color32,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector3,UnityEngine.Vector4)
 extern "C"  void VertexHelper_AddVert_m4073901784 (VertexHelper_t385374196 * __this, Vector3_t2243707580  ___position0, Color32_t874517518  ___color1, Vector2_t2243707579  ___uv02, Vector2_t2243707579  ___uv13, Vector3_t2243707580  ___normal4, Vector4_t2243707581  ___tangent5, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Generic.List`1<System.Int32>::Add(!0)
-#define List_1_Add_m688682013(__this, p0, method) ((  void (*) (List_1_t1440998580 *, int32_t, const MethodInfo*))List_1_Add_m688682013_gshared)(__this, p0, method)
+#define List_1_Add_m2801927573(__this, p0, method) ((  void (*) (List_1_t1440998580 *, int32_t, const MethodInfo*))List_1_Add_m2801927573_gshared)(__this, p0, method)
 // System.Void UnityEngine.CanvasRenderer::AddUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>)
 extern "C"  void CanvasRenderer_AddUIVertexStream_m1334037553 (Il2CppObject * __this /* static, unused */, List_1_t573379950 * p0, List_1_t1612828712 * p1, List_1_t243638650 * p2, List_1_t1612828711 * p3, List_1_t1612828711 * p4, List_1_t1612828712 * p5, List_1_t1612828713 * p6, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.CanvasRenderer::SplitUIVertexStreams(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Color32>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector2>,System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector4>,System.Collections.Generic.List`1<System.Int32>)
@@ -7444,7 +7444,7 @@ extern "C"  void ReflectionMethodsCache__ctor_m1835220 (ReflectionMethodsCache_t
 		TypeU5BU5D_t1664964607* L_3 = L_1;
 		Type_t * L_4 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(RaycastHit_t87180320_0_0_0_var), /*hidden argument*/NULL);
 		NullCheck(L_4);
-		Type_t * L_5 = VirtFuncInvoker0< Type_t * >::Invoke(85 /* System.Type System.Type::MakeByRefType() */, L_4);
+		Type_t * L_5 = VirtFuncInvoker0< Type_t * >::Invoke(96 /* System.Type System.Type::MakeByRefType() */, L_4);
 		NullCheck(L_3);
 		ArrayElementTypeCheck (L_3, L_5);
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (Type_t *)L_5);
@@ -23394,15 +23394,15 @@ extern "C"  void VertexHelper_AddTriangle_m3666051761 (VertexHelper_t385374196 *
 		List_1_t1440998580 * L_0 = __this->get_m_Indices_8();
 		int32_t L_1 = ___idx00;
 		NullCheck(L_0);
-		List_1_Add_m688682013(L_0, L_1, /*hidden argument*/List_1_Add_m688682013_MethodInfo_var);
+		List_1_Add_m2801927573(L_0, L_1, /*hidden argument*/List_1_Add_m2801927573_MethodInfo_var);
 		List_1_t1440998580 * L_2 = __this->get_m_Indices_8();
 		int32_t L_3 = ___idx11;
 		NullCheck(L_2);
-		List_1_Add_m688682013(L_2, L_3, /*hidden argument*/List_1_Add_m688682013_MethodInfo_var);
+		List_1_Add_m2801927573(L_2, L_3, /*hidden argument*/List_1_Add_m2801927573_MethodInfo_var);
 		List_1_t1440998580 * L_4 = __this->get_m_Indices_8();
 		int32_t L_5 = ___idx22;
 		NullCheck(L_4);
-		List_1_Add_m688682013(L_4, L_5, /*hidden argument*/List_1_Add_m688682013_MethodInfo_var);
+		List_1_Add_m2801927573(L_4, L_5, /*hidden argument*/List_1_Add_m2801927573_MethodInfo_var);
 		return;
 	}
 }

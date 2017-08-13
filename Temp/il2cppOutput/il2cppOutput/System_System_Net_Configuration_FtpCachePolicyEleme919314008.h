@@ -38,27 +38,27 @@ struct FtpCachePolicyElement_t919314008_StaticFields
 {
 public:
 	// System.Configuration.ConfigurationProperty System.Net.Configuration.FtpCachePolicyElement::policyLevelProp
-	ConfigurationProperty_t2048066811 * ___policyLevelProp_13;
+	ConfigurationProperty_t2048066811 * ___policyLevelProp_14;
 	// System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.FtpCachePolicyElement::properties
-	ConfigurationPropertyCollection_t3473514151 * ___properties_14;
+	ConfigurationPropertyCollection_t3473514151 * ___properties_15;
 
 public:
-	inline static int32_t get_offset_of_policyLevelProp_13() { return static_cast<int32_t>(offsetof(FtpCachePolicyElement_t919314008_StaticFields, ___policyLevelProp_13)); }
-	inline ConfigurationProperty_t2048066811 * get_policyLevelProp_13() const { return ___policyLevelProp_13; }
-	inline ConfigurationProperty_t2048066811 ** get_address_of_policyLevelProp_13() { return &___policyLevelProp_13; }
-	inline void set_policyLevelProp_13(ConfigurationProperty_t2048066811 * value)
+	inline static int32_t get_offset_of_policyLevelProp_14() { return static_cast<int32_t>(offsetof(FtpCachePolicyElement_t919314008_StaticFields, ___policyLevelProp_14)); }
+	inline ConfigurationProperty_t2048066811 * get_policyLevelProp_14() const { return ___policyLevelProp_14; }
+	inline ConfigurationProperty_t2048066811 ** get_address_of_policyLevelProp_14() { return &___policyLevelProp_14; }
+	inline void set_policyLevelProp_14(ConfigurationProperty_t2048066811 * value)
 	{
-		___policyLevelProp_13 = value;
-		Il2CppCodeGenWriteBarrier(&___policyLevelProp_13, value);
+		___policyLevelProp_14 = value;
+		Il2CppCodeGenWriteBarrier(&___policyLevelProp_14, value);
 	}
 
-	inline static int32_t get_offset_of_properties_14() { return static_cast<int32_t>(offsetof(FtpCachePolicyElement_t919314008_StaticFields, ___properties_14)); }
-	inline ConfigurationPropertyCollection_t3473514151 * get_properties_14() const { return ___properties_14; }
-	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_14() { return &___properties_14; }
-	inline void set_properties_14(ConfigurationPropertyCollection_t3473514151 * value)
+	inline static int32_t get_offset_of_properties_15() { return static_cast<int32_t>(offsetof(FtpCachePolicyElement_t919314008_StaticFields, ___properties_15)); }
+	inline ConfigurationPropertyCollection_t3473514151 * get_properties_15() const { return ___properties_15; }
+	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_15() { return &___properties_15; }
+	inline void set_properties_15(ConfigurationPropertyCollection_t3473514151 * value)
 	{
-		___properties_14 = value;
-		Il2CppCodeGenWriteBarrier(&___properties_14, value);
+		___properties_15 = value;
+		Il2CppCodeGenWriteBarrier(&___properties_15, value);
 	}
 };
 

@@ -40,14 +40,16 @@ public:
 	ManualResetEvent_t926074657 * ___wh_2;
 	// System.AsyncCallback System.IO.FileStreamAsyncResult::cb
 	AsyncCallback_t163412349 * ___cb_3;
+	// System.Boolean System.IO.FileStreamAsyncResult::completedSynch
+	bool ___completedSynch_4;
 	// System.Int32 System.IO.FileStreamAsyncResult::Count
-	int32_t ___Count_4;
+	int32_t ___Count_5;
 	// System.Int32 System.IO.FileStreamAsyncResult::OriginalCount
-	int32_t ___OriginalCount_5;
+	int32_t ___OriginalCount_6;
 	// System.Int32 System.IO.FileStreamAsyncResult::BytesRead
-	int32_t ___BytesRead_6;
+	int32_t ___BytesRead_7;
 	// System.AsyncCallback System.IO.FileStreamAsyncResult::realcb
-	AsyncCallback_t163412349 * ___realcb_7;
+	AsyncCallback_t163412349 * ___realcb_8;
 
 public:
 	inline static int32_t get_offset_of_state_0() { return static_cast<int32_t>(offsetof(FileStreamAsyncResult_t2252849197, ___state_0)); }
@@ -85,37 +87,45 @@ public:
 		Il2CppCodeGenWriteBarrier(&___cb_3, value);
 	}
 
-	inline static int32_t get_offset_of_Count_4() { return static_cast<int32_t>(offsetof(FileStreamAsyncResult_t2252849197, ___Count_4)); }
-	inline int32_t get_Count_4() const { return ___Count_4; }
-	inline int32_t* get_address_of_Count_4() { return &___Count_4; }
-	inline void set_Count_4(int32_t value)
+	inline static int32_t get_offset_of_completedSynch_4() { return static_cast<int32_t>(offsetof(FileStreamAsyncResult_t2252849197, ___completedSynch_4)); }
+	inline bool get_completedSynch_4() const { return ___completedSynch_4; }
+	inline bool* get_address_of_completedSynch_4() { return &___completedSynch_4; }
+	inline void set_completedSynch_4(bool value)
 	{
-		___Count_4 = value;
+		___completedSynch_4 = value;
 	}
 
-	inline static int32_t get_offset_of_OriginalCount_5() { return static_cast<int32_t>(offsetof(FileStreamAsyncResult_t2252849197, ___OriginalCount_5)); }
-	inline int32_t get_OriginalCount_5() const { return ___OriginalCount_5; }
-	inline int32_t* get_address_of_OriginalCount_5() { return &___OriginalCount_5; }
-	inline void set_OriginalCount_5(int32_t value)
+	inline static int32_t get_offset_of_Count_5() { return static_cast<int32_t>(offsetof(FileStreamAsyncResult_t2252849197, ___Count_5)); }
+	inline int32_t get_Count_5() const { return ___Count_5; }
+	inline int32_t* get_address_of_Count_5() { return &___Count_5; }
+	inline void set_Count_5(int32_t value)
 	{
-		___OriginalCount_5 = value;
+		___Count_5 = value;
 	}
 
-	inline static int32_t get_offset_of_BytesRead_6() { return static_cast<int32_t>(offsetof(FileStreamAsyncResult_t2252849197, ___BytesRead_6)); }
-	inline int32_t get_BytesRead_6() const { return ___BytesRead_6; }
-	inline int32_t* get_address_of_BytesRead_6() { return &___BytesRead_6; }
-	inline void set_BytesRead_6(int32_t value)
+	inline static int32_t get_offset_of_OriginalCount_6() { return static_cast<int32_t>(offsetof(FileStreamAsyncResult_t2252849197, ___OriginalCount_6)); }
+	inline int32_t get_OriginalCount_6() const { return ___OriginalCount_6; }
+	inline int32_t* get_address_of_OriginalCount_6() { return &___OriginalCount_6; }
+	inline void set_OriginalCount_6(int32_t value)
 	{
-		___BytesRead_6 = value;
+		___OriginalCount_6 = value;
 	}
 
-	inline static int32_t get_offset_of_realcb_7() { return static_cast<int32_t>(offsetof(FileStreamAsyncResult_t2252849197, ___realcb_7)); }
-	inline AsyncCallback_t163412349 * get_realcb_7() const { return ___realcb_7; }
-	inline AsyncCallback_t163412349 ** get_address_of_realcb_7() { return &___realcb_7; }
-	inline void set_realcb_7(AsyncCallback_t163412349 * value)
+	inline static int32_t get_offset_of_BytesRead_7() { return static_cast<int32_t>(offsetof(FileStreamAsyncResult_t2252849197, ___BytesRead_7)); }
+	inline int32_t get_BytesRead_7() const { return ___BytesRead_7; }
+	inline int32_t* get_address_of_BytesRead_7() { return &___BytesRead_7; }
+	inline void set_BytesRead_7(int32_t value)
 	{
-		___realcb_7 = value;
-		Il2CppCodeGenWriteBarrier(&___realcb_7, value);
+		___BytesRead_7 = value;
+	}
+
+	inline static int32_t get_offset_of_realcb_8() { return static_cast<int32_t>(offsetof(FileStreamAsyncResult_t2252849197, ___realcb_8)); }
+	inline AsyncCallback_t163412349 * get_realcb_8() const { return ___realcb_8; }
+	inline AsyncCallback_t163412349 ** get_address_of_realcb_8() { return &___realcb_8; }
+	inline void set_realcb_8(AsyncCallback_t163412349 * value)
+	{
+		___realcb_8 = value;
+		Il2CppCodeGenWriteBarrier(&___realcb_8, value);
 	}
 };
 

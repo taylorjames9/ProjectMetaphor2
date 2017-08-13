@@ -29,16 +29,16 @@ struct  ConfigXmlTextReader_t3212066157  : public XmlTextReader_t3514170725
 {
 public:
 	// System.String ConfigXmlTextReader::fileName
-	String_t* ___fileName_7;
+	String_t* ___fileName_8;
 
 public:
-	inline static int32_t get_offset_of_fileName_7() { return static_cast<int32_t>(offsetof(ConfigXmlTextReader_t3212066157, ___fileName_7)); }
-	inline String_t* get_fileName_7() const { return ___fileName_7; }
-	inline String_t** get_address_of_fileName_7() { return &___fileName_7; }
-	inline void set_fileName_7(String_t* value)
+	inline static int32_t get_offset_of_fileName_8() { return static_cast<int32_t>(offsetof(ConfigXmlTextReader_t3212066157, ___fileName_8)); }
+	inline String_t* get_fileName_8() const { return ___fileName_8; }
+	inline String_t** get_address_of_fileName_8() { return &___fileName_8; }
+	inline void set_fileName_8(String_t* value)
 	{
-		___fileName_7 = value;
-		Il2CppCodeGenWriteBarrier(&___fileName_7, value);
+		___fileName_8 = value;
+		Il2CppCodeGenWriteBarrier(&___fileName_8, value);
 	}
 };
 

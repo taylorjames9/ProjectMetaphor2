@@ -38,27 +38,27 @@ struct AuthenticationModuleElement_t1426459758_StaticFields
 {
 public:
 	// System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.AuthenticationModuleElement::properties
-	ConfigurationPropertyCollection_t3473514151 * ___properties_13;
+	ConfigurationPropertyCollection_t3473514151 * ___properties_14;
 	// System.Configuration.ConfigurationProperty System.Net.Configuration.AuthenticationModuleElement::typeProp
-	ConfigurationProperty_t2048066811 * ___typeProp_14;
+	ConfigurationProperty_t2048066811 * ___typeProp_15;
 
 public:
-	inline static int32_t get_offset_of_properties_13() { return static_cast<int32_t>(offsetof(AuthenticationModuleElement_t1426459758_StaticFields, ___properties_13)); }
-	inline ConfigurationPropertyCollection_t3473514151 * get_properties_13() const { return ___properties_13; }
-	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_13() { return &___properties_13; }
-	inline void set_properties_13(ConfigurationPropertyCollection_t3473514151 * value)
+	inline static int32_t get_offset_of_properties_14() { return static_cast<int32_t>(offsetof(AuthenticationModuleElement_t1426459758_StaticFields, ___properties_14)); }
+	inline ConfigurationPropertyCollection_t3473514151 * get_properties_14() const { return ___properties_14; }
+	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_14() { return &___properties_14; }
+	inline void set_properties_14(ConfigurationPropertyCollection_t3473514151 * value)
 	{
-		___properties_13 = value;
-		Il2CppCodeGenWriteBarrier(&___properties_13, value);
+		___properties_14 = value;
+		Il2CppCodeGenWriteBarrier(&___properties_14, value);
 	}
 
-	inline static int32_t get_offset_of_typeProp_14() { return static_cast<int32_t>(offsetof(AuthenticationModuleElement_t1426459758_StaticFields, ___typeProp_14)); }
-	inline ConfigurationProperty_t2048066811 * get_typeProp_14() const { return ___typeProp_14; }
-	inline ConfigurationProperty_t2048066811 ** get_address_of_typeProp_14() { return &___typeProp_14; }
-	inline void set_typeProp_14(ConfigurationProperty_t2048066811 * value)
+	inline static int32_t get_offset_of_typeProp_15() { return static_cast<int32_t>(offsetof(AuthenticationModuleElement_t1426459758_StaticFields, ___typeProp_15)); }
+	inline ConfigurationProperty_t2048066811 * get_typeProp_15() const { return ___typeProp_15; }
+	inline ConfigurationProperty_t2048066811 ** get_address_of_typeProp_15() { return &___typeProp_15; }
+	inline void set_typeProp_15(ConfigurationProperty_t2048066811 * value)
 	{
-		___typeProp_14 = value;
-		Il2CppCodeGenWriteBarrier(&___typeProp_14, value);
+		___typeProp_15 = value;
+		Il2CppCodeGenWriteBarrier(&___typeProp_15, value);
 	}
 };
 

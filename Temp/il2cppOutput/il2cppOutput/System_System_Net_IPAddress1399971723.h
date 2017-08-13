@@ -39,6 +39,8 @@ public:
 	UInt16U5BU5D_t2527266722* ___m_Numbers_2;
 	// System.Int64 System.Net.IPAddress::m_ScopeId
 	int64_t ___m_ScopeId_3;
+	// System.Int32 System.Net.IPAddress::m_HashCode
+	int32_t ___m_HashCode_11;
 
 public:
 	inline static int32_t get_offset_of_m_Address_0() { return static_cast<int32_t>(offsetof(IPAddress_t1399971723, ___m_Address_0)); }
@@ -72,6 +74,14 @@ public:
 	inline void set_m_ScopeId_3(int64_t value)
 	{
 		___m_ScopeId_3 = value;
+	}
+
+	inline static int32_t get_offset_of_m_HashCode_11() { return static_cast<int32_t>(offsetof(IPAddress_t1399971723, ___m_HashCode_11)); }
+	inline int32_t get_m_HashCode_11() const { return ___m_HashCode_11; }
+	inline int32_t* get_address_of_m_HashCode_11() { return &___m_HashCode_11; }
+	inline void set_m_HashCode_11(int32_t value)
+	{
+		___m_HashCode_11 = value;
 	}
 };
 

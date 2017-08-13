@@ -27,15 +27,15 @@ struct  ToBase64Transform_t625739466  : public Il2CppObject
 {
 public:
 	// System.Boolean System.Security.Cryptography.ToBase64Transform::m_disposed
-	bool ___m_disposed_0;
+	bool ___m_disposed_2;
 
 public:
-	inline static int32_t get_offset_of_m_disposed_0() { return static_cast<int32_t>(offsetof(ToBase64Transform_t625739466, ___m_disposed_0)); }
-	inline bool get_m_disposed_0() const { return ___m_disposed_0; }
-	inline bool* get_address_of_m_disposed_0() { return &___m_disposed_0; }
-	inline void set_m_disposed_0(bool value)
+	inline static int32_t get_offset_of_m_disposed_2() { return static_cast<int32_t>(offsetof(ToBase64Transform_t625739466, ___m_disposed_2)); }
+	inline bool get_m_disposed_2() const { return ___m_disposed_2; }
+	inline bool* get_address_of_m_disposed_2() { return &___m_disposed_2; }
+	inline void set_m_disposed_2(bool value)
 	{
-		___m_disposed_0 = value;
+		___m_disposed_2 = value;
 	}
 };
 

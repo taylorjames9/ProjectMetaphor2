@@ -11,6 +11,7 @@
 #include <stdint.h>
 
 #include "System_System_Security_Cryptography_AsnEncodedData463456204.h"
+#include "System_System_Security_Cryptography_X509Certificat2005802885.h"
 
 // System.String
 struct String_t;
@@ -29,16 +30,16 @@ struct  X500DistinguishedName_t452415348  : public AsnEncodedData_t463456204
 {
 public:
 	// System.String System.Security.Cryptography.X509Certificates.X500DistinguishedName::name
-	String_t* ___name_3;
+	String_t* ___name_4;
 
 public:
-	inline static int32_t get_offset_of_name_3() { return static_cast<int32_t>(offsetof(X500DistinguishedName_t452415348, ___name_3)); }
-	inline String_t* get_name_3() const { return ___name_3; }
-	inline String_t** get_address_of_name_3() { return &___name_3; }
-	inline void set_name_3(String_t* value)
+	inline static int32_t get_offset_of_name_4() { return static_cast<int32_t>(offsetof(X500DistinguishedName_t452415348, ___name_4)); }
+	inline String_t* get_name_4() const { return ___name_4; }
+	inline String_t** get_address_of_name_4() { return &___name_4; }
+	inline void set_name_4(String_t* value)
 	{
-		___name_3 = value;
-		Il2CppCodeGenWriteBarrier(&___name_3, value);
+		___name_4 = value;
+		Il2CppCodeGenWriteBarrier(&___name_4, value);
 	}
 };
 

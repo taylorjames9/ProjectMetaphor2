@@ -31,27 +31,27 @@ struct  TlsServerCertificateRequest_t2187269356  : public HandshakeMessage_t3938
 {
 public:
 	// Mono.Security.Protocol.Tls.Handshake.ClientCertificateType[] Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::certificateTypes
-	ClientCertificateTypeU5BU5D_t2397899623* ___certificateTypes_10;
+	ClientCertificateTypeU5BU5D_t2397899623* ___certificateTypes_11;
 	// System.String[] Mono.Security.Protocol.Tls.Handshake.Client.TlsServerCertificateRequest::distinguisedNames
-	StringU5BU5D_t1642385972* ___distinguisedNames_11;
+	StringU5BU5D_t1642385972* ___distinguisedNames_12;
 
 public:
-	inline static int32_t get_offset_of_certificateTypes_10() { return static_cast<int32_t>(offsetof(TlsServerCertificateRequest_t2187269356, ___certificateTypes_10)); }
-	inline ClientCertificateTypeU5BU5D_t2397899623* get_certificateTypes_10() const { return ___certificateTypes_10; }
-	inline ClientCertificateTypeU5BU5D_t2397899623** get_address_of_certificateTypes_10() { return &___certificateTypes_10; }
-	inline void set_certificateTypes_10(ClientCertificateTypeU5BU5D_t2397899623* value)
+	inline static int32_t get_offset_of_certificateTypes_11() { return static_cast<int32_t>(offsetof(TlsServerCertificateRequest_t2187269356, ___certificateTypes_11)); }
+	inline ClientCertificateTypeU5BU5D_t2397899623* get_certificateTypes_11() const { return ___certificateTypes_11; }
+	inline ClientCertificateTypeU5BU5D_t2397899623** get_address_of_certificateTypes_11() { return &___certificateTypes_11; }
+	inline void set_certificateTypes_11(ClientCertificateTypeU5BU5D_t2397899623* value)
 	{
-		___certificateTypes_10 = value;
-		Il2CppCodeGenWriteBarrier(&___certificateTypes_10, value);
+		___certificateTypes_11 = value;
+		Il2CppCodeGenWriteBarrier(&___certificateTypes_11, value);
 	}
 
-	inline static int32_t get_offset_of_distinguisedNames_11() { return static_cast<int32_t>(offsetof(TlsServerCertificateRequest_t2187269356, ___distinguisedNames_11)); }
-	inline StringU5BU5D_t1642385972* get_distinguisedNames_11() const { return ___distinguisedNames_11; }
-	inline StringU5BU5D_t1642385972** get_address_of_distinguisedNames_11() { return &___distinguisedNames_11; }
-	inline void set_distinguisedNames_11(StringU5BU5D_t1642385972* value)
+	inline static int32_t get_offset_of_distinguisedNames_12() { return static_cast<int32_t>(offsetof(TlsServerCertificateRequest_t2187269356, ___distinguisedNames_12)); }
+	inline StringU5BU5D_t1642385972* get_distinguisedNames_12() const { return ___distinguisedNames_12; }
+	inline StringU5BU5D_t1642385972** get_address_of_distinguisedNames_12() { return &___distinguisedNames_12; }
+	inline void set_distinguisedNames_12(StringU5BU5D_t1642385972* value)
 	{
-		___distinguisedNames_11 = value;
-		Il2CppCodeGenWriteBarrier(&___distinguisedNames_11, value);
+		___distinguisedNames_12 = value;
+		Il2CppCodeGenWriteBarrier(&___distinguisedNames_12, value);
 	}
 };
 

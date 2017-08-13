@@ -29,16 +29,16 @@ struct  TlsClientHello_t2939633944  : public HandshakeMessage_t3938752374
 {
 public:
 	// System.Byte[] Mono.Security.Protocol.Tls.Handshake.Client.TlsClientHello::random
-	ByteU5BU5D_t3397334013* ___random_10;
+	ByteU5BU5D_t3397334013* ___random_11;
 
 public:
-	inline static int32_t get_offset_of_random_10() { return static_cast<int32_t>(offsetof(TlsClientHello_t2939633944, ___random_10)); }
-	inline ByteU5BU5D_t3397334013* get_random_10() const { return ___random_10; }
-	inline ByteU5BU5D_t3397334013** get_address_of_random_10() { return &___random_10; }
-	inline void set_random_10(ByteU5BU5D_t3397334013* value)
+	inline static int32_t get_offset_of_random_11() { return static_cast<int32_t>(offsetof(TlsClientHello_t2939633944, ___random_11)); }
+	inline ByteU5BU5D_t3397334013* get_random_11() const { return ___random_11; }
+	inline ByteU5BU5D_t3397334013** get_address_of_random_11() { return &___random_11; }
+	inline void set_random_11(ByteU5BU5D_t3397334013* value)
 	{
-		___random_10 = value;
-		Il2CppCodeGenWriteBarrier(&___random_10, value);
+		___random_11 = value;
+		Il2CppCodeGenWriteBarrier(&___random_11, value);
 	}
 };
 

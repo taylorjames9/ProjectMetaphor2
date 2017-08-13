@@ -18,6 +18,8 @@ struct String_t;
 struct AttributeU5BU5D_t4255796347;
 // System.ComponentModel.AttributeCollection
 struct AttributeCollection_t1925812292;
+// System.Collections.IComparer
+struct IComparer_t3952557350;
 
 
 
@@ -65,6 +67,23 @@ public:
 	{
 		___attrCollection_2 = value;
 		Il2CppCodeGenWriteBarrier(&___attrCollection_2, value);
+	}
+};
+
+struct MemberDescriptor_t3749827553_StaticFields
+{
+public:
+	// System.Collections.IComparer System.ComponentModel.MemberDescriptor::default_comparer
+	Il2CppObject * ___default_comparer_3;
+
+public:
+	inline static int32_t get_offset_of_default_comparer_3() { return static_cast<int32_t>(offsetof(MemberDescriptor_t3749827553_StaticFields, ___default_comparer_3)); }
+	inline Il2CppObject * get_default_comparer_3() const { return ___default_comparer_3; }
+	inline Il2CppObject ** get_address_of_default_comparer_3() { return &___default_comparer_3; }
+	inline void set_default_comparer_3(Il2CppObject * value)
+	{
+		___default_comparer_3 = value;
+		Il2CppCodeGenWriteBarrier(&___default_comparer_3, value);
 	}
 };
 

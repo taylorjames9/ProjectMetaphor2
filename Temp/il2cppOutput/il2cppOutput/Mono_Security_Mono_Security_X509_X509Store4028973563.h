@@ -40,6 +40,8 @@ public:
 	ArrayList_t4252133567 * ____crls_2;
 	// System.Boolean Mono.Security.X509.X509Store::_crl
 	bool ____crl_3;
+	// System.String Mono.Security.X509.X509Store::_name
+	String_t* ____name_4;
 
 public:
 	inline static int32_t get_offset_of__storePath_0() { return static_cast<int32_t>(offsetof(X509Store_t4028973564, ____storePath_0)); }
@@ -75,6 +77,15 @@ public:
 	inline void set__crl_3(bool value)
 	{
 		____crl_3 = value;
+	}
+
+	inline static int32_t get_offset_of__name_4() { return static_cast<int32_t>(offsetof(X509Store_t4028973564, ____name_4)); }
+	inline String_t* get__name_4() const { return ____name_4; }
+	inline String_t** get_address_of__name_4() { return &____name_4; }
+	inline void set__name_4(String_t* value)
+	{
+		____name_4 = value;
+		Il2CppCodeGenWriteBarrier(&____name_4, value);
 	}
 };
 

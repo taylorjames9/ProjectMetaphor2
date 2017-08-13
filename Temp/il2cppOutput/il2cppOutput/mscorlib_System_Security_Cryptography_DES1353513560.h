@@ -36,27 +36,27 @@ struct DES_t1353513560_StaticFields
 {
 public:
 	// System.Byte[,] System.Security.Cryptography.DES::weakKeys
-	ByteU5BU2CU5D_t3397334014* ___weakKeys_10;
+	ByteU5BU2CU5D_t3397334014* ___weakKeys_11;
 	// System.Byte[,] System.Security.Cryptography.DES::semiWeakKeys
-	ByteU5BU2CU5D_t3397334014* ___semiWeakKeys_11;
+	ByteU5BU2CU5D_t3397334014* ___semiWeakKeys_12;
 
 public:
-	inline static int32_t get_offset_of_weakKeys_10() { return static_cast<int32_t>(offsetof(DES_t1353513560_StaticFields, ___weakKeys_10)); }
-	inline ByteU5BU2CU5D_t3397334014* get_weakKeys_10() const { return ___weakKeys_10; }
-	inline ByteU5BU2CU5D_t3397334014** get_address_of_weakKeys_10() { return &___weakKeys_10; }
-	inline void set_weakKeys_10(ByteU5BU2CU5D_t3397334014* value)
+	inline static int32_t get_offset_of_weakKeys_11() { return static_cast<int32_t>(offsetof(DES_t1353513560_StaticFields, ___weakKeys_11)); }
+	inline ByteU5BU2CU5D_t3397334014* get_weakKeys_11() const { return ___weakKeys_11; }
+	inline ByteU5BU2CU5D_t3397334014** get_address_of_weakKeys_11() { return &___weakKeys_11; }
+	inline void set_weakKeys_11(ByteU5BU2CU5D_t3397334014* value)
 	{
-		___weakKeys_10 = value;
-		Il2CppCodeGenWriteBarrier(&___weakKeys_10, value);
+		___weakKeys_11 = value;
+		Il2CppCodeGenWriteBarrier(&___weakKeys_11, value);
 	}
 
-	inline static int32_t get_offset_of_semiWeakKeys_11() { return static_cast<int32_t>(offsetof(DES_t1353513560_StaticFields, ___semiWeakKeys_11)); }
-	inline ByteU5BU2CU5D_t3397334014* get_semiWeakKeys_11() const { return ___semiWeakKeys_11; }
-	inline ByteU5BU2CU5D_t3397334014** get_address_of_semiWeakKeys_11() { return &___semiWeakKeys_11; }
-	inline void set_semiWeakKeys_11(ByteU5BU2CU5D_t3397334014* value)
+	inline static int32_t get_offset_of_semiWeakKeys_12() { return static_cast<int32_t>(offsetof(DES_t1353513560_StaticFields, ___semiWeakKeys_12)); }
+	inline ByteU5BU2CU5D_t3397334014* get_semiWeakKeys_12() const { return ___semiWeakKeys_12; }
+	inline ByteU5BU2CU5D_t3397334014** get_address_of_semiWeakKeys_12() { return &___semiWeakKeys_12; }
+	inline void set_semiWeakKeys_12(ByteU5BU2CU5D_t3397334014* value)
 	{
-		___semiWeakKeys_11 = value;
-		Il2CppCodeGenWriteBarrier(&___semiWeakKeys_11, value);
+		___semiWeakKeys_12 = value;
+		Il2CppCodeGenWriteBarrier(&___semiWeakKeys_12, value);
 	}
 };
 

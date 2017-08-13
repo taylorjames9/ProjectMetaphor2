@@ -101,6 +101,7 @@
 #include "mscorlib_System_Int64909078037.h"
 #include "mscorlib_System_DateTimeKind2186819611.h"
 #include "UnityEngine_UnityEngine_iOS_RemoteNotification2254252895.h"
+#include "UnityEngine_UnityEngine_JsonUtility653638946.h"
 #include "UnityEngine_UnityEngine_KeyCode2283395152.h"
 #include "UnityEngine_UnityEngine_Keyframe1449471340.h"
 #include "UnityEngine_UnityEngine_LayerMask3188175821.h"
@@ -188,9 +189,8 @@
 #include "UnityEngine_UnityEngine_Events_UnityAction_2_gen606618774.h"
 #include "UnityEngine_UnityEngine_Screen786852042.h"
 #include "UnityEngine_UnityEngine_Scripting_GeneratedByOldBin107439586.h"
+#include "UnityEngine_UnityEngine_Scripting_PreserveAttribut4182602970.h"
 #include "UnityEngine_UnityEngine_Scripting_RequiredByNative1913052472.h"
-#include "UnityEngine_UnityEngine_Scripting_UsedByNativeCode3212052468.h"
-#include "UnityEngine_UnityEngine_ScrollViewState3820542997.h"
 
 // UnityEngine.GUI/WindowFunction
 struct WindowFunction_t3486805455;
@@ -416,12 +416,10 @@ struct UnityAction_1_t3051495417;
 struct UnityAction_2_t606618774;
 // UnityEngine.Scripting.GeneratedByOldBindingsGeneratorAttribute
 struct GeneratedByOldBindingsGeneratorAttribute_t107439586;
+// UnityEngine.Scripting.PreserveAttribute
+struct PreserveAttribute_t4182602970;
 // UnityEngine.Scripting.RequiredByNativeCodeAttribute
 struct RequiredByNativeCodeAttribute_t1913052472;
-// UnityEngine.Scripting.UsedByNativeCodeAttribute
-struct UsedByNativeCodeAttribute_t3212052468;
-// UnityEngine.ScrollViewState
-struct ScrollViewState_t3820542997;
 extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
 extern const uint32_t WindowFunction_BeginInvoke_m322627481_MetadataUsageId;
 extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
@@ -696,7 +694,7 @@ extern const uint32_t Mesh_GetIndices_m3085881884_MetadataUsageId;
 extern const uint32_t MonoBehaviour_print_m3437620292_MetadataUsageId;
 extern Il2CppClass* PlayerEditorConnectionEvents_t2252784345_il2cpp_TypeInfo_var;
 extern Il2CppClass* List_1_t1440998580_il2cpp_TypeInfo_var;
-extern const MethodInfo* List_1__ctor_m1598946593_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m265493321_MethodInfo_var;
 extern const uint32_t PlayerConnection__ctor_m956924263_MetadataUsageId;
 extern Il2CppClass* PlayerConnection_t3517219175_il2cpp_TypeInfo_var;
 extern const uint32_t PlayerConnection_get_instance_m3885313185_MetadataUsageId;
@@ -705,7 +703,7 @@ extern const uint32_t PlayerConnection_CreateInstance_m2276347858_MetadataUsageI
 extern Il2CppClass* ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var;
 extern Il2CppClass* Marshal_t785896760_il2cpp_TypeInfo_var;
 extern const uint32_t PlayerConnection_MessageCallbackInternal_m267902474_MetadataUsageId;
-extern const MethodInfo* List_1_Add_m688682013_MethodInfo_var;
+extern const MethodInfo* List_1_Add_m2801927573_MethodInfo_var;
 extern const MethodInfo* UnityEvent_1_Invoke_m1903741765_MethodInfo_var;
 extern const uint32_t PlayerConnection_ConnectedCallbackInternal_m2685675347_MetadataUsageId;
 extern const uint32_t PlayerConnection_DisconnectedCallback_m4115432464_MetadataUsageId;
@@ -803,6 +801,8 @@ extern Il2CppClass* Vector3U5BU5D_t1172311765_il2cpp_TypeInfo_var;
 extern const uint32_t RectTransformUtility__cctor_m1866023382_MetadataUsageId;
 extern Il2CppClass* RemoteSettings_t392466225_il2cpp_TypeInfo_var;
 extern const uint32_t RemoteSettings_CallOnUpdate_m1624968574_MetadataUsageId;
+extern const Il2CppType* Object_t1021602117_0_0_0_var;
+extern const uint32_t Resources_Load_m2041782325_MetadataUsageId;
 extern Il2CppClass* Scene_t1684909666_il2cpp_TypeInfo_var;
 extern const uint32_t Scene_Equals_m3588907349_MetadataUsageId;
 extern Il2CppClass* SceneManager_t90660965_il2cpp_TypeInfo_var;
@@ -1241,11 +1241,11 @@ extern "C"  void Mesh_SetListForChannel_TisColor32_t874517518_m1056672865_gshare
 // System.Void UnityEngine.Mesh::SetUvsImpl<UnityEngine.Vector2>(System.Int32,System.Int32,System.Collections.Generic.List`1<T>)
 extern "C"  void Mesh_SetUvsImpl_TisVector2_t2243707579_m3939959910_gshared (Mesh_t1356156583 * __this, int32_t ___uvIndex0, int32_t ___dim1, List_1_t1612828711 * ___uvs2, const MethodInfo* method);
 // System.Void System.Collections.Generic.List`1<System.Int32>::.ctor()
-extern "C"  void List_1__ctor_m1598946593_gshared (List_1_t1440998580 * __this, const MethodInfo* method);
+extern "C"  void List_1__ctor_m265493321_gshared (List_1_t1440998580 * __this, const MethodInfo* method);
 // T UnityEngine.ScriptableObject::CreateInstance<System.Object>()
 extern "C"  Il2CppObject * ScriptableObject_CreateInstance_TisIl2CppObject_m926060499_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
 // System.Void System.Collections.Generic.List`1<System.Int32>::Add(!0)
-extern "C"  void List_1_Add_m688682013_gshared (List_1_t1440998580 * __this, int32_t p0, const MethodInfo* method);
+extern "C"  void List_1_Add_m2801927573_gshared (List_1_t1440998580 * __this, int32_t p0, const MethodInfo* method);
 // System.Void UnityEngine.Events.UnityEvent`1<System.Int32>::Invoke(T0)
 extern "C"  void UnityEvent_1_Invoke_m1903741765_gshared (UnityEvent_1_t2110227463 * __this, int32_t p0, const MethodInfo* method);
 // System.Void System.Func`2<System.Object,System.Boolean>::.ctor(System.Object,System.IntPtr)
@@ -1723,6 +1723,8 @@ extern "C"  void LocalNotification_Destroy_m215220946 (LocalNotification_t317971
 extern "C"  void DateTime__ctor_m3270618252 (DateTime_t693205669 * __this, int32_t p0, int32_t p1, int32_t p2, int32_t p3, int32_t p4, int32_t p5, int32_t p6, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.iOS.RemoteNotification::Destroy()
 extern "C"  void RemoteNotification_Destroy_m1272240769 (RemoteNotification_t2254252895 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.JsonUtility::ToJson(System.Object,System.Boolean)
+extern "C"  String_t* JsonUtility_ToJson_m3963821256 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___obj0, bool ___prettyPrint1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Keyframe::.ctor(System.Single,System.Single)
 extern "C"  void Keyframe__ctor_m2042404667 (Keyframe_t1449471340 * __this, float ___time0, float ___value1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Keyframe::.ctor(System.Single,System.Single,System.Single,System.Single)
@@ -1880,7 +1882,7 @@ extern "C"  void NativeClassAttribute_set_QualifiedNativeName_m2790580781 (Nativ
 // System.Void UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents::.ctor()
 extern "C"  void PlayerEditorConnectionEvents__ctor_m603950945 (PlayerEditorConnectionEvents_t2252784345 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Generic.List`1<System.Int32>::.ctor()
-#define List_1__ctor_m1598946593(__this, method) ((  void (*) (List_1_t1440998580 *, const MethodInfo*))List_1__ctor_m1598946593_gshared)(__this, method)
+#define List_1__ctor_m265493321(__this, method) ((  void (*) (List_1_t1440998580 *, const MethodInfo*))List_1__ctor_m265493321_gshared)(__this, method)
 // UnityEngine.Networking.PlayerConnection.PlayerConnection UnityEngine.Networking.PlayerConnection.PlayerConnection::CreateInstance()
 extern "C"  PlayerConnection_t3517219175 * PlayerConnection_CreateInstance_m2276347858 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // T UnityEngine.ScriptableObject::CreateInstance<UnityEngine.Networking.PlayerConnection.PlayerConnection>()
@@ -1896,7 +1898,7 @@ extern "C"  void Guid__ctor_m2599802704 (Guid_t * __this, String_t* p0, const Me
 // System.Void UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents::InvokeMessageIdSubscribers(System.Guid,System.Byte[],System.Int32)
 extern "C"  void PlayerEditorConnectionEvents_InvokeMessageIdSubscribers_m3217020342 (PlayerEditorConnectionEvents_t2252784345 * __this, Guid_t  ___messageId0, ByteU5BU5D_t3397334013* ___data1, int32_t ___playerId2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Generic.List`1<System.Int32>::Add(!0)
-#define List_1_Add_m688682013(__this, p0, method) ((  void (*) (List_1_t1440998580 *, int32_t, const MethodInfo*))List_1_Add_m688682013_gshared)(__this, p0, method)
+#define List_1_Add_m2801927573(__this, p0, method) ((  void (*) (List_1_t1440998580 *, int32_t, const MethodInfo*))List_1_Add_m2801927573_gshared)(__this, p0, method)
 // System.Void UnityEngine.Events.UnityEvent`1<System.Int32>::Invoke(T0)
 #define UnityEvent_1_Invoke_m1903741765(__this, p0, method) ((  void (*) (UnityEvent_1_t2110227463 *, int32_t, const MethodInfo*))UnityEvent_1_Invoke_m1903741765_gshared)(__this, p0, method)
 // System.Void System.Collections.Generic.List`1<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/MessageTypeSubscribers>::.ctor()
@@ -11892,7 +11894,7 @@ extern "C"  int32_t GUITargetAttribute_GetGUITargetAttrValue_m3740620102 (Il2Cpp
 	{
 		MethodInfo_t * L_4 = V_0;
 		NullCheck(L_4);
-		ObjectU5BU5D_t3614634134* L_5 = VirtFuncInvoker1< ObjectU5BU5D_t3614634134*, bool >::Invoke(12 /* System.Object[] System.Reflection.MemberInfo::GetCustomAttributes(System.Boolean) */, L_4, (bool)1);
+		ObjectU5BU5D_t3614634134* L_5 = VirtFuncInvoker1< ObjectU5BU5D_t3614634134*, bool >::Invoke(13 /* System.Object[] System.Reflection.MemberInfo::GetCustomAttributes(System.Boolean) */, L_4, (bool)1);
 		V_1 = L_5;
 		ObjectU5BU5D_t3614634134* L_6 = V_1;
 		if (!L_6)
@@ -13449,6 +13451,32 @@ IL_0013:
 	{
 		return;
 	}
+}
+// System.String UnityEngine.JsonUtility::ToJson(System.Object)
+extern "C"  String_t* JsonUtility_ToJson_m1232500921 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___obj0, const MethodInfo* method)
+{
+	String_t* V_0 = NULL;
+	{
+		Il2CppObject * L_0 = ___obj0;
+		String_t* L_1 = JsonUtility_ToJson_m3963821256(NULL /*static, unused*/, L_0, (bool)0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		String_t* L_2 = V_0;
+		return L_2;
+	}
+}
+// System.String UnityEngine.JsonUtility::ToJson(System.Object,System.Boolean)
+extern "C"  String_t* JsonUtility_ToJson_m3963821256 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___obj0, bool ___prettyPrint1, const MethodInfo* method)
+{
+	typedef String_t* (*JsonUtility_ToJson_m3963821256_ftn) (Il2CppObject *, bool);
+	static JsonUtility_ToJson_m3963821256_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (JsonUtility_ToJson_m3963821256_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.JsonUtility::ToJson(System.Object,System.Boolean)");
+	return _il2cpp_icall_func(___obj0, ___prettyPrint1);
 }
 // System.Void UnityEngine.Keyframe::.ctor(System.Single,System.Single)
 extern "C"  void Keyframe__ctor_m2042404667 (Keyframe_t1449471340 * __this, float ___time0, float ___value1, const MethodInfo* method)
@@ -16618,7 +16646,7 @@ extern "C"  void PlayerConnection__ctor_m956924263 (PlayerConnection_t3517219175
 		PlayerEditorConnectionEvents__ctor_m603950945(L_0, /*hidden argument*/NULL);
 		__this->set_m_PlayerEditorConnectionEvents_2(L_0);
 		List_1_t1440998580 * L_1 = (List_1_t1440998580 *)il2cpp_codegen_object_new(List_1_t1440998580_il2cpp_TypeInfo_var);
-		List_1__ctor_m1598946593(L_1, /*hidden argument*/List_1__ctor_m1598946593_MethodInfo_var);
+		List_1__ctor_m265493321(L_1, /*hidden argument*/List_1__ctor_m265493321_MethodInfo_var);
 		__this->set_m_connectedPlayers_3(L_1);
 		ScriptableObject__ctor_m2671490429(__this, /*hidden argument*/NULL);
 		return;
@@ -16749,7 +16777,7 @@ extern "C"  void PlayerConnection_ConnectedCallbackInternal_m2685675347 (Il2CppO
 		List_1_t1440998580 * L_1 = L_0->get_m_connectedPlayers_3();
 		int32_t L_2 = ___playerId0;
 		NullCheck(L_1);
-		List_1_Add_m688682013(L_1, L_2, /*hidden argument*/List_1_Add_m688682013_MethodInfo_var);
+		List_1_Add_m2801927573(L_1, L_2, /*hidden argument*/List_1_Add_m2801927573_MethodInfo_var);
 		PlayerConnection_t3517219175 * L_3 = PlayerConnection_get_instance_m3885313185(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		PlayerEditorConnectionEvents_t2252784345 * L_4 = L_3->get_m_PlayerEditorConnectionEvents_2();
@@ -21887,6 +21915,31 @@ IL_0018:
 		return L_3;
 	}
 }
+// UnityEngine.Object UnityEngine.Resources::Load(System.String)
+extern "C"  Object_t1021602117 * Resources_Load_m2041782325 (Il2CppObject * __this /* static, unused */, String_t* ___path0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Resources_Load_m2041782325_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Object_t1021602117 * V_0 = NULL;
+	{
+		String_t* L_0 = ___path0;
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_1 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Object_t1021602117_0_0_0_var), /*hidden argument*/NULL);
+		Object_t1021602117 * L_2 = Resources_Load_m243305716(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		goto IL_0017;
+	}
+
+IL_0017:
+	{
+		Object_t1021602117 * L_3 = V_0;
+		return L_3;
+	}
+}
 // UnityEngine.Object UnityEngine.Resources::Load(System.String,System.Type)
 extern "C"  Object_t1021602117 * Resources_Load_m243305716 (Il2CppObject * __this /* static, unused */, String_t* ___path0, Type_t * ___systemTypeInstance1, const MethodInfo* method)
 {
@@ -22209,27 +22262,19 @@ extern "C"  void GeneratedByOldBindingsGeneratorAttribute__ctor_m3745565094 (Gen
 		return;
 	}
 }
+// System.Void UnityEngine.Scripting.PreserveAttribute::.ctor()
+extern "C"  void PreserveAttribute__ctor_m2437378488 (PreserveAttribute_t4182602970 * __this, const MethodInfo* method)
+{
+	{
+		Attribute__ctor_m1730479323(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void UnityEngine.Scripting.RequiredByNativeCodeAttribute::.ctor()
 extern "C"  void RequiredByNativeCodeAttribute__ctor_m2374853658 (RequiredByNativeCodeAttribute_t1913052472 * __this, const MethodInfo* method)
 {
 	{
 		Attribute__ctor_m1730479323(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.Scripting.UsedByNativeCodeAttribute::.ctor()
-extern "C"  void UsedByNativeCodeAttribute__ctor_m2459832290 (UsedByNativeCodeAttribute_t3212052468 * __this, const MethodInfo* method)
-{
-	{
-		Attribute__ctor_m1730479323(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.ScrollViewState::.ctor()
-extern "C"  void ScrollViewState__ctor_m535685782 (ScrollViewState_t3820542997 * __this, const MethodInfo* method)
-{
-	{
-		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
 		return;
 	}
 }

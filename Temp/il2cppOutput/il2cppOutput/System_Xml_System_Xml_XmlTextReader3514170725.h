@@ -33,58 +33,58 @@ struct  XmlTextReader_t3514170725  : public XmlReader_t3675626668
 {
 public:
 	// System.Xml.XmlTextReader System.Xml.XmlTextReader::entity
-	XmlTextReader_t3514170725 * ___entity_2;
+	XmlTextReader_t3514170725 * ___entity_3;
 	// Mono.Xml2.XmlTextReader System.Xml.XmlTextReader::source
-	XmlTextReader_t511376973 * ___source_3;
+	XmlTextReader_t511376973 * ___source_4;
 	// System.Boolean System.Xml.XmlTextReader::entityInsideAttribute
-	bool ___entityInsideAttribute_4;
+	bool ___entityInsideAttribute_5;
 	// System.Boolean System.Xml.XmlTextReader::insideAttribute
-	bool ___insideAttribute_5;
+	bool ___insideAttribute_6;
 	// System.Collections.Generic.Stack`1<System.String> System.Xml.XmlTextReader::entityNameStack
-	Stack_1_t3116948387 * ___entityNameStack_6;
+	Stack_1_t3116948387 * ___entityNameStack_7;
 
 public:
-	inline static int32_t get_offset_of_entity_2() { return static_cast<int32_t>(offsetof(XmlTextReader_t3514170725, ___entity_2)); }
-	inline XmlTextReader_t3514170725 * get_entity_2() const { return ___entity_2; }
-	inline XmlTextReader_t3514170725 ** get_address_of_entity_2() { return &___entity_2; }
-	inline void set_entity_2(XmlTextReader_t3514170725 * value)
+	inline static int32_t get_offset_of_entity_3() { return static_cast<int32_t>(offsetof(XmlTextReader_t3514170725, ___entity_3)); }
+	inline XmlTextReader_t3514170725 * get_entity_3() const { return ___entity_3; }
+	inline XmlTextReader_t3514170725 ** get_address_of_entity_3() { return &___entity_3; }
+	inline void set_entity_3(XmlTextReader_t3514170725 * value)
 	{
-		___entity_2 = value;
-		Il2CppCodeGenWriteBarrier(&___entity_2, value);
+		___entity_3 = value;
+		Il2CppCodeGenWriteBarrier(&___entity_3, value);
 	}
 
-	inline static int32_t get_offset_of_source_3() { return static_cast<int32_t>(offsetof(XmlTextReader_t3514170725, ___source_3)); }
-	inline XmlTextReader_t511376973 * get_source_3() const { return ___source_3; }
-	inline XmlTextReader_t511376973 ** get_address_of_source_3() { return &___source_3; }
-	inline void set_source_3(XmlTextReader_t511376973 * value)
+	inline static int32_t get_offset_of_source_4() { return static_cast<int32_t>(offsetof(XmlTextReader_t3514170725, ___source_4)); }
+	inline XmlTextReader_t511376973 * get_source_4() const { return ___source_4; }
+	inline XmlTextReader_t511376973 ** get_address_of_source_4() { return &___source_4; }
+	inline void set_source_4(XmlTextReader_t511376973 * value)
 	{
-		___source_3 = value;
-		Il2CppCodeGenWriteBarrier(&___source_3, value);
+		___source_4 = value;
+		Il2CppCodeGenWriteBarrier(&___source_4, value);
 	}
 
-	inline static int32_t get_offset_of_entityInsideAttribute_4() { return static_cast<int32_t>(offsetof(XmlTextReader_t3514170725, ___entityInsideAttribute_4)); }
-	inline bool get_entityInsideAttribute_4() const { return ___entityInsideAttribute_4; }
-	inline bool* get_address_of_entityInsideAttribute_4() { return &___entityInsideAttribute_4; }
-	inline void set_entityInsideAttribute_4(bool value)
+	inline static int32_t get_offset_of_entityInsideAttribute_5() { return static_cast<int32_t>(offsetof(XmlTextReader_t3514170725, ___entityInsideAttribute_5)); }
+	inline bool get_entityInsideAttribute_5() const { return ___entityInsideAttribute_5; }
+	inline bool* get_address_of_entityInsideAttribute_5() { return &___entityInsideAttribute_5; }
+	inline void set_entityInsideAttribute_5(bool value)
 	{
-		___entityInsideAttribute_4 = value;
+		___entityInsideAttribute_5 = value;
 	}
 
-	inline static int32_t get_offset_of_insideAttribute_5() { return static_cast<int32_t>(offsetof(XmlTextReader_t3514170725, ___insideAttribute_5)); }
-	inline bool get_insideAttribute_5() const { return ___insideAttribute_5; }
-	inline bool* get_address_of_insideAttribute_5() { return &___insideAttribute_5; }
-	inline void set_insideAttribute_5(bool value)
+	inline static int32_t get_offset_of_insideAttribute_6() { return static_cast<int32_t>(offsetof(XmlTextReader_t3514170725, ___insideAttribute_6)); }
+	inline bool get_insideAttribute_6() const { return ___insideAttribute_6; }
+	inline bool* get_address_of_insideAttribute_6() { return &___insideAttribute_6; }
+	inline void set_insideAttribute_6(bool value)
 	{
-		___insideAttribute_5 = value;
+		___insideAttribute_6 = value;
 	}
 
-	inline static int32_t get_offset_of_entityNameStack_6() { return static_cast<int32_t>(offsetof(XmlTextReader_t3514170725, ___entityNameStack_6)); }
-	inline Stack_1_t3116948387 * get_entityNameStack_6() const { return ___entityNameStack_6; }
-	inline Stack_1_t3116948387 ** get_address_of_entityNameStack_6() { return &___entityNameStack_6; }
-	inline void set_entityNameStack_6(Stack_1_t3116948387 * value)
+	inline static int32_t get_offset_of_entityNameStack_7() { return static_cast<int32_t>(offsetof(XmlTextReader_t3514170725, ___entityNameStack_7)); }
+	inline Stack_1_t3116948387 * get_entityNameStack_7() const { return ___entityNameStack_7; }
+	inline Stack_1_t3116948387 ** get_address_of_entityNameStack_7() { return &___entityNameStack_7; }
+	inline void set_entityNameStack_7(Stack_1_t3116948387 * value)
 	{
-		___entityNameStack_6 = value;
-		Il2CppCodeGenWriteBarrier(&___entityNameStack_6, value);
+		___entityNameStack_7 = value;
+		Il2CppCodeGenWriteBarrier(&___entityNameStack_7, value);
 	}
 };
 

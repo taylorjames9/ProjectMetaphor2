@@ -16,9 +16,12 @@
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Array3829468939.h"
-#include "UnityEngine_UnityEngine_SelectionBaseAttribute936505999.h"
+#include "UnityEngine_UnityEngine_Scripting_UsedByNativeCode3212052468.h"
 #include "mscorlib_System_Void1841601450.h"
 #include "mscorlib_System_Attribute542643598.h"
+#include "UnityEngine_UnityEngine_ScrollViewState3820542997.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "UnityEngine_UnityEngine_SelectionBaseAttribute936505999.h"
 #include "UnityEngine_UnityEngine_SendMessageOptions1414041951.h"
 #include "UnityEngine_UnityEngine_SendMouseEvents3505065032.h"
 #include "mscorlib_System_Boolean3825574718.h"
@@ -37,7 +40,6 @@
 #include "UnityEngine_UnityEngine_RenderTexture2666733923.h"
 #include "UnityEngine_UnityEngine_Component3819376471.h"
 #include "mscorlib_System_String2029220233.h"
-#include "mscorlib_System_Object2689449295.h"
 #include "UnityEngine_UnityEngine_Serialization_FormerlySeri3673080018.h"
 #include "UnityEngine_UnityEngine_SerializeField3073427462.h"
 #include "UnityEngine_UnityEngine_SerializePrivateVariables2241034664.h"
@@ -111,6 +113,7 @@
 #include "UnityEngine_UnityEngine_OperatingSystemFamily1896948788.h"
 #include "UnityEngine_UnityEngine_TextAnchor112990806.h"
 #include "UnityEngine_UnityEngine_TextAreaAttribute2454598508.h"
+#include "UnityEngine_UnityEngine_TextAsset3973159845.h"
 #include "UnityEngine_UnityEngine_TextClipping2573530411.h"
 #include "UnityEngine_UnityEngine_TextEditor3975561390.h"
 #include "UnityEngine_UnityEngine_TouchScreenKeyboard601950206.h"
@@ -167,6 +170,15 @@
 #include "UnityEngine_UnityEngine_WaitForSecondsRealtime2105307154.h"
 #include "UnityEngine_UnityEngine_CustomYieldInstruction1786092740.h"
 #include "UnityEngine_UnityEngine_WritableAttribute3715198420.h"
+#include "UnityEngine_UnityEngine_WWW2919945039.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3943999495.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_En969056901.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_E3601534125.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_21701344717.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_g38854645.h"
+#include "mscorlib_System_IO_StringReader1480123486.h"
+#include "mscorlib_System_StringComparer1574862926.h"
+#include "mscorlib_System_IO_TextReader1561828458.h"
 #include "UnityEngine_UnityEngineInternal_GenericStack3718539591.h"
 #include "mscorlib_System_Collections_Stack1043988394.h"
 #include "UnityEngine_UnityEngineInternal_MathfInternal715669973.h"
@@ -181,10 +193,16 @@
 #include "System_System_Uri19570940.h"
 #include "System_System_Text_RegularExpressions_Regex1803876613.h"
 
-// UnityEngine.SelectionBaseAttribute
-struct SelectionBaseAttribute_t936505999;
+// UnityEngine.Scripting.UsedByNativeCodeAttribute
+struct UsedByNativeCodeAttribute_t3212052468;
 // System.Attribute
 struct Attribute_t542643598;
+// UnityEngine.ScrollViewState
+struct ScrollViewState_t3820542997;
+// System.Object
+struct Il2CppObject;
+// UnityEngine.SelectionBaseAttribute
+struct SelectionBaseAttribute_t936505999;
 // UnityEngine.Camera[]
 struct CameraU5BU5D_t3079764780;
 // UnityEngine.Object
@@ -197,8 +215,6 @@ struct RenderTexture_t2666733923;
 struct Component_t3819376471;
 // UnityEngine.GUILayer
 struct GUILayer_t3254902478;
-// System.Object
-struct Il2CppObject;
 // UnityEngine.GUIElement
 struct GUIElement_t3381083099;
 // UnityEngine.GameObject
@@ -317,6 +333,8 @@ struct Animator_t69676727;
 struct AnimatorControllerPlayable_t4078305555;
 // UnityEngine.TextAreaAttribute
 struct TextAreaAttribute_t2454598508;
+// UnityEngine.TextAsset
+struct TextAsset_t3973159845;
 // UnityEngine.TextEditor
 struct TextEditor_t3975561390;
 // UnityEngine.GUIStyle
@@ -381,6 +399,22 @@ struct WaitForSecondsRealtime_t2105307154;
 struct CustomYieldInstruction_t1786092740;
 // UnityEngine.WritableAttribute
 struct WritableAttribute_t3715198420;
+// UnityEngine.WWW
+struct WWW_t2919945039;
+// System.Byte[]
+struct ByteU5BU5D_t3397334013;
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+struct Dictionary_2_t3943999495;
+// System.Collections.Generic.Dictionary`2<System.Object,System.Object>
+struct Dictionary_2_t2281509423;
+// System.StringComparer
+struct StringComparer_t1574862926;
+// System.Collections.Generic.IEqualityComparer`1<System.String>
+struct IEqualityComparer_1_t1241853011;
+// System.Collections.Generic.IEqualityComparer`1<System.Object>
+struct IEqualityComparer_1_t1902082073;
+// System.IO.StringReader
+struct StringReader_t1480123486;
 // UnityEngineInternal.GenericStack
 struct GenericStack_t3718539591;
 // System.Collections.Stack
@@ -696,6 +730,27 @@ extern Il2CppClass* Vector4_t2243707581_il2cpp_TypeInfo_var;
 extern const uint32_t Vector4_Equals_m3783731577_MetadataUsageId;
 extern Il2CppCodeGenString* _stringLiteral3587482509;
 extern const uint32_t Vector4_ToString_m2340321043_MetadataUsageId;
+extern Il2CppClass* UnityException_t2687879050_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral784735462;
+extern const uint32_t WWW_get_responseHeaders_m977130892_MetadataUsageId;
+extern const MethodInfo* Dictionary_2_get_Count_m2692997481_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m2895728349_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1989408781_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m1372024679_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m1710042386_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4005245300_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m882561911_MethodInfo_var;
+extern const uint32_t WWW_FlattenedHeadersFrom_m3590846145_MetadataUsageId;
+extern Il2CppClass* StringComparer_t1574862926_il2cpp_TypeInfo_var;
+extern Il2CppClass* Dictionary_2_t3943999495_il2cpp_TypeInfo_var;
+extern Il2CppClass* StringReader_t1480123486_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3614116030_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_set_Item_m4244870320_MethodInfo_var;
+extern const MethodInfo* Dictionary_2_TryGetValue_m276094198_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2674647590;
+extern Il2CppCodeGenString* _stringLiteral1226546302;
+extern Il2CppCodeGenString* _stringLiteral1794480464;
+extern const uint32_t WWW_ParseHTTPHeaderString_m1452467655_MetadataUsageId;
 extern Il2CppClass* MathfInternal_t715669973_il2cpp_TypeInfo_var;
 extern const uint32_t MathfInternal__cctor_m1836685460_MetadataUsageId;
 extern Il2CppClass* TypeInferenceRules_t1810425448_il2cpp_TypeInfo_var;
@@ -1326,6 +1381,41 @@ public:
 		Il2CppCodeGenWriteBarrier(m_Items + index, value);
 	}
 };
+// System.Byte[]
+struct ByteU5BU5D_t3397334013  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+public:
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
 
 extern "C" void TextGenerationSettings_t2543476768_marshal_pinvoke(const TextGenerationSettings_t2543476768& unmarshaled, TextGenerationSettings_t2543476768_marshaled_pinvoke& marshaled);
 extern "C" void TextGenerationSettings_t2543476768_marshal_pinvoke_back(const TextGenerationSettings_t2543476768_marshaled_pinvoke& marshaled, TextGenerationSettings_t2543476768& unmarshaled);
@@ -1362,9 +1452,31 @@ extern "C"  void List_1__ctor_m2168280176_gshared (List_1_t573379950 * __this, i
 extern "C"  void List_1__ctor_m3698273726_gshared (List_1_t2425757932 * __this, int32_t p0, const MethodInfo* method);
 // System.Void System.Collections.Generic.List`1<UnityEngine.UILineInfo>::.ctor(System.Int32)
 extern "C"  void List_1__ctor_m2766376432_gshared (List_1_t2990399006 * __this, int32_t p0, const MethodInfo* method);
+// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Count()
+extern "C"  int32_t Dictionary_2_get_Count_m3636113691_gshared (Dictionary_2_t2281509423 * __this, const MethodInfo* method);
+// System.Collections.Generic.Dictionary`2/Enumerator<!0,!1> System.Collections.Generic.Dictionary`2<System.Object,System.Object>::GetEnumerator()
+extern "C"  Enumerator_t3601534125  Dictionary_2_GetEnumerator_m3077639147_gshared (Dictionary_2_t2281509423 * __this, const MethodInfo* method);
+// System.Collections.Generic.KeyValuePair`2<!0,!1> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::get_Current()
+extern "C"  KeyValuePair_2_t38854645  Enumerator_get_Current_m1091361971_gshared (Enumerator_t3601534125 * __this, const MethodInfo* method);
+// !0 System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Key()
+extern "C"  Il2CppObject * KeyValuePair_2_get_Key_m3385717033_gshared (KeyValuePair_2_t38854645 * __this, const MethodInfo* method);
+// !1 System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Value()
+extern "C"  Il2CppObject * KeyValuePair_2_get_Value_m1251901674_gshared (KeyValuePair_2_t38854645 * __this, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::MoveNext()
+extern "C"  bool Enumerator_MoveNext_m3349738440_gshared (Enumerator_t3601534125 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::Dispose()
+extern "C"  void Enumerator_Dispose_m1905011127_gshared (Enumerator_t3601534125 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor(System.Collections.Generic.IEqualityComparer`1<!0>)
+extern "C"  void Dictionary_2__ctor_m2849528578_gshared (Dictionary_2_t2281509423 * __this, Il2CppObject* p0, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::set_Item(!0,!1)
+extern "C"  void Dictionary_2_set_Item_m1004257024_gshared (Dictionary_2_t2281509423 * __this, Il2CppObject * p0, Il2CppObject * p1, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Object,System.Object>::TryGetValue(!0,!1&)
+extern "C"  bool Dictionary_2_TryGetValue_m3975825838_gshared (Dictionary_2_t2281509423 * __this, Il2CppObject * p0, Il2CppObject ** p1, const MethodInfo* method);
 
 // System.Void System.Attribute::.ctor()
 extern "C"  void Attribute__ctor_m1730479323 (Attribute_t542643598 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Object::.ctor()
+extern "C"  void Object__ctor_m2551263788 (Il2CppObject * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Input::get_mousePosition()
 extern "C"  Vector3_t2243707580  Input_get_mousePosition_m146923508 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.Camera::get_allCamerasCount()
@@ -1435,8 +1547,6 @@ extern "C"  Type_t * Object_GetType_m191970594 (Il2CppObject * __this, const Met
 extern "C"  int32_t SkeletonBone_get_transformModified_m1528786646 (SkeletonBone_t345082847 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SkeletonBone::set_transformModified(System.Int32)
 extern "C"  void SkeletonBone_set_transformModified_m497483735 (SkeletonBone_t345082847 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void System.Object::.ctor()
-extern "C"  void Object__ctor_m2551263788 (Il2CppObject * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::Internal_ResetAllAchievements()
 extern "C"  void GameCenterPlatform_Internal_ResetAllAchievements_m3489790181 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.GameCenter.GameCenterPlatform::Internal_ShowDefaultAchievementBanner(System.Boolean)
@@ -1723,6 +1833,8 @@ extern "C"  String_t* String_Insert_m1649676359 (String_t* __this, int32_t p0, S
 extern "C"  String_t* Int32_ToString_m2960866144 (int32_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.ScriptableObject::.ctor()
 extern "C"  void ScriptableObject__ctor_m2671490429 (ScriptableObject_t1975622470 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.TextAsset::get_text()
+extern "C"  String_t* TextAsset_get_text_m2589865997 (TextAsset_t3973159845 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GUIStyle UnityEngine.GUIStyle::get_none()
 extern "C"  GUIStyle_t1799908754 * GUIStyle_get_none_m4224270950 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.Vector2::get_zero()
@@ -1993,6 +2105,48 @@ extern "C"  void YieldInstruction__ctor_m2014522928 (YieldInstruction_t346287598
 extern "C"  void CustomYieldInstruction__ctor_m1721050687 (CustomYieldInstruction_t1786092740 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Time::get_realtimeSinceStartup()
 extern "C"  float Time_get_realtimeSinceStartup_m357614587 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String[] UnityEngine.WWW::FlattenedHeadersFrom(System.Collections.Generic.Dictionary`2<System.String,System.String>)
+extern "C"  StringU5BU5D_t1642385972* WWW_FlattenedHeadersFrom_m3590846145 (Il2CppObject * __this /* static, unused */, Dictionary_2_t3943999495 * ___headers0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.WWW::InitWWW(System.String,System.Byte[],System.String[])
+extern "C"  void WWW_InitWWW_m1194933100 (WWW_t2919945039 * __this, String_t* ___url0, ByteU5BU5D_t3397334013* ___postData1, StringU5BU5D_t1642385972* ___iHeaders2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.WWW::DestroyWWW(System.Boolean)
+extern "C"  void WWW_DestroyWWW_m2548500174 (WWW_t2919945039 * __this, bool ___cancel0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.WWW::get_isDone()
+extern "C"  bool WWW_get_isDone_m3240254121 (WWW_t2919945039 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.UnityException::.ctor(System.String)
+extern "C"  void UnityException__ctor_m1554762831 (UnityException_t2687879050 * __this, String_t* ___message0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.WWW::get_responseHeadersString()
+extern "C"  String_t* WWW_get_responseHeadersString_m1644144100 (WWW_t2919945039 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.Generic.Dictionary`2<System.String,System.String> UnityEngine.WWW::ParseHTTPHeaderString(System.String)
+extern "C"  Dictionary_2_t3943999495 * WWW_ParseHTTPHeaderString_m1452467655 (Il2CppObject * __this /* static, unused */, String_t* ___input0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.String>::get_Count()
+#define Dictionary_2_get_Count_m2692997481(__this, method) ((  int32_t (*) (Dictionary_2_t3943999495 *, const MethodInfo*))Dictionary_2_get_Count_m3636113691_gshared)(__this, method)
+// System.Collections.Generic.Dictionary`2/Enumerator<!0,!1> System.Collections.Generic.Dictionary`2<System.String,System.String>::GetEnumerator()
+#define Dictionary_2_GetEnumerator_m2895728349(__this, method) ((  Enumerator_t969056901  (*) (Dictionary_2_t3943999495 *, const MethodInfo*))Dictionary_2_GetEnumerator_m3077639147_gshared)(__this, method)
+// System.Collections.Generic.KeyValuePair`2<!0,!1> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>::get_Current()
+#define Enumerator_get_Current_m1989408781(__this, method) ((  KeyValuePair_2_t1701344717  (*) (Enumerator_t969056901 *, const MethodInfo*))Enumerator_get_Current_m1091361971_gshared)(__this, method)
+// !0 System.Collections.Generic.KeyValuePair`2<System.String,System.String>::get_Key()
+#define KeyValuePair_2_get_Key_m1372024679(__this, method) ((  String_t* (*) (KeyValuePair_2_t1701344717 *, const MethodInfo*))KeyValuePair_2_get_Key_m3385717033_gshared)(__this, method)
+// !1 System.Collections.Generic.KeyValuePair`2<System.String,System.String>::get_Value()
+#define KeyValuePair_2_get_Value_m1710042386(__this, method) ((  String_t* (*) (KeyValuePair_2_t1701344717 *, const MethodInfo*))KeyValuePair_2_get_Value_m1251901674_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>::MoveNext()
+#define Enumerator_MoveNext_m4005245300(__this, method) ((  bool (*) (Enumerator_t969056901 *, const MethodInfo*))Enumerator_MoveNext_m3349738440_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>::Dispose()
+#define Enumerator_Dispose_m882561911(__this, method) ((  void (*) (Enumerator_t969056901 *, const MethodInfo*))Enumerator_Dispose_m1905011127_gshared)(__this, method)
+// System.StringComparer System.StringComparer::get_OrdinalIgnoreCase()
+extern "C"  StringComparer_t1574862926 * StringComparer_get_OrdinalIgnoreCase_m3428639861 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::.ctor(System.Collections.Generic.IEqualityComparer`1<!0>)
+#define Dictionary_2__ctor_m3614116030(__this, p0, method) ((  void (*) (Dictionary_2_t3943999495 *, Il2CppObject*, const MethodInfo*))Dictionary_2__ctor_m2849528578_gshared)(__this, p0, method)
+// System.Void System.IO.StringReader::.ctor(System.String)
+extern "C"  void StringReader__ctor_m643998729 (StringReader_t1480123486 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1)
+#define Dictionary_2_set_Item_m4244870320(__this, p0, p1, method) ((  void (*) (Dictionary_2_t3943999495 *, String_t*, String_t*, const MethodInfo*))Dictionary_2_set_Item_m1004257024_gshared)(__this, p0, p1, method)
+// System.String System.String::ToUpper()
+extern "C"  String_t* String_ToUpper_m3715743312 (String_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Substring(System.Int32)
+extern "C"  String_t* String_Substring_m2032624251 (String_t* __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.String>::TryGetValue(!0,!1&)
+#define Dictionary_2_TryGetValue_m276094198(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t3943999495 *, String_t*, String_t**, const MethodInfo*))Dictionary_2_TryGetValue_m3975825838_gshared)(__this, p0, p1, method)
 // System.Void System.Collections.Stack::.ctor()
 extern "C"  void Stack__ctor_m521896492 (Stack_t1043988394 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Delegate System.Delegate::CreateDelegate(System.Type,System.Object,System.Reflection.MethodInfo)
@@ -2004,20 +2158,36 @@ extern "C"  Delegate_t3022476291 * Delegate_CreateDelegate_m3441190144 (Il2CppOb
 // System.Void UnityEngineInternal.TypeInferenceRuleAttribute::.ctor(System.String)
 extern "C"  void TypeInferenceRuleAttribute__ctor_m470566337 (TypeInferenceRuleAttribute_t1390152093 * __this, String_t* ___rule0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Uri::.ctor(System.String,System.UriKind)
-extern "C"  void Uri__ctor_m1027317340 (Uri_t19570940 * __this, String_t* p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Uri__ctor_m1528033823 (Uri_t19570940 * __this, String_t* p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Uri::get_IsAbsoluteUri()
-extern "C"  bool Uri_get_IsAbsoluteUri_m4123650233 (Uri_t19570940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool Uri_get_IsAbsoluteUri_m615473366 (Uri_t19570940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Uri::.ctor(System.Uri,System.Uri)
 extern "C"  void Uri__ctor_m371762263 (Uri_t19570940 * __this, Uri_t19570940 * p0, Uri_t19570940 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Uri::get_AbsoluteUri()
-extern "C"  String_t* Uri_get_AbsoluteUri_m2120317928 (Uri_t19570940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  String_t* Uri_get_AbsoluteUri_m656589005 (Uri_t19570940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.Regex::.ctor(System.String)
-extern "C"  void Regex__ctor_m1229307206 (Regex_t1803876613 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Regex__ctor_m2930443103 (Regex_t1803876613 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Void UnityEngine.Scripting.UsedByNativeCodeAttribute::.ctor()
+extern "C"  void UsedByNativeCodeAttribute__ctor_m2459832290 (UsedByNativeCodeAttribute_t3212052468 * __this, const MethodInfo* method)
+{
+	{
+		Attribute__ctor_m1730479323(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.ScrollViewState::.ctor()
+extern "C"  void ScrollViewState__ctor_m535685782 (ScrollViewState_t3820542997 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void UnityEngine.SelectionBaseAttribute::.ctor()
 extern "C"  void SelectionBaseAttribute__ctor_m1487697870 (SelectionBaseAttribute_t936505999 * __this, const MethodInfo* method)
 {
@@ -3052,7 +3222,7 @@ IL_0016:
 		Il2CppObject * L_6 = ___behaviour0;
 		ObjectU5BU5D_t3614634134* L_7 = V_0;
 		NullCheck(L_4);
-		Il2CppObject * L_8 = VirtFuncInvoker8< Il2CppObject *, String_t*, int32_t, Binder_t3404612058 *, Il2CppObject *, ObjectU5BU5D_t3614634134*, ParameterModifierU5BU5D_t963192633*, CultureInfo_t3500843524 *, StringU5BU5D_t1642385972* >::Invoke(77 /* System.Object System.Type::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]) */, L_4, L_5, ((int32_t)308), (Binder_t3404612058 *)NULL, L_6, L_7, (ParameterModifierU5BU5D_t963192633*)(ParameterModifierU5BU5D_t963192633*)NULL, (CultureInfo_t3500843524 *)NULL, (StringU5BU5D_t1642385972*)(StringU5BU5D_t1642385972*)NULL);
+		Il2CppObject * L_8 = VirtFuncInvoker8< Il2CppObject *, String_t*, int32_t, Binder_t3404612058 *, Il2CppObject *, ObjectU5BU5D_t3614634134*, ParameterModifierU5BU5D_t963192633*, CultureInfo_t3500843524 *, StringU5BU5D_t1642385972* >::Invoke(88 /* System.Object System.Type::InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[]) */, L_4, L_5, ((int32_t)308), (Binder_t3404612058 *)NULL, L_6, L_7, (ParameterModifierU5BU5D_t963192633*)(ParameterModifierU5BU5D_t963192633*)NULL, (CultureInfo_t3500843524 *)NULL, (StringU5BU5D_t1642385972*)(StringU5BU5D_t1642385972*)NULL);
 		V_1 = L_8;
 		goto IL_0033;
 	}
@@ -7597,7 +7767,7 @@ IL_008e:
 		NullCheck(L_20);
 		Type_t * L_21 = Exception_GetType_m3898489832(L_20, /*hidden argument*/NULL);
 		NullCheck(L_21);
-		String_t* L_22 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_21);
+		String_t* L_22 = VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.MemberInfo::get_Name() */, L_21);
 		V_3 = L_22;
 		V_4 = _stringLiteral371857150;
 		Exception_t1927440687 * L_23 = V_0;
@@ -8204,7 +8374,7 @@ IL_002e:
 	{
 		MethodBase_t904190842 * L_7 = V_3;
 		NullCheck(L_7);
-		Type_t * L_8 = VirtFuncInvoker0< Type_t * >::Invoke(6 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_7);
+		Type_t * L_8 = VirtFuncInvoker0< Type_t * >::Invoke(7 /* System.Type System.Reflection.MemberInfo::get_DeclaringType() */, L_7);
 		V_4 = L_8;
 		Type_t * L_9 = V_4;
 		if (L_9)
@@ -8220,7 +8390,7 @@ IL_0042:
 	{
 		Type_t * L_10 = V_4;
 		NullCheck(L_10);
-		String_t* L_11 = VirtFuncInvoker0< String_t* >::Invoke(34 /* System.String System.Type::get_Namespace() */, L_10);
+		String_t* L_11 = VirtFuncInvoker0< String_t* >::Invoke(37 /* System.String System.Type::get_Namespace() */, L_10);
 		V_5 = L_11;
 		String_t* L_12 = V_5;
 		if (!L_12)
@@ -8252,7 +8422,7 @@ IL_0075:
 		StringBuilder_t1221177846 * L_18 = V_0;
 		Type_t * L_19 = V_4;
 		NullCheck(L_19);
-		String_t* L_20 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_19);
+		String_t* L_20 = VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.MemberInfo::get_Name() */, L_19);
 		NullCheck(L_18);
 		StringBuilder_Append_m3636508479(L_18, L_20, /*hidden argument*/NULL);
 		StringBuilder_t1221177846 * L_21 = V_0;
@@ -8261,7 +8431,7 @@ IL_0075:
 		StringBuilder_t1221177846 * L_22 = V_0;
 		MethodBase_t904190842 * L_23 = V_3;
 		NullCheck(L_23);
-		String_t* L_24 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_23);
+		String_t* L_24 = VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.MemberInfo::get_Name() */, L_23);
 		NullCheck(L_22);
 		StringBuilder_Append_m3636508479(L_22, L_24, /*hidden argument*/NULL);
 		StringBuilder_t1221177846 * L_25 = V_0;
@@ -8270,7 +8440,7 @@ IL_0075:
 		V_6 = 0;
 		MethodBase_t904190842 * L_26 = V_3;
 		NullCheck(L_26);
-		ParameterInfoU5BU5D_t2275869610* L_27 = VirtFuncInvoker0< ParameterInfoU5BU5D_t2275869610* >::Invoke(15 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_26);
+		ParameterInfoU5BU5D_t2275869610* L_27 = VirtFuncInvoker0< ParameterInfoU5BU5D_t2275869610* >::Invoke(16 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_26);
 		V_7 = L_27;
 		V_8 = (bool)1;
 		goto IL_00f4;
@@ -8305,9 +8475,9 @@ IL_00d7:
 		int32_t L_33 = L_32;
 		ParameterInfo_t2249040075 * L_34 = (L_31)->GetAt(static_cast<il2cpp_array_size_t>(L_33));
 		NullCheck(L_34);
-		Type_t * L_35 = VirtFuncInvoker0< Type_t * >::Invoke(6 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_34);
+		Type_t * L_35 = VirtFuncInvoker0< Type_t * >::Invoke(7 /* System.Type System.Reflection.ParameterInfo::get_ParameterType() */, L_34);
 		NullCheck(L_35);
-		String_t* L_36 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_35);
+		String_t* L_36 = VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.MemberInfo::get_Name() */, L_35);
 		NullCheck(L_30);
 		StringBuilder_Append_m3636508479(L_30, L_36, /*hidden argument*/NULL);
 		int32_t L_37 = V_6;
@@ -8341,7 +8511,7 @@ IL_00f4:
 	{
 		Type_t * L_44 = V_4;
 		NullCheck(L_44);
-		String_t* L_45 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_44);
+		String_t* L_45 = VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.MemberInfo::get_Name() */, L_44);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_46 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_45, _stringLiteral882462221, /*hidden argument*/NULL);
 		if (!L_46)
@@ -8352,7 +8522,7 @@ IL_00f4:
 	{
 		Type_t * L_47 = V_4;
 		NullCheck(L_47);
-		String_t* L_48 = VirtFuncInvoker0< String_t* >::Invoke(34 /* System.String System.Type::get_Namespace() */, L_47);
+		String_t* L_48 = VirtFuncInvoker0< String_t* >::Invoke(37 /* System.String System.Type::get_Namespace() */, L_47);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_49 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_48, _stringLiteral3379456769, /*hidden argument*/NULL);
 		if (L_49)
@@ -8365,7 +8535,7 @@ IL_0147:
 	{
 		Type_t * L_50 = V_4;
 		NullCheck(L_50);
-		String_t* L_51 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_50);
+		String_t* L_51 = VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.MemberInfo::get_Name() */, L_50);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_52 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_51, _stringLiteral1583069542, /*hidden argument*/NULL);
 		if (!L_52)
@@ -8376,7 +8546,7 @@ IL_0147:
 	{
 		Type_t * L_53 = V_4;
 		NullCheck(L_53);
-		String_t* L_54 = VirtFuncInvoker0< String_t* >::Invoke(34 /* System.String System.Type::get_Namespace() */, L_53);
+		String_t* L_54 = VirtFuncInvoker0< String_t* >::Invoke(37 /* System.String System.Type::get_Namespace() */, L_53);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_55 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_54, _stringLiteral3379456769, /*hidden argument*/NULL);
 		if (L_55)
@@ -8389,7 +8559,7 @@ IL_0173:
 	{
 		Type_t * L_56 = V_4;
 		NullCheck(L_56);
-		String_t* L_57 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_56);
+		String_t* L_57 = VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.MemberInfo::get_Name() */, L_56);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_58 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_57, _stringLiteral449688297, /*hidden argument*/NULL);
 		if (!L_58)
@@ -8400,7 +8570,7 @@ IL_0173:
 	{
 		Type_t * L_59 = V_4;
 		NullCheck(L_59);
-		String_t* L_60 = VirtFuncInvoker0< String_t* >::Invoke(34 /* System.String System.Type::get_Namespace() */, L_59);
+		String_t* L_60 = VirtFuncInvoker0< String_t* >::Invoke(37 /* System.String System.Type::get_Namespace() */, L_59);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_61 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_60, _stringLiteral3379456769, /*hidden argument*/NULL);
 		if (L_61)
@@ -8413,7 +8583,7 @@ IL_019f:
 	{
 		Type_t * L_62 = V_4;
 		NullCheck(L_62);
-		String_t* L_63 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_62);
+		String_t* L_63 = VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.MemberInfo::get_Name() */, L_62);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_64 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_63, _stringLiteral2468699112, /*hidden argument*/NULL);
 		if (!L_64)
@@ -8424,7 +8594,7 @@ IL_019f:
 	{
 		Type_t * L_65 = V_4;
 		NullCheck(L_65);
-		String_t* L_66 = VirtFuncInvoker0< String_t* >::Invoke(34 /* System.String System.Type::get_Namespace() */, L_65);
+		String_t* L_66 = VirtFuncInvoker0< String_t* >::Invoke(37 /* System.String System.Type::get_Namespace() */, L_65);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_67 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_66, _stringLiteral1799027380, /*hidden argument*/NULL);
 		if (L_67)
@@ -8437,7 +8607,7 @@ IL_01cb:
 	{
 		MethodBase_t904190842 * L_68 = V_3;
 		NullCheck(L_68);
-		String_t* L_69 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_68);
+		String_t* L_69 = VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.MemberInfo::get_Name() */, L_68);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_70 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_69, _stringLiteral1588513925, /*hidden argument*/NULL);
 		if (!L_70)
@@ -8448,7 +8618,7 @@ IL_01cb:
 	{
 		Type_t * L_71 = V_4;
 		NullCheck(L_71);
-		String_t* L_72 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_71);
+		String_t* L_72 = VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.MemberInfo::get_Name() */, L_71);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_73 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_72, _stringLiteral1644205752, /*hidden argument*/NULL);
 		if (!L_73)
@@ -8459,7 +8629,7 @@ IL_01cb:
 	{
 		Type_t * L_74 = V_4;
 		NullCheck(L_74);
-		String_t* L_75 = VirtFuncInvoker0< String_t* >::Invoke(34 /* System.String System.Type::get_Namespace() */, L_74);
+		String_t* L_75 = VirtFuncInvoker0< String_t* >::Invoke(37 /* System.String System.Type::get_Namespace() */, L_74);
 		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
 		bool L_76 = String_op_Equality_m1790663636(NULL /*static, unused*/, L_75, _stringLiteral3379456769, /*hidden argument*/NULL);
 		G_B27_0 = ((int32_t)(L_76));
@@ -8727,6 +8897,31 @@ extern "C"  void TextAreaAttribute__ctor_m2320572467 (TextAreaAttribute_t2454598
 		int32_t L_1 = ___maxLines1;
 		__this->set_maxLines_1(L_1);
 		return;
+	}
+}
+// System.String UnityEngine.TextAsset::get_text()
+extern "C"  String_t* TextAsset_get_text_m2589865997 (TextAsset_t3973159845 * __this, const MethodInfo* method)
+{
+	typedef String_t* (*TextAsset_get_text_m2589865997_ftn) (TextAsset_t3973159845 *);
+	static TextAsset_get_text_m2589865997_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (TextAsset_get_text_m2589865997_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TextAsset::get_text()");
+	return _il2cpp_icall_func(__this);
+}
+// System.String UnityEngine.TextAsset::ToString()
+extern "C"  String_t* TextAsset_ToString_m3842796771 (TextAsset_t3973159845 * __this, const MethodInfo* method)
+{
+	String_t* V_0 = NULL;
+	{
+		String_t* L_0 = TextAsset_get_text_m2589865997(__this, /*hidden argument*/NULL);
+		V_0 = L_0;
+		goto IL_000d;
+	}
+
+IL_000d:
+	{
+		String_t* L_1 = V_0;
+		return L_1;
 	}
 }
 // System.Void UnityEngine.TextEditor::.ctor()
@@ -11479,7 +11674,7 @@ extern "C"  void UnhandledExceptionHandler_HandleUnhandledException_m1413629867 
 		NullCheck(L_4);
 		Type_t * L_5 = Exception_GetType_m3898489832(L_4, /*hidden argument*/NULL);
 		NullCheck(L_5);
-		String_t* L_6 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_5);
+		String_t* L_6 = VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String System.Reflection.MemberInfo::get_Name() */, L_5);
 		Exception_t1927440687 * L_7 = V_0;
 		NullCheck(L_7);
 		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_7);
@@ -13710,6 +13905,443 @@ extern "C"  void WritableAttribute__ctor_m761932763 (WritableAttribute_t37151984
 		return;
 	}
 }
+// System.Void UnityEngine.WWW::.ctor(System.String,System.Byte[],System.Collections.Generic.Dictionary`2<System.String,System.String>)
+extern "C"  void WWW__ctor_m1577105574 (WWW_t2919945039 * __this, String_t* ___url0, ByteU5BU5D_t3397334013* ___postData1, Dictionary_2_t3943999495 * ___headers2, const MethodInfo* method)
+{
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_0 = ___headers2;
+		StringU5BU5D_t1642385972* L_1 = WWW_FlattenedHeadersFrom_m3590846145(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		String_t* L_2 = ___url0;
+		ByteU5BU5D_t3397334013* L_3 = ___postData1;
+		StringU5BU5D_t1642385972* L_4 = V_0;
+		WWW_InitWWW_m1194933100(__this, L_2, L_3, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.WWW::Dispose()
+extern "C"  void WWW_Dispose_m2554269413 (WWW_t2919945039 * __this, const MethodInfo* method)
+{
+	{
+		WWW_DestroyWWW_m2548500174(__this, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void UnityEngine.WWW::Finalize()
+extern "C"  void WWW_Finalize_m3300880244 (WWW_t2919945039 * __this, const MethodInfo* method)
+{
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+	}
+
+IL_0001:
+	try
+	{ // begin try (depth: 1)
+		WWW_DestroyWWW_m2548500174(__this, (bool)0, /*hidden argument*/NULL);
+		IL2CPP_LEAVE(0x14, FINALLY_000d);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_000d;
+	}
+
+FINALLY_000d:
+	{ // begin finally (depth: 1)
+		Object_Finalize_m4087144328(__this, /*hidden argument*/NULL);
+		IL2CPP_END_FINALLY(13)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(13)
+	{
+		IL2CPP_JUMP_TBL(0x14, IL_0014)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0014:
+	{
+		return;
+	}
+}
+// System.Void UnityEngine.WWW::DestroyWWW(System.Boolean)
+extern "C"  void WWW_DestroyWWW_m2548500174 (WWW_t2919945039 * __this, bool ___cancel0, const MethodInfo* method)
+{
+	typedef void (*WWW_DestroyWWW_m2548500174_ftn) (WWW_t2919945039 *, bool);
+	static WWW_DestroyWWW_m2548500174_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (WWW_DestroyWWW_m2548500174_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WWW::DestroyWWW(System.Boolean)");
+	_il2cpp_icall_func(__this, ___cancel0);
+}
+// System.Void UnityEngine.WWW::InitWWW(System.String,System.Byte[],System.String[])
+extern "C"  void WWW_InitWWW_m1194933100 (WWW_t2919945039 * __this, String_t* ___url0, ByteU5BU5D_t3397334013* ___postData1, StringU5BU5D_t1642385972* ___iHeaders2, const MethodInfo* method)
+{
+	typedef void (*WWW_InitWWW_m1194933100_ftn) (WWW_t2919945039 *, String_t*, ByteU5BU5D_t3397334013*, StringU5BU5D_t1642385972*);
+	static WWW_InitWWW_m1194933100_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (WWW_InitWWW_m1194933100_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WWW::InitWWW(System.String,System.Byte[],System.String[])");
+	_il2cpp_icall_func(__this, ___url0, ___postData1, ___iHeaders2);
+}
+// System.Collections.Generic.Dictionary`2<System.String,System.String> UnityEngine.WWW::get_responseHeaders()
+extern "C"  Dictionary_2_t3943999495 * WWW_get_responseHeaders_m977130892 (WWW_t2919945039 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WWW_get_responseHeaders_m977130892_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Dictionary_2_t3943999495 * V_0 = NULL;
+	{
+		bool L_0 = WWW_get_isDone_m3240254121(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		UnityException_t2687879050 * L_1 = (UnityException_t2687879050 *)il2cpp_codegen_object_new(UnityException_t2687879050_il2cpp_TypeInfo_var);
+		UnityException__ctor_m1554762831(L_1, _stringLiteral784735462, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0017:
+	{
+		String_t* L_2 = WWW_get_responseHeadersString_m1644144100(__this, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_3 = WWW_ParseHTTPHeaderString_m1452467655(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		goto IL_0028;
+	}
+
+IL_0028:
+	{
+		Dictionary_2_t3943999495 * L_4 = V_0;
+		return L_4;
+	}
+}
+// System.String UnityEngine.WWW::get_responseHeadersString()
+extern "C"  String_t* WWW_get_responseHeadersString_m1644144100 (WWW_t2919945039 * __this, const MethodInfo* method)
+{
+	typedef String_t* (*WWW_get_responseHeadersString_m1644144100_ftn) (WWW_t2919945039 *);
+	static WWW_get_responseHeadersString_m1644144100_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (WWW_get_responseHeadersString_m1644144100_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WWW::get_responseHeadersString()");
+	return _il2cpp_icall_func(__this);
+}
+// System.Byte[] UnityEngine.WWW::get_bytes()
+extern "C"  ByteU5BU5D_t3397334013* WWW_get_bytes_m420718112 (WWW_t2919945039 * __this, const MethodInfo* method)
+{
+	typedef ByteU5BU5D_t3397334013* (*WWW_get_bytes_m420718112_ftn) (WWW_t2919945039 *);
+	static WWW_get_bytes_m420718112_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (WWW_get_bytes_m420718112_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WWW::get_bytes()");
+	return _il2cpp_icall_func(__this);
+}
+// System.String UnityEngine.WWW::get_error()
+extern "C"  String_t* WWW_get_error_m3092701216 (WWW_t2919945039 * __this, const MethodInfo* method)
+{
+	typedef String_t* (*WWW_get_error_m3092701216_ftn) (WWW_t2919945039 *);
+	static WWW_get_error_m3092701216_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (WWW_get_error_m3092701216_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WWW::get_error()");
+	return _il2cpp_icall_func(__this);
+}
+// System.Boolean UnityEngine.WWW::get_isDone()
+extern "C"  bool WWW_get_isDone_m3240254121 (WWW_t2919945039 * __this, const MethodInfo* method)
+{
+	typedef bool (*WWW_get_isDone_m3240254121_ftn) (WWW_t2919945039 *);
+	static WWW_get_isDone_m3240254121_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (WWW_get_isDone_m3240254121_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.WWW::get_isDone()");
+	return _il2cpp_icall_func(__this);
+}
+// System.String[] UnityEngine.WWW::FlattenedHeadersFrom(System.Collections.Generic.Dictionary`2<System.String,System.String>)
+extern "C"  StringU5BU5D_t1642385972* WWW_FlattenedHeadersFrom_m3590846145 (Il2CppObject * __this /* static, unused */, Dictionary_2_t3943999495 * ___headers0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WWW_FlattenedHeadersFrom_m3590846145_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	StringU5BU5D_t1642385972* V_1 = NULL;
+	int32_t V_2 = 0;
+	KeyValuePair_2_t1701344717  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Enumerator_t969056901  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Dictionary_2_t3943999495 * L_0 = ___headers0;
+		if (L_0)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		V_0 = (StringU5BU5D_t1642385972*)NULL;
+		goto IL_0082;
+	}
+
+IL_000e:
+	{
+		Dictionary_2_t3943999495 * L_1 = ___headers0;
+		NullCheck(L_1);
+		int32_t L_2 = Dictionary_2_get_Count_m2692997481(L_1, /*hidden argument*/Dictionary_2_get_Count_m2692997481_MethodInfo_var);
+		V_1 = ((StringU5BU5D_t1642385972*)SZArrayNew(StringU5BU5D_t1642385972_il2cpp_TypeInfo_var, (uint32_t)((int32_t)((int32_t)L_2*(int32_t)2))));
+		V_2 = 0;
+		Dictionary_2_t3943999495 * L_3 = ___headers0;
+		NullCheck(L_3);
+		Enumerator_t969056901  L_4 = Dictionary_2_GetEnumerator_m2895728349(L_3, /*hidden argument*/Dictionary_2_GetEnumerator_m2895728349_MethodInfo_var);
+		V_4 = L_4;
+	}
+
+IL_0027:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_005c;
+		}
+
+IL_002c:
+		{
+			KeyValuePair_2_t1701344717  L_5 = Enumerator_get_Current_m1989408781((&V_4), /*hidden argument*/Enumerator_get_Current_m1989408781_MethodInfo_var);
+			V_3 = L_5;
+			StringU5BU5D_t1642385972* L_6 = V_1;
+			int32_t L_7 = V_2;
+			int32_t L_8 = L_7;
+			V_2 = ((int32_t)((int32_t)L_8+(int32_t)1));
+			String_t* L_9 = KeyValuePair_2_get_Key_m1372024679((&V_3), /*hidden argument*/KeyValuePair_2_get_Key_m1372024679_MethodInfo_var);
+			NullCheck(L_9);
+			String_t* L_10 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_9);
+			NullCheck(L_6);
+			ArrayElementTypeCheck (L_6, L_10);
+			(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (String_t*)L_10);
+			StringU5BU5D_t1642385972* L_11 = V_1;
+			int32_t L_12 = V_2;
+			int32_t L_13 = L_12;
+			V_2 = ((int32_t)((int32_t)L_13+(int32_t)1));
+			String_t* L_14 = KeyValuePair_2_get_Value_m1710042386((&V_3), /*hidden argument*/KeyValuePair_2_get_Value_m1710042386_MethodInfo_var);
+			NullCheck(L_14);
+			String_t* L_15 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_14);
+			NullCheck(L_11);
+			ArrayElementTypeCheck (L_11, L_15);
+			(L_11)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (String_t*)L_15);
+		}
+
+IL_005c:
+		{
+			bool L_16 = Enumerator_MoveNext_m4005245300((&V_4), /*hidden argument*/Enumerator_MoveNext_m4005245300_MethodInfo_var);
+			if (L_16)
+			{
+				goto IL_002c;
+			}
+		}
+
+IL_0068:
+		{
+			IL2CPP_LEAVE(0x7B, FINALLY_006d);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_006d;
+	}
+
+FINALLY_006d:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m882561911((&V_4), /*hidden argument*/Enumerator_Dispose_m882561911_MethodInfo_var);
+		IL2CPP_END_FINALLY(109)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(109)
+	{
+		IL2CPP_JUMP_TBL(0x7B, IL_007b)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_007b:
+	{
+		StringU5BU5D_t1642385972* L_17 = V_1;
+		V_0 = L_17;
+		goto IL_0082;
+	}
+
+IL_0082:
+	{
+		StringU5BU5D_t1642385972* L_18 = V_0;
+		return L_18;
+	}
+}
+// System.Collections.Generic.Dictionary`2<System.String,System.String> UnityEngine.WWW::ParseHTTPHeaderString(System.String)
+extern "C"  Dictionary_2_t3943999495 * WWW_ParseHTTPHeaderString_m1452467655 (Il2CppObject * __this /* static, unused */, String_t* ___input0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WWW_ParseHTTPHeaderString_m1452467655_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Dictionary_2_t3943999495 * V_0 = NULL;
+	StringReader_t1480123486 * V_1 = NULL;
+	int32_t V_2 = 0;
+	String_t* V_3 = NULL;
+	int32_t V_4 = 0;
+	String_t* V_5 = NULL;
+	String_t* V_6 = NULL;
+	String_t* V_7 = NULL;
+	Dictionary_2_t3943999495 * V_8 = NULL;
+	{
+		String_t* L_0 = ___input0;
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		ArgumentException_t3259014390 * L_1 = (ArgumentException_t3259014390 *)il2cpp_codegen_object_new(ArgumentException_t3259014390_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m3739475201(L_1, _stringLiteral2674647590, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0012:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(StringComparer_t1574862926_il2cpp_TypeInfo_var);
+		StringComparer_t1574862926 * L_2 = StringComparer_get_OrdinalIgnoreCase_m3428639861(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Dictionary_2_t3943999495 * L_3 = (Dictionary_2_t3943999495 *)il2cpp_codegen_object_new(Dictionary_2_t3943999495_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m3614116030(L_3, L_2, /*hidden argument*/Dictionary_2__ctor_m3614116030_MethodInfo_var);
+		V_0 = L_3;
+		String_t* L_4 = ___input0;
+		StringReader_t1480123486 * L_5 = (StringReader_t1480123486 *)il2cpp_codegen_object_new(StringReader_t1480123486_il2cpp_TypeInfo_var);
+		StringReader__ctor_m643998729(L_5, L_4, /*hidden argument*/NULL);
+		V_1 = L_5;
+		V_2 = 0;
+	}
+
+IL_0026:
+	{
+		StringReader_t1480123486 * L_6 = V_1;
+		NullCheck(L_6);
+		String_t* L_7 = VirtFuncInvoker0< String_t* >::Invoke(12 /* System.String System.IO.TextReader::ReadLine() */, L_6);
+		V_3 = L_7;
+		String_t* L_8 = V_3;
+		if (L_8)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		goto IL_00cb;
+	}
+
+IL_003a:
+	{
+		int32_t L_9 = V_2;
+		int32_t L_10 = L_9;
+		V_2 = ((int32_t)((int32_t)L_10+(int32_t)1));
+		if (L_10)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		String_t* L_11 = V_3;
+		NullCheck(L_11);
+		bool L_12 = String_StartsWith_m1841920685(L_11, _stringLiteral1226546302, /*hidden argument*/NULL);
+		if (!L_12)
+		{
+			goto IL_0066;
+		}
+	}
+	{
+		Dictionary_2_t3943999495 * L_13 = V_0;
+		String_t* L_14 = V_3;
+		NullCheck(L_13);
+		Dictionary_2_set_Item_m4244870320(L_13, _stringLiteral1794480464, L_14, /*hidden argument*/Dictionary_2_set_Item_m4244870320_MethodInfo_var);
+		goto IL_0026;
+	}
+
+IL_0066:
+	{
+		String_t* L_15 = V_3;
+		NullCheck(L_15);
+		int32_t L_16 = String_IndexOf_m4251815737(L_15, _stringLiteral811305496, /*hidden argument*/NULL);
+		V_4 = L_16;
+		int32_t L_17 = V_4;
+		if ((!(((uint32_t)L_17) == ((uint32_t)(-1)))))
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		goto IL_0026;
+	}
+
+IL_0080:
+	{
+		String_t* L_18 = V_3;
+		int32_t L_19 = V_4;
+		NullCheck(L_18);
+		String_t* L_20 = String_Substring_m12482732(L_18, 0, L_19, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		String_t* L_21 = String_ToUpper_m3715743312(L_20, /*hidden argument*/NULL);
+		V_5 = L_21;
+		String_t* L_22 = V_3;
+		int32_t L_23 = V_4;
+		NullCheck(L_22);
+		String_t* L_24 = String_Substring_m2032624251(L_22, ((int32_t)((int32_t)L_23+(int32_t)2)), /*hidden argument*/NULL);
+		V_6 = L_24;
+		Dictionary_2_t3943999495 * L_25 = V_0;
+		String_t* L_26 = V_5;
+		NullCheck(L_25);
+		bool L_27 = Dictionary_2_TryGetValue_m276094198(L_25, L_26, (&V_7), /*hidden argument*/Dictionary_2_TryGetValue_m276094198_MethodInfo_var);
+		if (!L_27)
+		{
+			goto IL_00bb;
+		}
+	}
+	{
+		String_t* L_28 = V_7;
+		String_t* L_29 = V_6;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_30 = String_Concat_m612901809(NULL /*static, unused*/, L_28, _stringLiteral372029314, L_29, /*hidden argument*/NULL);
+		V_6 = L_30;
+	}
+
+IL_00bb:
+	{
+		Dictionary_2_t3943999495 * L_31 = V_0;
+		String_t* L_32 = V_5;
+		String_t* L_33 = V_6;
+		NullCheck(L_31);
+		Dictionary_2_set_Item_m4244870320(L_31, L_32, L_33, /*hidden argument*/Dictionary_2_set_Item_m4244870320_MethodInfo_var);
+		goto IL_0026;
+	}
+
+IL_00cb:
+	{
+		Dictionary_2_t3943999495 * L_34 = V_0;
+		V_8 = L_34;
+		goto IL_00d3;
+	}
+
+IL_00d3:
+	{
+		Dictionary_2_t3943999495 * L_35 = V_8;
+		return L_35;
+	}
+}
 // Conversion methods for marshalling of: UnityEngine.YieldInstruction
 extern "C" void YieldInstruction_t3462875981_marshal_pinvoke(const YieldInstruction_t3462875981& unmarshaled, YieldInstruction_t3462875981_marshaled_pinvoke& marshaled)
 {
@@ -13889,7 +14521,7 @@ extern "C"  String_t* WebRequestUtils_RedirectTo_m3803295888 (Il2CppObject * __t
 	{
 		String_t* L_2 = ___redirectUri1;
 		Uri_t19570940 * L_3 = (Uri_t19570940 *)il2cpp_codegen_object_new(Uri_t19570940_il2cpp_TypeInfo_var);
-		Uri__ctor_m1027317340(L_3, L_2, 2, /*hidden argument*/NULL);
+		Uri__ctor_m1528033823(L_3, L_2, 2, /*hidden argument*/NULL);
 		V_0 = L_3;
 		goto IL_0024;
 	}
@@ -13898,7 +14530,7 @@ IL_001c:
 	{
 		String_t* L_4 = ___redirectUri1;
 		Uri_t19570940 * L_5 = (Uri_t19570940 *)il2cpp_codegen_object_new(Uri_t19570940_il2cpp_TypeInfo_var);
-		Uri__ctor_m1027317340(L_5, L_4, 0, /*hidden argument*/NULL);
+		Uri__ctor_m1528033823(L_5, L_4, 0, /*hidden argument*/NULL);
 		V_0 = L_5;
 	}
 
@@ -13906,7 +14538,7 @@ IL_0024:
 	{
 		Uri_t19570940 * L_6 = V_0;
 		NullCheck(L_6);
-		bool L_7 = Uri_get_IsAbsoluteUri_m4123650233(L_6, /*hidden argument*/NULL);
+		bool L_7 = Uri_get_IsAbsoluteUri_m615473366(L_6, /*hidden argument*/NULL);
 		if (!L_7)
 		{
 			goto IL_0036;
@@ -13922,7 +14554,7 @@ IL_0036:
 	{
 		String_t* L_9 = ___baseUri0;
 		Uri_t19570940 * L_10 = (Uri_t19570940 *)il2cpp_codegen_object_new(Uri_t19570940_il2cpp_TypeInfo_var);
-		Uri__ctor_m1027317340(L_10, L_9, 1, /*hidden argument*/NULL);
+		Uri__ctor_m1528033823(L_10, L_9, 1, /*hidden argument*/NULL);
 		V_2 = L_10;
 		Uri_t19570940 * L_11 = V_2;
 		Uri_t19570940 * L_12 = V_0;
@@ -13931,7 +14563,7 @@ IL_0036:
 		V_3 = L_13;
 		Uri_t19570940 * L_14 = V_3;
 		NullCheck(L_14);
-		String_t* L_15 = Uri_get_AbsoluteUri_m2120317928(L_14, /*hidden argument*/NULL);
+		String_t* L_15 = Uri_get_AbsoluteUri_m656589005(L_14, /*hidden argument*/NULL);
 		V_1 = L_15;
 		goto IL_0052;
 	}
@@ -13953,7 +14585,7 @@ extern "C"  void WebRequestUtils__cctor_m893658947 (Il2CppObject * __this /* sta
 	}
 	{
 		Regex_t1803876613 * L_0 = (Regex_t1803876613 *)il2cpp_codegen_object_new(Regex_t1803876613_il2cpp_TypeInfo_var);
-		Regex__ctor_m1229307206(L_0, _stringLiteral2697683047, /*hidden argument*/NULL);
+		Regex__ctor_m2930443103(L_0, _stringLiteral2697683047, /*hidden argument*/NULL);
 		((WebRequestUtils_t4100941042_StaticFields*)WebRequestUtils_t4100941042_il2cpp_TypeInfo_var->static_fields)->set_domainRegex_0(L_0);
 		return;
 	}

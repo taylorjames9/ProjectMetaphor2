@@ -38,27 +38,27 @@ struct BypassElement_t4253212366_StaticFields
 {
 public:
 	// System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.BypassElement::properties
-	ConfigurationPropertyCollection_t3473514151 * ___properties_13;
+	ConfigurationPropertyCollection_t3473514151 * ___properties_14;
 	// System.Configuration.ConfigurationProperty System.Net.Configuration.BypassElement::addressProp
-	ConfigurationProperty_t2048066811 * ___addressProp_14;
+	ConfigurationProperty_t2048066811 * ___addressProp_15;
 
 public:
-	inline static int32_t get_offset_of_properties_13() { return static_cast<int32_t>(offsetof(BypassElement_t4253212366_StaticFields, ___properties_13)); }
-	inline ConfigurationPropertyCollection_t3473514151 * get_properties_13() const { return ___properties_13; }
-	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_13() { return &___properties_13; }
-	inline void set_properties_13(ConfigurationPropertyCollection_t3473514151 * value)
+	inline static int32_t get_offset_of_properties_14() { return static_cast<int32_t>(offsetof(BypassElement_t4253212366_StaticFields, ___properties_14)); }
+	inline ConfigurationPropertyCollection_t3473514151 * get_properties_14() const { return ___properties_14; }
+	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_14() { return &___properties_14; }
+	inline void set_properties_14(ConfigurationPropertyCollection_t3473514151 * value)
 	{
-		___properties_13 = value;
-		Il2CppCodeGenWriteBarrier(&___properties_13, value);
+		___properties_14 = value;
+		Il2CppCodeGenWriteBarrier(&___properties_14, value);
 	}
 
-	inline static int32_t get_offset_of_addressProp_14() { return static_cast<int32_t>(offsetof(BypassElement_t4253212366_StaticFields, ___addressProp_14)); }
-	inline ConfigurationProperty_t2048066811 * get_addressProp_14() const { return ___addressProp_14; }
-	inline ConfigurationProperty_t2048066811 ** get_address_of_addressProp_14() { return &___addressProp_14; }
-	inline void set_addressProp_14(ConfigurationProperty_t2048066811 * value)
+	inline static int32_t get_offset_of_addressProp_15() { return static_cast<int32_t>(offsetof(BypassElement_t4253212366_StaticFields, ___addressProp_15)); }
+	inline ConfigurationProperty_t2048066811 * get_addressProp_15() const { return ___addressProp_15; }
+	inline ConfigurationProperty_t2048066811 ** get_address_of_addressProp_15() { return &___addressProp_15; }
+	inline void set_addressProp_15(ConfigurationProperty_t2048066811 * value)
 	{
-		___addressProp_14 = value;
-		Il2CppCodeGenWriteBarrier(&___addressProp_14, value);
+		___addressProp_15 = value;
+		Il2CppCodeGenWriteBarrier(&___addressProp_15, value);
 	}
 };
 

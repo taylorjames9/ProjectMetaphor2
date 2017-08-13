@@ -33,16 +33,16 @@ struct  ProtectedConfigurationSection_t3541826375  : public ConfigurationSection
 {
 public:
 	// System.Configuration.ProtectedConfigurationProviderCollection System.Configuration.ProtectedConfigurationSection::providers
-	ProtectedConfigurationProviderCollection_t388338823 * ___providers_20;
+	ProtectedConfigurationProviderCollection_t388338823 * ___providers_21;
 
 public:
-	inline static int32_t get_offset_of_providers_20() { return static_cast<int32_t>(offsetof(ProtectedConfigurationSection_t3541826375, ___providers_20)); }
-	inline ProtectedConfigurationProviderCollection_t388338823 * get_providers_20() const { return ___providers_20; }
-	inline ProtectedConfigurationProviderCollection_t388338823 ** get_address_of_providers_20() { return &___providers_20; }
-	inline void set_providers_20(ProtectedConfigurationProviderCollection_t388338823 * value)
+	inline static int32_t get_offset_of_providers_21() { return static_cast<int32_t>(offsetof(ProtectedConfigurationSection_t3541826375, ___providers_21)); }
+	inline ProtectedConfigurationProviderCollection_t388338823 * get_providers_21() const { return ___providers_21; }
+	inline ProtectedConfigurationProviderCollection_t388338823 ** get_address_of_providers_21() { return &___providers_21; }
+	inline void set_providers_21(ProtectedConfigurationProviderCollection_t388338823 * value)
 	{
-		___providers_20 = value;
-		Il2CppCodeGenWriteBarrier(&___providers_20, value);
+		___providers_21 = value;
+		Il2CppCodeGenWriteBarrier(&___providers_21, value);
 	}
 };
 
@@ -50,38 +50,38 @@ struct ProtectedConfigurationSection_t3541826375_StaticFields
 {
 public:
 	// System.Configuration.ConfigurationProperty System.Configuration.ProtectedConfigurationSection::defaultProviderProp
-	ConfigurationProperty_t2048066811 * ___defaultProviderProp_17;
+	ConfigurationProperty_t2048066811 * ___defaultProviderProp_18;
 	// System.Configuration.ConfigurationProperty System.Configuration.ProtectedConfigurationSection::providersProp
-	ConfigurationProperty_t2048066811 * ___providersProp_18;
+	ConfigurationProperty_t2048066811 * ___providersProp_19;
 	// System.Configuration.ConfigurationPropertyCollection System.Configuration.ProtectedConfigurationSection::properties
-	ConfigurationPropertyCollection_t3473514151 * ___properties_19;
+	ConfigurationPropertyCollection_t3473514151 * ___properties_20;
 
 public:
-	inline static int32_t get_offset_of_defaultProviderProp_17() { return static_cast<int32_t>(offsetof(ProtectedConfigurationSection_t3541826375_StaticFields, ___defaultProviderProp_17)); }
-	inline ConfigurationProperty_t2048066811 * get_defaultProviderProp_17() const { return ___defaultProviderProp_17; }
-	inline ConfigurationProperty_t2048066811 ** get_address_of_defaultProviderProp_17() { return &___defaultProviderProp_17; }
-	inline void set_defaultProviderProp_17(ConfigurationProperty_t2048066811 * value)
+	inline static int32_t get_offset_of_defaultProviderProp_18() { return static_cast<int32_t>(offsetof(ProtectedConfigurationSection_t3541826375_StaticFields, ___defaultProviderProp_18)); }
+	inline ConfigurationProperty_t2048066811 * get_defaultProviderProp_18() const { return ___defaultProviderProp_18; }
+	inline ConfigurationProperty_t2048066811 ** get_address_of_defaultProviderProp_18() { return &___defaultProviderProp_18; }
+	inline void set_defaultProviderProp_18(ConfigurationProperty_t2048066811 * value)
 	{
-		___defaultProviderProp_17 = value;
-		Il2CppCodeGenWriteBarrier(&___defaultProviderProp_17, value);
+		___defaultProviderProp_18 = value;
+		Il2CppCodeGenWriteBarrier(&___defaultProviderProp_18, value);
 	}
 
-	inline static int32_t get_offset_of_providersProp_18() { return static_cast<int32_t>(offsetof(ProtectedConfigurationSection_t3541826375_StaticFields, ___providersProp_18)); }
-	inline ConfigurationProperty_t2048066811 * get_providersProp_18() const { return ___providersProp_18; }
-	inline ConfigurationProperty_t2048066811 ** get_address_of_providersProp_18() { return &___providersProp_18; }
-	inline void set_providersProp_18(ConfigurationProperty_t2048066811 * value)
+	inline static int32_t get_offset_of_providersProp_19() { return static_cast<int32_t>(offsetof(ProtectedConfigurationSection_t3541826375_StaticFields, ___providersProp_19)); }
+	inline ConfigurationProperty_t2048066811 * get_providersProp_19() const { return ___providersProp_19; }
+	inline ConfigurationProperty_t2048066811 ** get_address_of_providersProp_19() { return &___providersProp_19; }
+	inline void set_providersProp_19(ConfigurationProperty_t2048066811 * value)
 	{
-		___providersProp_18 = value;
-		Il2CppCodeGenWriteBarrier(&___providersProp_18, value);
+		___providersProp_19 = value;
+		Il2CppCodeGenWriteBarrier(&___providersProp_19, value);
 	}
 
-	inline static int32_t get_offset_of_properties_19() { return static_cast<int32_t>(offsetof(ProtectedConfigurationSection_t3541826375_StaticFields, ___properties_19)); }
-	inline ConfigurationPropertyCollection_t3473514151 * get_properties_19() const { return ___properties_19; }
-	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_19() { return &___properties_19; }
-	inline void set_properties_19(ConfigurationPropertyCollection_t3473514151 * value)
+	inline static int32_t get_offset_of_properties_20() { return static_cast<int32_t>(offsetof(ProtectedConfigurationSection_t3541826375_StaticFields, ___properties_20)); }
+	inline ConfigurationPropertyCollection_t3473514151 * get_properties_20() const { return ___properties_20; }
+	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_20() { return &___properties_20; }
+	inline void set_properties_20(ConfigurationPropertyCollection_t3473514151 * value)
 	{
-		___properties_19 = value;
-		Il2CppCodeGenWriteBarrier(&___properties_19, value);
+		___properties_20 = value;
+		Il2CppCodeGenWriteBarrier(&___properties_20, value);
 	}
 };
 

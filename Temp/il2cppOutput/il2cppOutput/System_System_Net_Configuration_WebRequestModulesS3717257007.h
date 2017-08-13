@@ -38,27 +38,27 @@ struct WebRequestModulesSection_t3717257007_StaticFields
 {
 public:
 	// System.Configuration.ConfigurationPropertyCollection System.Net.Configuration.WebRequestModulesSection::properties
-	ConfigurationPropertyCollection_t3473514151 * ___properties_17;
+	ConfigurationPropertyCollection_t3473514151 * ___properties_18;
 	// System.Configuration.ConfigurationProperty System.Net.Configuration.WebRequestModulesSection::webRequestModulesProp
-	ConfigurationProperty_t2048066811 * ___webRequestModulesProp_18;
+	ConfigurationProperty_t2048066811 * ___webRequestModulesProp_19;
 
 public:
-	inline static int32_t get_offset_of_properties_17() { return static_cast<int32_t>(offsetof(WebRequestModulesSection_t3717257007_StaticFields, ___properties_17)); }
-	inline ConfigurationPropertyCollection_t3473514151 * get_properties_17() const { return ___properties_17; }
-	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_17() { return &___properties_17; }
-	inline void set_properties_17(ConfigurationPropertyCollection_t3473514151 * value)
+	inline static int32_t get_offset_of_properties_18() { return static_cast<int32_t>(offsetof(WebRequestModulesSection_t3717257007_StaticFields, ___properties_18)); }
+	inline ConfigurationPropertyCollection_t3473514151 * get_properties_18() const { return ___properties_18; }
+	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_properties_18() { return &___properties_18; }
+	inline void set_properties_18(ConfigurationPropertyCollection_t3473514151 * value)
 	{
-		___properties_17 = value;
-		Il2CppCodeGenWriteBarrier(&___properties_17, value);
+		___properties_18 = value;
+		Il2CppCodeGenWriteBarrier(&___properties_18, value);
 	}
 
-	inline static int32_t get_offset_of_webRequestModulesProp_18() { return static_cast<int32_t>(offsetof(WebRequestModulesSection_t3717257007_StaticFields, ___webRequestModulesProp_18)); }
-	inline ConfigurationProperty_t2048066811 * get_webRequestModulesProp_18() const { return ___webRequestModulesProp_18; }
-	inline ConfigurationProperty_t2048066811 ** get_address_of_webRequestModulesProp_18() { return &___webRequestModulesProp_18; }
-	inline void set_webRequestModulesProp_18(ConfigurationProperty_t2048066811 * value)
+	inline static int32_t get_offset_of_webRequestModulesProp_19() { return static_cast<int32_t>(offsetof(WebRequestModulesSection_t3717257007_StaticFields, ___webRequestModulesProp_19)); }
+	inline ConfigurationProperty_t2048066811 * get_webRequestModulesProp_19() const { return ___webRequestModulesProp_19; }
+	inline ConfigurationProperty_t2048066811 ** get_address_of_webRequestModulesProp_19() { return &___webRequestModulesProp_19; }
+	inline void set_webRequestModulesProp_19(ConfigurationProperty_t2048066811 * value)
 	{
-		___webRequestModulesProp_18 = value;
-		Il2CppCodeGenWriteBarrier(&___webRequestModulesProp_18, value);
+		___webRequestModulesProp_19 = value;
+		Il2CppCodeGenWriteBarrier(&___webRequestModulesProp_19, value);
 	}
 };
 

@@ -29,16 +29,16 @@ struct  XmlSchemaUri_t1295878664  : public Uri_t19570940
 {
 public:
 	// System.String Mono.Xml.Schema.XmlSchemaUri::value
-	String_t* ___value_36;
+	String_t* ___value_38;
 
 public:
-	inline static int32_t get_offset_of_value_36() { return static_cast<int32_t>(offsetof(XmlSchemaUri_t1295878664, ___value_36)); }
-	inline String_t* get_value_36() const { return ___value_36; }
-	inline String_t** get_address_of_value_36() { return &___value_36; }
-	inline void set_value_36(String_t* value)
+	inline static int32_t get_offset_of_value_38() { return static_cast<int32_t>(offsetof(XmlSchemaUri_t1295878664, ___value_38)); }
+	inline String_t* get_value_38() const { return ___value_38; }
+	inline String_t** get_address_of_value_38() { return &___value_38; }
+	inline void set_value_38(String_t* value)
 	{
-		___value_36 = value;
-		Il2CppCodeGenWriteBarrier(&___value_36, value);
+		___value_38 = value;
+		Il2CppCodeGenWriteBarrier(&___value_38, value);
 	}
 };
 

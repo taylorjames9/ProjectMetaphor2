@@ -14,6 +14,8 @@
 
 // System.String
 struct String_t;
+// System.String[]
+struct StringU5BU5D_t1642385972;
 // System.Net.IAuthenticationModule
 struct IAuthenticationModule_t3093891015;
 
@@ -34,8 +36,12 @@ public:
 	String_t* ___token_0;
 	// System.Boolean System.Net.Authorization::complete
 	bool ___complete_1;
+	// System.String System.Net.Authorization::connectionGroupId
+	String_t* ___connectionGroupId_2;
+	// System.String[] System.Net.Authorization::protectionRealm
+	StringU5BU5D_t1642385972* ___protectionRealm_3;
 	// System.Net.IAuthenticationModule System.Net.Authorization::module
-	Il2CppObject * ___module_2;
+	Il2CppObject * ___module_4;
 
 public:
 	inline static int32_t get_offset_of_token_0() { return static_cast<int32_t>(offsetof(Authorization_t1602399, ___token_0)); }
@@ -55,13 +61,31 @@ public:
 		___complete_1 = value;
 	}
 
-	inline static int32_t get_offset_of_module_2() { return static_cast<int32_t>(offsetof(Authorization_t1602399, ___module_2)); }
-	inline Il2CppObject * get_module_2() const { return ___module_2; }
-	inline Il2CppObject ** get_address_of_module_2() { return &___module_2; }
-	inline void set_module_2(Il2CppObject * value)
+	inline static int32_t get_offset_of_connectionGroupId_2() { return static_cast<int32_t>(offsetof(Authorization_t1602399, ___connectionGroupId_2)); }
+	inline String_t* get_connectionGroupId_2() const { return ___connectionGroupId_2; }
+	inline String_t** get_address_of_connectionGroupId_2() { return &___connectionGroupId_2; }
+	inline void set_connectionGroupId_2(String_t* value)
 	{
-		___module_2 = value;
-		Il2CppCodeGenWriteBarrier(&___module_2, value);
+		___connectionGroupId_2 = value;
+		Il2CppCodeGenWriteBarrier(&___connectionGroupId_2, value);
+	}
+
+	inline static int32_t get_offset_of_protectionRealm_3() { return static_cast<int32_t>(offsetof(Authorization_t1602399, ___protectionRealm_3)); }
+	inline StringU5BU5D_t1642385972* get_protectionRealm_3() const { return ___protectionRealm_3; }
+	inline StringU5BU5D_t1642385972** get_address_of_protectionRealm_3() { return &___protectionRealm_3; }
+	inline void set_protectionRealm_3(StringU5BU5D_t1642385972* value)
+	{
+		___protectionRealm_3 = value;
+		Il2CppCodeGenWriteBarrier(&___protectionRealm_3, value);
+	}
+
+	inline static int32_t get_offset_of_module_4() { return static_cast<int32_t>(offsetof(Authorization_t1602399, ___module_4)); }
+	inline Il2CppObject * get_module_4() const { return ___module_4; }
+	inline Il2CppObject ** get_address_of_module_4() { return &___module_4; }
+	inline void set_module_4(Il2CppObject * value)
+	{
+		___module_4 = value;
+		Il2CppCodeGenWriteBarrier(&___module_4, value);
 	}
 };
 

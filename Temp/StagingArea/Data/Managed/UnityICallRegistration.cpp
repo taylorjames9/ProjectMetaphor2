@@ -42,6 +42,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_get_isPlaying();
 		Register_UnityEngine_Application_get_isPlaying();
 
+		//System.String UnityEngine.Application::get_persistentDataPath()
+		void Register_UnityEngine_Application_get_persistentDataPath();
+		Register_UnityEngine_Application_get_persistentDataPath();
+
+		//System.String UnityEngine.Application::get_unityVersion()
+		void Register_UnityEngine_Application_get_unityVersion();
+		Register_UnityEngine_Application_get_unityVersion();
+
 		//UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
 		void Register_UnityEngine_Application_get_platform();
 		Register_UnityEngine_Application_get_platform();
@@ -1372,6 +1380,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.iOS.RemoteNotification
 
+	//Start Registrations for type : UnityEngine.JsonUtility
+
+		//System.String UnityEngine.JsonUtility::ToJson(System.Object,System.Boolean)
+		void Register_UnityEngine_JsonUtility_ToJson();
+		Register_UnityEngine_JsonUtility_ToJson();
+
+	//End Registrations for type : UnityEngine.JsonUtility
+
 	//Start Registrations for type : UnityEngine.Material
 
 		//System.Boolean UnityEngine.Material::HasProperty(System.Int32)
@@ -1964,6 +1980,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.SystemInfo
 
+	//Start Registrations for type : UnityEngine.TextAsset
+
+		//System.String UnityEngine.TextAsset::get_text()
+		void Register_UnityEngine_TextAsset_get_text();
+		Register_UnityEngine_TextAsset_get_text();
+
+	//End Registrations for type : UnityEngine.TextAsset
+
 	//Start Registrations for type : UnityEngine.TextGenerator
 
 		//System.Boolean UnityEngine.TextGenerator::INTERNAL_CALL_Populate_Internal_cpp(UnityEngine.TextGenerator,System.String,UnityEngine.Font,UnityEngine.Color&,System.Int32,System.Single,System.Single,UnityEngine.FontStyle,System.Boolean,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,UnityEngine.TextAnchor,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Boolean,System.UInt32&)
@@ -2191,5 +2215,33 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_UnhandledExceptionHandler_NativeUnhandledExceptionHandler();
 
 	//End Registrations for type : UnityEngine.UnhandledExceptionHandler
+
+	//Start Registrations for type : UnityEngine.WWW
+
+		//System.Boolean UnityEngine.WWW::get_isDone()
+		void Register_UnityEngine_WWW_get_isDone();
+		Register_UnityEngine_WWW_get_isDone();
+
+		//System.Byte[] UnityEngine.WWW::get_bytes()
+		void Register_UnityEngine_WWW_get_bytes();
+		Register_UnityEngine_WWW_get_bytes();
+
+		//System.String UnityEngine.WWW::get_error()
+		void Register_UnityEngine_WWW_get_error();
+		Register_UnityEngine_WWW_get_error();
+
+		//System.String UnityEngine.WWW::get_responseHeadersString()
+		void Register_UnityEngine_WWW_get_responseHeadersString();
+		Register_UnityEngine_WWW_get_responseHeadersString();
+
+		//System.Void UnityEngine.WWW::DestroyWWW(System.Boolean)
+		void Register_UnityEngine_WWW_DestroyWWW();
+		Register_UnityEngine_WWW_DestroyWWW();
+
+		//System.Void UnityEngine.WWW::InitWWW(System.String,System.Byte[],System.String[])
+		void Register_UnityEngine_WWW_InitWWW();
+		Register_UnityEngine_WWW_InitWWW();
+
+	//End Registrations for type : UnityEngine.WWW
 
 }

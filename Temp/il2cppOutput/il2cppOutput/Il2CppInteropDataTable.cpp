@@ -144,50 +144,16 @@ extern "C" void SecurityFrame_t1002202659_marshal_pinvoke(void* managedStructure
 extern "C" void SecurityFrame_t1002202659_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void SecurityFrame_t1002202659_marshal_pinvoke_cleanup(void* marshaledStructure);
 extern const Il2CppType SecurityFrame_t1002202659_0_0_0;
+extern "C" void AsyncFlowControl_t3236298431_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void AsyncFlowControl_t3236298431_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void AsyncFlowControl_t3236298431_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType AsyncFlowControl_t3236298431_0_0_0;
 extern "C" void DelegatePInvokeWrapper_ThreadStart_t3437517264();
 extern const Il2CppType ThreadStart_t3437517264_0_0_0;
 extern "C" void ValueType_t3507792607_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
 extern "C" void ValueType_t3507792607_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void ValueType_t3507792607_marshal_pinvoke_cleanup(void* marshaledStructure);
 extern const Il2CppType ValueType_t3507792607_0_0_0;
-extern "C" void DelegatePInvokeWrapper_ReadMethod_t3362229488();
-extern const Il2CppType ReadMethod_t3362229488_0_0_0;
-extern "C" void DelegatePInvokeWrapper_UnmanagedReadOrWrite_t1990215745();
-extern const Il2CppType UnmanagedReadOrWrite_t1990215745_0_0_0;
-extern "C" void DelegatePInvokeWrapper_WriteMethod_t1894833619();
-extern const Il2CppType WriteMethod_t1894833619_0_0_0;
-extern "C" void DelegatePInvokeWrapper_ReadDelegate_t1559754630();
-extern const Il2CppType ReadDelegate_t1559754630_0_0_0;
-extern "C" void DelegatePInvokeWrapper_WriteDelegate_t888270799();
-extern const Il2CppType WriteDelegate_t888270799_0_0_0;
-extern "C" void DelegatePInvokeWrapper_SocketAsyncCall_t3737776727();
-extern const Il2CppType SocketAsyncCall_t3737776727_0_0_0;
-extern "C" void SocketAsyncResult_t2959281146_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
-extern "C" void SocketAsyncResult_t2959281146_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
-extern "C" void SocketAsyncResult_t2959281146_marshal_pinvoke_cleanup(void* marshaledStructure);
-extern const Il2CppType SocketAsyncResult_t2959281146_0_0_0;
-extern "C" void X509ChainStatus_t4278378721_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
-extern "C" void X509ChainStatus_t4278378721_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
-extern "C" void X509ChainStatus_t4278378721_marshal_pinvoke_cleanup(void* marshaledStructure);
-extern const Il2CppType X509ChainStatus_t4278378721_0_0_0;
-extern "C" void IntStack_t273560425_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
-extern "C" void IntStack_t273560425_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
-extern "C" void IntStack_t273560425_marshal_pinvoke_cleanup(void* marshaledStructure);
-extern const Il2CppType IntStack_t273560425_0_0_0;
-extern "C" void Interval_t2354235237_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
-extern "C" void Interval_t2354235237_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
-extern "C" void Interval_t2354235237_marshal_pinvoke_cleanup(void* marshaledStructure);
-extern const Il2CppType Interval_t2354235237_0_0_0;
-extern "C" void DelegatePInvokeWrapper_CostDelegate_t1824458113();
-extern const Il2CppType CostDelegate_t1824458113_0_0_0;
-extern "C" void IntStack_t3288646651_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
-extern "C" void IntStack_t3288646651_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
-extern "C" void IntStack_t3288646651_marshal_pinvoke_cleanup(void* marshaledStructure);
-extern const Il2CppType IntStack_t3288646651_0_0_0;
-extern "C" void UriScheme_t1876590943_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
-extern "C" void UriScheme_t1876590943_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
-extern "C" void UriScheme_t1876590943_marshal_pinvoke_cleanup(void* marshaledStructure);
-extern const Il2CppType UriScheme_t1876590943_0_0_0;
 extern "C" void TagName_t2340974457_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
 extern "C" void TagName_t2340974457_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void TagName_t2340974457_marshal_pinvoke_cleanup(void* marshaledStructure);
@@ -218,6 +184,172 @@ extern "C" void NsScope_t2513625351_marshal_pinvoke_cleanup(void* marshaledStruc
 extern const Il2CppType NsScope_t2513625351_0_0_0;
 extern "C" void DelegatePInvokeWrapper_CharGetter_t1955031820();
 extern const Il2CppType CharGetter_t1955031820_0_0_0;
+extern "C" void X509IssuerSerial_t1582182491_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void X509IssuerSerial_t1582182491_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void X509IssuerSerial_t1582182491_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType X509IssuerSerial_t1582182491_0_0_0;
+extern "C" void DelegatePInvokeWrapper_StreamChangeCallback_t1492982741();
+extern const Il2CppType StreamChangeCallback_t1492982741_0_0_0;
+extern "C" void DelegatePInvokeWrapper_AsyncReadHandler_t1533281179();
+extern const Il2CppType AsyncReadHandler_t1533281179_0_0_0;
+extern "C" void ProcessAsyncReader_t2663114743_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void ProcessAsyncReader_t2663114743_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void ProcessAsyncReader_t2663114743_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType ProcessAsyncReader_t2663114743_0_0_0;
+extern "C" void ProcInfo_t2768253291_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void ProcInfo_t2768253291_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void ProcInfo_t2768253291_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType ProcInfo_t2768253291_0_0_0;
+extern "C" void DelegatePInvokeWrapper_ReadMethod_t3362229488();
+extern const Il2CppType ReadMethod_t3362229488_0_0_0;
+extern "C" void DelegatePInvokeWrapper_UnmanagedReadOrWrite_t1990215745();
+extern const Il2CppType UnmanagedReadOrWrite_t1990215745_0_0_0;
+extern "C" void DelegatePInvokeWrapper_WriteMethod_t1894833619();
+extern const Il2CppType WriteMethod_t1894833619_0_0_0;
+extern "C" void DelegatePInvokeWrapper_ReadDelegate_t1599878889();
+extern const Il2CppType ReadDelegate_t1599878889_0_0_0;
+extern "C" void DelegatePInvokeWrapper_WriteDelegate_t453000516();
+extern const Il2CppType WriteDelegate_t453000516_0_0_0;
+extern "C" void DelegatePInvokeWrapper_ReadDelegate_t1559754630();
+extern const Il2CppType ReadDelegate_t1559754630_0_0_0;
+extern "C" void DelegatePInvokeWrapper_WriteDelegate_t888270799();
+extern const Il2CppType WriteDelegate_t888270799_0_0_0;
+extern "C" void ifaddrs_t2532459533_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void ifaddrs_t2532459533_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void ifaddrs_t2532459533_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType ifaddrs_t2532459533_0_0_0;
+extern "C" void in6_addr_t4035827331_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void in6_addr_t4035827331_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void in6_addr_t4035827331_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType in6_addr_t4035827331_0_0_0;
+extern "C" void ifaddrs_t937751619_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void ifaddrs_t937751619_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void ifaddrs_t937751619_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType ifaddrs_t937751619_0_0_0;
+extern "C" void in6_addr_t1014645363_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void in6_addr_t1014645363_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void in6_addr_t1014645363_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType in6_addr_t1014645363_0_0_0;
+extern "C" void sockaddr_dl_t3955242742_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void sockaddr_dl_t3955242742_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void sockaddr_dl_t3955242742_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType sockaddr_dl_t3955242742_0_0_0;
+extern "C" void sockaddr_in6_t834146887_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void sockaddr_in6_t834146887_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void sockaddr_in6_t834146887_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType sockaddr_in6_t834146887_0_0_0;
+extern "C" void sockaddr_in6_t2899168071_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void sockaddr_in6_t2899168071_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void sockaddr_in6_t2899168071_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType sockaddr_in6_t2899168071_0_0_0;
+extern "C" void sockaddr_ll_t1681025498_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void sockaddr_ll_t1681025498_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void sockaddr_ll_t1681025498_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType sockaddr_ll_t1681025498_0_0_0;
+extern "C" void Win32_FIXED_INFO_t1371335919_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Win32_FIXED_INFO_t1371335919_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Win32_FIXED_INFO_t1371335919_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType Win32_FIXED_INFO_t1371335919_0_0_0;
+extern "C" void Win32_IP_ADAPTER_ADDRESSES_t680756680_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Win32_IP_ADAPTER_ADDRESSES_t680756680_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Win32_IP_ADAPTER_ADDRESSES_t680756680_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType Win32_IP_ADAPTER_ADDRESSES_t680756680_0_0_0;
+extern "C" void Win32_IP_ADAPTER_INFO_t2310876292_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Win32_IP_ADAPTER_INFO_t2310876292_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Win32_IP_ADAPTER_INFO_t2310876292_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType Win32_IP_ADAPTER_INFO_t2310876292_0_0_0;
+extern "C" void Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType Win32_IP_ADDR_STRING_t2646152127_0_0_0;
+extern "C" void Win32_IP_PER_ADAPTER_INFO_t1280460216_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Win32_IP_PER_ADAPTER_INFO_t1280460216_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Win32_IP_PER_ADAPTER_INFO_t1280460216_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType Win32_IP_PER_ADAPTER_INFO_t1280460216_0_0_0;
+extern "C" void Win32_MIB_ICMP_EX_t2748725486_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Win32_MIB_ICMP_EX_t2748725486_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Win32_MIB_ICMP_EX_t2748725486_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType Win32_MIB_ICMP_EX_t2748725486_0_0_0;
+extern "C" void Win32_MIB_IFROW_t4215928996_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Win32_MIB_IFROW_t4215928996_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Win32_MIB_IFROW_t4215928996_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType Win32_MIB_IFROW_t4215928996_0_0_0;
+extern "C" void Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType Win32_MIBICMPSTATS_EX_t3893422550_0_0_0;
+extern "C" void Win32_SOCKADDR_t1606057231_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Win32_SOCKADDR_t1606057231_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Win32_SOCKADDR_t1606057231_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType Win32_SOCKADDR_t1606057231_0_0_0;
+extern "C" void Win32_IN6_ADDR_t3054921274_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Win32_IN6_ADDR_t3054921274_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Win32_IN6_ADDR_t3054921274_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType Win32_IN6_ADDR_t3054921274_0_0_0;
+extern "C" void Win32_MIB_TCP6ROW_t4007155549_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Win32_MIB_TCP6ROW_t4007155549_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Win32_MIB_TCP6ROW_t4007155549_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType Win32_MIB_TCP6ROW_t4007155549_0_0_0;
+extern "C" void Win32_MIB_TCPROW_t3355732075_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Win32_MIB_TCPROW_t3355732075_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Win32_MIB_TCPROW_t3355732075_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType Win32_MIB_TCPROW_t3355732075_0_0_0;
+extern "C" void Win32_MIB_UDP6ROW_t2989424443_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Win32_MIB_UDP6ROW_t2989424443_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Win32_MIB_UDP6ROW_t2989424443_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType Win32_MIB_UDP6ROW_t2989424443_0_0_0;
+extern "C" void Win32_MIB_UDPROW_t3234258897_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Win32_MIB_UDPROW_t3234258897_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Win32_MIB_UDPROW_t3234258897_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType Win32_MIB_UDPROW_t3234258897_0_0_0;
+extern "C" void IPPacketInformation_t2752501689_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void IPPacketInformation_t2752501689_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void IPPacketInformation_t2752501689_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType IPPacketInformation_t2752501689_0_0_0;
+extern "C" void DelegatePInvokeWrapper_SendFileHandler_t2613075220();
+extern const Il2CppType SendFileHandler_t2613075220_0_0_0;
+extern "C" void DelegatePInvokeWrapper_SocketAsyncCall_t3737776727();
+extern const Il2CppType SocketAsyncCall_t3737776727_0_0_0;
+extern "C" void SocketAsyncResult_t2959281146_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void SocketAsyncResult_t2959281146_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void SocketAsyncResult_t2959281146_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType SocketAsyncResult_t2959281146_0_0_0;
+extern "C" void SocketInformation_t527079125_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void SocketInformation_t527079125_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void SocketInformation_t527079125_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType SocketInformation_t527079125_0_0_0;
+extern "C" void X509ChainStatus_t4278378721_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void X509ChainStatus_t4278378721_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void X509ChainStatus_t4278378721_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType X509ChainStatus_t4278378721_0_0_0;
+extern "C" void IntStack_t273560425_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void IntStack_t273560425_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void IntStack_t273560425_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType IntStack_t273560425_0_0_0;
+extern "C" void Interval_t2354235237_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void Interval_t2354235237_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void Interval_t2354235237_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType Interval_t2354235237_0_0_0;
+extern "C" void DelegatePInvokeWrapper_CostDelegate_t1824458113();
+extern const Il2CppType CostDelegate_t1824458113_0_0_0;
+extern "C" void IntStack_t3288646651_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void IntStack_t3288646651_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void IntStack_t3288646651_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType IntStack_t3288646651_0_0_0;
+extern "C" void UriScheme_t1876590943_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void UriScheme_t1876590943_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void UriScheme_t1876590943_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType UriScheme_t1876590943_0_0_0;
+extern "C" void DelegatePInvokeWrapper_Action_t3226471752();
+extern const Il2CppType Action_t3226471752_0_0_0;
+extern "C" void CancellationToken_t1851405782_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void CancellationToken_t1851405782_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void CancellationToken_t1851405782_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType CancellationToken_t1851405782_0_0_0;
+extern "C" void CancellationTokenRegistration_t1708859357_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
+extern "C" void CancellationTokenRegistration_t1708859357_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
+extern "C" void CancellationTokenRegistration_t1708859357_marshal_pinvoke_cleanup(void* marshaledStructure);
+extern const Il2CppType CancellationTokenRegistration_t1708859357_0_0_0;
 extern "C" void AnimationCurve_t3306541151_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
 extern "C" void AnimationCurve_t3306541151_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void AnimationCurve_t3306541151_marshal_pinvoke_cleanup(void* marshaledStructure);
@@ -368,6 +500,24 @@ extern "C" void YieldInstruction_t3462875981_marshal_pinvoke(void* managedStruct
 extern "C" void YieldInstruction_t3462875981_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void YieldInstruction_t3462875981_marshal_pinvoke_cleanup(void* marshaledStructure);
 extern const Il2CppType YieldInstruction_t3462875981_0_0_0;
+extern "C" void DelegatePInvokeWrapper_ExceptionArgumentDelegate_t2443153790();
+extern const Il2CppType ExceptionArgumentDelegate_t2443153790_0_0_0;
+extern "C" void DelegatePInvokeWrapper_ExceptionDelegate_t2876249339();
+extern const Il2CppType ExceptionDelegate_t2876249339_0_0_0;
+extern "C" void DelegatePInvokeWrapper_SWIGStringDelegate_t18001273();
+extern const Il2CppType SWIGStringDelegate_t18001273_0_0_0;
+extern "C" void DelegatePInvokeWrapper_DestroyDelegate_t3635929227();
+extern const Il2CppType DestroyDelegate_t3635929227_0_0_0;
+extern "C" void DelegatePInvokeWrapper_LogMessageDelegate_t1988210674();
+extern const Il2CppType LogMessageDelegate_t1988210674_0_0_0;
+extern "C" void DelegatePInvokeWrapper_Action_t3062064994();
+extern const Il2CppType Action_t3062064994_0_0_0;
+extern "C" void DelegatePInvokeWrapper_SWIG_CompletionDelegate_t1819656562();
+extern const Il2CppType SWIG_CompletionDelegate_t1819656562_0_0_0;
+extern "C" void DelegatePInvokeWrapper_Action_t2847228577();
+extern const Il2CppType Action_t2847228577_0_0_0;
+extern "C" void DelegatePInvokeWrapper_SWIG_CompletionDelegate_t2903358321();
+extern const Il2CppType SWIG_CompletionDelegate_t2903358321_0_0_0;
 extern "C" void RaycastResult_t21186376_marshal_pinvoke(void* managedStructure, void* marshaledStructure);
 extern "C" void RaycastResult_t21186376_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void RaycastResult_t21186376_marshal_pinvoke_cleanup(void* marshaledStructure);
@@ -394,7 +544,7 @@ extern "C" void SpriteState_t1353336012_marshal_pinvoke(void* managedStructure, 
 extern "C" void SpriteState_t1353336012_marshal_pinvoke_back(void* marshaledStructure, void* managedStructure);
 extern "C" void SpriteState_t1353336012_marshal_pinvoke_cleanup(void* marshaledStructure);
 extern const Il2CppType SpriteState_t1353336012_0_0_0;
-extern Il2CppInteropData g_Il2CppInteropData[111] = 
+extern Il2CppInteropData g_Il2CppInteropData[156] = 
 {
 	{ NULL, Context_t2636657155_marshal_pinvoke, Context_t2636657155_marshal_pinvoke_back, Context_t2636657155_marshal_pinvoke_cleanup, NULL, NULL, &Context_t2636657155_0_0_0 } /* Mono.Globalization.Unicode.SimpleCollator/Context */,
 	{ NULL, Escape_t169451053_marshal_pinvoke, Escape_t169451053_marshal_pinvoke_back, Escape_t169451053_marshal_pinvoke_cleanup, NULL, NULL, &Escape_t169451053_0_0_0 } /* Mono.Globalization.Unicode.SimpleCollator/Escape */,
@@ -432,21 +582,9 @@ extern Il2CppInteropData g_Il2CppInteropData[111] =
 	{ NULL, RSAParameters_t1462703416_marshal_pinvoke, RSAParameters_t1462703416_marshal_pinvoke_back, RSAParameters_t1462703416_marshal_pinvoke_cleanup, NULL, NULL, &RSAParameters_t1462703416_0_0_0 } /* System.Security.Cryptography.RSAParameters */,
 	{ NULL, SNIP_t4214504621_marshal_pinvoke, SNIP_t4214504621_marshal_pinvoke_back, SNIP_t4214504621_marshal_pinvoke_cleanup, NULL, NULL, &SNIP_t4214504621_0_0_0 } /* System.Security.Permissions.StrongNameIdentityPermission/SNIP */,
 	{ NULL, SecurityFrame_t1002202659_marshal_pinvoke, SecurityFrame_t1002202659_marshal_pinvoke_back, SecurityFrame_t1002202659_marshal_pinvoke_cleanup, NULL, NULL, &SecurityFrame_t1002202659_0_0_0 } /* System.Security.SecurityFrame */,
+	{ NULL, AsyncFlowControl_t3236298431_marshal_pinvoke, AsyncFlowControl_t3236298431_marshal_pinvoke_back, AsyncFlowControl_t3236298431_marshal_pinvoke_cleanup, NULL, NULL, &AsyncFlowControl_t3236298431_0_0_0 } /* System.Threading.AsyncFlowControl */,
 	{ DelegatePInvokeWrapper_ThreadStart_t3437517264, NULL, NULL, NULL, NULL, NULL, &ThreadStart_t3437517264_0_0_0 } /* System.Threading.ThreadStart */,
 	{ NULL, ValueType_t3507792607_marshal_pinvoke, ValueType_t3507792607_marshal_pinvoke_back, ValueType_t3507792607_marshal_pinvoke_cleanup, NULL, NULL, &ValueType_t3507792607_0_0_0 } /* System.ValueType */,
-	{ DelegatePInvokeWrapper_ReadMethod_t3362229488, NULL, NULL, NULL, NULL, NULL, &ReadMethod_t3362229488_0_0_0 } /* System.IO.Compression.DeflateStream/ReadMethod */,
-	{ DelegatePInvokeWrapper_UnmanagedReadOrWrite_t1990215745, NULL, NULL, NULL, NULL, NULL, &UnmanagedReadOrWrite_t1990215745_0_0_0 } /* System.IO.Compression.DeflateStream/UnmanagedReadOrWrite */,
-	{ DelegatePInvokeWrapper_WriteMethod_t1894833619, NULL, NULL, NULL, NULL, NULL, &WriteMethod_t1894833619_0_0_0 } /* System.IO.Compression.DeflateStream/WriteMethod */,
-	{ DelegatePInvokeWrapper_ReadDelegate_t1559754630, NULL, NULL, NULL, NULL, NULL, &ReadDelegate_t1559754630_0_0_0 } /* System.Net.FtpDataStream/ReadDelegate */,
-	{ DelegatePInvokeWrapper_WriteDelegate_t888270799, NULL, NULL, NULL, NULL, NULL, &WriteDelegate_t888270799_0_0_0 } /* System.Net.FtpDataStream/WriteDelegate */,
-	{ DelegatePInvokeWrapper_SocketAsyncCall_t3737776727, NULL, NULL, NULL, NULL, NULL, &SocketAsyncCall_t3737776727_0_0_0 } /* System.Net.Sockets.Socket/SocketAsyncCall */,
-	{ NULL, SocketAsyncResult_t2959281146_marshal_pinvoke, SocketAsyncResult_t2959281146_marshal_pinvoke_back, SocketAsyncResult_t2959281146_marshal_pinvoke_cleanup, NULL, NULL, &SocketAsyncResult_t2959281146_0_0_0 } /* System.Net.Sockets.Socket/SocketAsyncResult */,
-	{ NULL, X509ChainStatus_t4278378721_marshal_pinvoke, X509ChainStatus_t4278378721_marshal_pinvoke_back, X509ChainStatus_t4278378721_marshal_pinvoke_cleanup, NULL, NULL, &X509ChainStatus_t4278378721_0_0_0 } /* System.Security.Cryptography.X509Certificates.X509ChainStatus */,
-	{ NULL, IntStack_t273560425_marshal_pinvoke, IntStack_t273560425_marshal_pinvoke_back, IntStack_t273560425_marshal_pinvoke_cleanup, NULL, NULL, &IntStack_t273560425_0_0_0 } /* System.Text.RegularExpressions.Interpreter/IntStack */,
-	{ NULL, Interval_t2354235237_marshal_pinvoke, Interval_t2354235237_marshal_pinvoke_back, Interval_t2354235237_marshal_pinvoke_cleanup, NULL, NULL, &Interval_t2354235237_0_0_0 } /* System.Text.RegularExpressions.Interval */,
-	{ DelegatePInvokeWrapper_CostDelegate_t1824458113, NULL, NULL, NULL, NULL, NULL, &CostDelegate_t1824458113_0_0_0 } /* System.Text.RegularExpressions.IntervalCollection/CostDelegate */,
-	{ NULL, IntStack_t3288646651_marshal_pinvoke, IntStack_t3288646651_marshal_pinvoke_back, IntStack_t3288646651_marshal_pinvoke_cleanup, NULL, NULL, &IntStack_t3288646651_0_0_0 } /* System.Text.RegularExpressions.RxInterpreter/IntStack */,
-	{ NULL, UriScheme_t1876590943_marshal_pinvoke, UriScheme_t1876590943_marshal_pinvoke_back, UriScheme_t1876590943_marshal_pinvoke_cleanup, NULL, NULL, &UriScheme_t1876590943_0_0_0 } /* System.Uri/UriScheme */,
 	{ NULL, TagName_t2340974457_marshal_pinvoke, TagName_t2340974457_marshal_pinvoke_back, TagName_t2340974457_marshal_pinvoke_cleanup, NULL, NULL, &TagName_t2340974457_0_0_0 } /* Mono.Xml2.XmlTextReader/TagName */,
 	{ NULL, QNameValueType_t2109511131_marshal_pinvoke, QNameValueType_t2109511131_marshal_pinvoke_back, QNameValueType_t2109511131_marshal_pinvoke_cleanup, NULL, NULL, &QNameValueType_t2109511131_0_0_0 } /* System.Xml.Schema.QNameValueType */,
 	{ NULL, StringArrayValueType_t1731700877_marshal_pinvoke, StringArrayValueType_t1731700877_marshal_pinvoke_back, StringArrayValueType_t1731700877_marshal_pinvoke_cleanup, NULL, NULL, &StringArrayValueType_t1731700877_0_0_0 } /* System.Xml.Schema.StringArrayValueType */,
@@ -455,6 +593,54 @@ extern Il2CppInteropData g_Il2CppInteropData[111] =
 	{ NULL, NsDecl_t3210081295_marshal_pinvoke, NsDecl_t3210081295_marshal_pinvoke_back, NsDecl_t3210081295_marshal_pinvoke_cleanup, NULL, NULL, &NsDecl_t3210081295_0_0_0 } /* System.Xml.XmlNamespaceManager/NsDecl */,
 	{ NULL, NsScope_t2513625351_marshal_pinvoke, NsScope_t2513625351_marshal_pinvoke_back, NsScope_t2513625351_marshal_pinvoke_cleanup, NULL, NULL, &NsScope_t2513625351_0_0_0 } /* System.Xml.XmlNamespaceManager/NsScope */,
 	{ DelegatePInvokeWrapper_CharGetter_t1955031820, NULL, NULL, NULL, NULL, NULL, &CharGetter_t1955031820_0_0_0 } /* System.Xml.XmlReaderBinarySupport/CharGetter */,
+	{ NULL, X509IssuerSerial_t1582182491_marshal_pinvoke, X509IssuerSerial_t1582182491_marshal_pinvoke_back, X509IssuerSerial_t1582182491_marshal_pinvoke_cleanup, NULL, NULL, &X509IssuerSerial_t1582182491_0_0_0 } /* System.Security.Cryptography.Xml.X509IssuerSerial */,
+	{ DelegatePInvokeWrapper_StreamChangeCallback_t1492982741, NULL, NULL, NULL, NULL, NULL, &StreamChangeCallback_t1492982741_0_0_0 } /* System.Configuration.Internal.StreamChangeCallback */,
+	{ DelegatePInvokeWrapper_AsyncReadHandler_t1533281179, NULL, NULL, NULL, NULL, NULL, &AsyncReadHandler_t1533281179_0_0_0 } /* System.Diagnostics.Process/AsyncReadHandler */,
+	{ NULL, ProcessAsyncReader_t2663114743_marshal_pinvoke, ProcessAsyncReader_t2663114743_marshal_pinvoke_back, ProcessAsyncReader_t2663114743_marshal_pinvoke_cleanup, NULL, NULL, &ProcessAsyncReader_t2663114743_0_0_0 } /* System.Diagnostics.Process/ProcessAsyncReader */,
+	{ NULL, ProcInfo_t2768253291_marshal_pinvoke, ProcInfo_t2768253291_marshal_pinvoke_back, ProcInfo_t2768253291_marshal_pinvoke_cleanup, NULL, NULL, &ProcInfo_t2768253291_0_0_0 } /* System.Diagnostics.Process/ProcInfo */,
+	{ DelegatePInvokeWrapper_ReadMethod_t3362229488, NULL, NULL, NULL, NULL, NULL, &ReadMethod_t3362229488_0_0_0 } /* System.IO.Compression.DeflateStream/ReadMethod */,
+	{ DelegatePInvokeWrapper_UnmanagedReadOrWrite_t1990215745, NULL, NULL, NULL, NULL, NULL, &UnmanagedReadOrWrite_t1990215745_0_0_0 } /* System.IO.Compression.DeflateStream/UnmanagedReadOrWrite */,
+	{ DelegatePInvokeWrapper_WriteMethod_t1894833619, NULL, NULL, NULL, NULL, NULL, &WriteMethod_t1894833619_0_0_0 } /* System.IO.Compression.DeflateStream/WriteMethod */,
+	{ DelegatePInvokeWrapper_ReadDelegate_t1599878889, NULL, NULL, NULL, NULL, NULL, &ReadDelegate_t1599878889_0_0_0 } /* System.IO.MonoSyncFileStream/ReadDelegate */,
+	{ DelegatePInvokeWrapper_WriteDelegate_t453000516, NULL, NULL, NULL, NULL, NULL, &WriteDelegate_t453000516_0_0_0 } /* System.IO.MonoSyncFileStream/WriteDelegate */,
+	{ DelegatePInvokeWrapper_ReadDelegate_t1559754630, NULL, NULL, NULL, NULL, NULL, &ReadDelegate_t1559754630_0_0_0 } /* System.Net.FtpDataStream/ReadDelegate */,
+	{ DelegatePInvokeWrapper_WriteDelegate_t888270799, NULL, NULL, NULL, NULL, NULL, &WriteDelegate_t888270799_0_0_0 } /* System.Net.FtpDataStream/WriteDelegate */,
+	{ NULL, ifaddrs_t2532459533_marshal_pinvoke, ifaddrs_t2532459533_marshal_pinvoke_back, ifaddrs_t2532459533_marshal_pinvoke_cleanup, NULL, NULL, &ifaddrs_t2532459533_0_0_0 } /* System.Net.NetworkInformation.ifaddrs */,
+	{ NULL, in6_addr_t4035827331_marshal_pinvoke, in6_addr_t4035827331_marshal_pinvoke_back, in6_addr_t4035827331_marshal_pinvoke_cleanup, NULL, NULL, &in6_addr_t4035827331_0_0_0 } /* System.Net.NetworkInformation.in6_addr */,
+	{ NULL, ifaddrs_t937751619_marshal_pinvoke, ifaddrs_t937751619_marshal_pinvoke_back, ifaddrs_t937751619_marshal_pinvoke_cleanup, NULL, NULL, &ifaddrs_t937751619_0_0_0 } /* System.Net.NetworkInformation.MacOsStructs.ifaddrs */,
+	{ NULL, in6_addr_t1014645363_marshal_pinvoke, in6_addr_t1014645363_marshal_pinvoke_back, in6_addr_t1014645363_marshal_pinvoke_cleanup, NULL, NULL, &in6_addr_t1014645363_0_0_0 } /* System.Net.NetworkInformation.MacOsStructs.in6_addr */,
+	{ NULL, sockaddr_dl_t3955242742_marshal_pinvoke, sockaddr_dl_t3955242742_marshal_pinvoke_back, sockaddr_dl_t3955242742_marshal_pinvoke_cleanup, NULL, NULL, &sockaddr_dl_t3955242742_0_0_0 } /* System.Net.NetworkInformation.MacOsStructs.sockaddr_dl */,
+	{ NULL, sockaddr_in6_t834146887_marshal_pinvoke, sockaddr_in6_t834146887_marshal_pinvoke_back, sockaddr_in6_t834146887_marshal_pinvoke_cleanup, NULL, NULL, &sockaddr_in6_t834146887_0_0_0 } /* System.Net.NetworkInformation.MacOsStructs.sockaddr_in6 */,
+	{ NULL, sockaddr_in6_t2899168071_marshal_pinvoke, sockaddr_in6_t2899168071_marshal_pinvoke_back, sockaddr_in6_t2899168071_marshal_pinvoke_cleanup, NULL, NULL, &sockaddr_in6_t2899168071_0_0_0 } /* System.Net.NetworkInformation.sockaddr_in6 */,
+	{ NULL, sockaddr_ll_t1681025498_marshal_pinvoke, sockaddr_ll_t1681025498_marshal_pinvoke_back, sockaddr_ll_t1681025498_marshal_pinvoke_cleanup, NULL, NULL, &sockaddr_ll_t1681025498_0_0_0 } /* System.Net.NetworkInformation.sockaddr_ll */,
+	{ NULL, Win32_FIXED_INFO_t1371335919_marshal_pinvoke, Win32_FIXED_INFO_t1371335919_marshal_pinvoke_back, Win32_FIXED_INFO_t1371335919_marshal_pinvoke_cleanup, NULL, NULL, &Win32_FIXED_INFO_t1371335919_0_0_0 } /* System.Net.NetworkInformation.Win32_FIXED_INFO */,
+	{ NULL, Win32_IP_ADAPTER_ADDRESSES_t680756680_marshal_pinvoke, Win32_IP_ADAPTER_ADDRESSES_t680756680_marshal_pinvoke_back, Win32_IP_ADAPTER_ADDRESSES_t680756680_marshal_pinvoke_cleanup, NULL, NULL, &Win32_IP_ADAPTER_ADDRESSES_t680756680_0_0_0 } /* System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES */,
+	{ NULL, Win32_IP_ADAPTER_INFO_t2310876292_marshal_pinvoke, Win32_IP_ADAPTER_INFO_t2310876292_marshal_pinvoke_back, Win32_IP_ADAPTER_INFO_t2310876292_marshal_pinvoke_cleanup, NULL, NULL, &Win32_IP_ADAPTER_INFO_t2310876292_0_0_0 } /* System.Net.NetworkInformation.Win32_IP_ADAPTER_INFO */,
+	{ NULL, Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke, Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_back, Win32_IP_ADDR_STRING_t2646152127_marshal_pinvoke_cleanup, NULL, NULL, &Win32_IP_ADDR_STRING_t2646152127_0_0_0 } /* System.Net.NetworkInformation.Win32_IP_ADDR_STRING */,
+	{ NULL, Win32_IP_PER_ADAPTER_INFO_t1280460216_marshal_pinvoke, Win32_IP_PER_ADAPTER_INFO_t1280460216_marshal_pinvoke_back, Win32_IP_PER_ADAPTER_INFO_t1280460216_marshal_pinvoke_cleanup, NULL, NULL, &Win32_IP_PER_ADAPTER_INFO_t1280460216_0_0_0 } /* System.Net.NetworkInformation.Win32_IP_PER_ADAPTER_INFO */,
+	{ NULL, Win32_MIB_ICMP_EX_t2748725486_marshal_pinvoke, Win32_MIB_ICMP_EX_t2748725486_marshal_pinvoke_back, Win32_MIB_ICMP_EX_t2748725486_marshal_pinvoke_cleanup, NULL, NULL, &Win32_MIB_ICMP_EX_t2748725486_0_0_0 } /* System.Net.NetworkInformation.Win32_MIB_ICMP_EX */,
+	{ NULL, Win32_MIB_IFROW_t4215928996_marshal_pinvoke, Win32_MIB_IFROW_t4215928996_marshal_pinvoke_back, Win32_MIB_IFROW_t4215928996_marshal_pinvoke_cleanup, NULL, NULL, &Win32_MIB_IFROW_t4215928996_0_0_0 } /* System.Net.NetworkInformation.Win32_MIB_IFROW */,
+	{ NULL, Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke, Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke_back, Win32_MIBICMPSTATS_EX_t3893422550_marshal_pinvoke_cleanup, NULL, NULL, &Win32_MIBICMPSTATS_EX_t3893422550_0_0_0 } /* System.Net.NetworkInformation.Win32_MIBICMPSTATS_EX */,
+	{ NULL, Win32_SOCKADDR_t1606057231_marshal_pinvoke, Win32_SOCKADDR_t1606057231_marshal_pinvoke_back, Win32_SOCKADDR_t1606057231_marshal_pinvoke_cleanup, NULL, NULL, &Win32_SOCKADDR_t1606057231_0_0_0 } /* System.Net.NetworkInformation.Win32_SOCKADDR */,
+	{ NULL, Win32_IN6_ADDR_t3054921274_marshal_pinvoke, Win32_IN6_ADDR_t3054921274_marshal_pinvoke_back, Win32_IN6_ADDR_t3054921274_marshal_pinvoke_cleanup, NULL, NULL, &Win32_IN6_ADDR_t3054921274_0_0_0 } /* System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_IN6_ADDR */,
+	{ NULL, Win32_MIB_TCP6ROW_t4007155549_marshal_pinvoke, Win32_MIB_TCP6ROW_t4007155549_marshal_pinvoke_back, Win32_MIB_TCP6ROW_t4007155549_marshal_pinvoke_cleanup, NULL, NULL, &Win32_MIB_TCP6ROW_t4007155549_0_0_0 } /* System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW */,
+	{ NULL, Win32_MIB_TCPROW_t3355732075_marshal_pinvoke, Win32_MIB_TCPROW_t3355732075_marshal_pinvoke_back, Win32_MIB_TCPROW_t3355732075_marshal_pinvoke_cleanup, NULL, NULL, &Win32_MIB_TCPROW_t3355732075_0_0_0 } /* System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW */,
+	{ NULL, Win32_MIB_UDP6ROW_t2989424443_marshal_pinvoke, Win32_MIB_UDP6ROW_t2989424443_marshal_pinvoke_back, Win32_MIB_UDP6ROW_t2989424443_marshal_pinvoke_cleanup, NULL, NULL, &Win32_MIB_UDP6ROW_t2989424443_0_0_0 } /* System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_UDP6ROW */,
+	{ NULL, Win32_MIB_UDPROW_t3234258897_marshal_pinvoke, Win32_MIB_UDPROW_t3234258897_marshal_pinvoke_back, Win32_MIB_UDPROW_t3234258897_marshal_pinvoke_cleanup, NULL, NULL, &Win32_MIB_UDPROW_t3234258897_0_0_0 } /* System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_UDPROW */,
+	{ NULL, IPPacketInformation_t2752501689_marshal_pinvoke, IPPacketInformation_t2752501689_marshal_pinvoke_back, IPPacketInformation_t2752501689_marshal_pinvoke_cleanup, NULL, NULL, &IPPacketInformation_t2752501689_0_0_0 } /* System.Net.Sockets.IPPacketInformation */,
+	{ DelegatePInvokeWrapper_SendFileHandler_t2613075220, NULL, NULL, NULL, NULL, NULL, &SendFileHandler_t2613075220_0_0_0 } /* System.Net.Sockets.Socket/SendFileHandler */,
+	{ DelegatePInvokeWrapper_SocketAsyncCall_t3737776727, NULL, NULL, NULL, NULL, NULL, &SocketAsyncCall_t3737776727_0_0_0 } /* System.Net.Sockets.Socket/SocketAsyncCall */,
+	{ NULL, SocketAsyncResult_t2959281146_marshal_pinvoke, SocketAsyncResult_t2959281146_marshal_pinvoke_back, SocketAsyncResult_t2959281146_marshal_pinvoke_cleanup, NULL, NULL, &SocketAsyncResult_t2959281146_0_0_0 } /* System.Net.Sockets.Socket/SocketAsyncResult */,
+	{ NULL, SocketInformation_t527079125_marshal_pinvoke, SocketInformation_t527079125_marshal_pinvoke_back, SocketInformation_t527079125_marshal_pinvoke_cleanup, NULL, NULL, &SocketInformation_t527079125_0_0_0 } /* System.Net.Sockets.SocketInformation */,
+	{ NULL, X509ChainStatus_t4278378721_marshal_pinvoke, X509ChainStatus_t4278378721_marshal_pinvoke_back, X509ChainStatus_t4278378721_marshal_pinvoke_cleanup, NULL, NULL, &X509ChainStatus_t4278378721_0_0_0 } /* System.Security.Cryptography.X509Certificates.X509ChainStatus */,
+	{ NULL, IntStack_t273560425_marshal_pinvoke, IntStack_t273560425_marshal_pinvoke_back, IntStack_t273560425_marshal_pinvoke_cleanup, NULL, NULL, &IntStack_t273560425_0_0_0 } /* System.Text.RegularExpressions.Interpreter/IntStack */,
+	{ NULL, Interval_t2354235237_marshal_pinvoke, Interval_t2354235237_marshal_pinvoke_back, Interval_t2354235237_marshal_pinvoke_cleanup, NULL, NULL, &Interval_t2354235237_0_0_0 } /* System.Text.RegularExpressions.Interval */,
+	{ DelegatePInvokeWrapper_CostDelegate_t1824458113, NULL, NULL, NULL, NULL, NULL, &CostDelegate_t1824458113_0_0_0 } /* System.Text.RegularExpressions.IntervalCollection/CostDelegate */,
+	{ NULL, IntStack_t3288646651_marshal_pinvoke, IntStack_t3288646651_marshal_pinvoke_back, IntStack_t3288646651_marshal_pinvoke_cleanup, NULL, NULL, &IntStack_t3288646651_0_0_0 } /* System.Text.RegularExpressions.RxInterpreter/IntStack */,
+	{ NULL, UriScheme_t1876590943_marshal_pinvoke, UriScheme_t1876590943_marshal_pinvoke_back, UriScheme_t1876590943_marshal_pinvoke_cleanup, NULL, NULL, &UriScheme_t1876590943_0_0_0 } /* System.Uri/UriScheme */,
+	{ DelegatePInvokeWrapper_Action_t3226471752, NULL, NULL, NULL, NULL, NULL, &Action_t3226471752_0_0_0 } /* System.Action */,
+	{ NULL, CancellationToken_t1851405782_marshal_pinvoke, CancellationToken_t1851405782_marshal_pinvoke_back, CancellationToken_t1851405782_marshal_pinvoke_cleanup, NULL, NULL, &CancellationToken_t1851405782_0_0_0 } /* System.Threading.CancellationToken */,
+	{ NULL, CancellationTokenRegistration_t1708859357_marshal_pinvoke, CancellationTokenRegistration_t1708859357_marshal_pinvoke_back, CancellationTokenRegistration_t1708859357_marshal_pinvoke_cleanup, NULL, NULL, &CancellationTokenRegistration_t1708859357_0_0_0 } /* System.Threading.CancellationTokenRegistration */,
 	{ NULL, AnimationCurve_t3306541151_marshal_pinvoke, AnimationCurve_t3306541151_marshal_pinvoke_back, AnimationCurve_t3306541151_marshal_pinvoke_cleanup, NULL, NULL, &AnimationCurve_t3306541151_0_0_0 } /* UnityEngine.AnimationCurve */,
 	{ NULL, AnimationEvent_t2428323300_marshal_pinvoke, AnimationEvent_t2428323300_marshal_pinvoke_back, AnimationEvent_t2428323300_marshal_pinvoke_cleanup, NULL, NULL, &AnimationEvent_t2428323300_0_0_0 } /* UnityEngine.AnimationEvent */,
 	{ NULL, AnimatorTransitionInfo_t2410896200_marshal_pinvoke, AnimatorTransitionInfo_t2410896200_marshal_pinvoke_back, AnimatorTransitionInfo_t2410896200_marshal_pinvoke_cleanup, NULL, NULL, &AnimatorTransitionInfo_t2410896200_0_0_0 } /* UnityEngine.AnimatorTransitionInfo */,
@@ -499,6 +685,15 @@ extern Il2CppInteropData g_Il2CppInteropData[111] =
 	{ NULL, TrackedReference_t1045890189_marshal_pinvoke, TrackedReference_t1045890189_marshal_pinvoke_back, TrackedReference_t1045890189_marshal_pinvoke_cleanup, NULL, NULL, &TrackedReference_t1045890189_0_0_0 } /* UnityEngine.TrackedReference */,
 	{ NULL, WaitForSeconds_t3839502067_marshal_pinvoke, WaitForSeconds_t3839502067_marshal_pinvoke_back, WaitForSeconds_t3839502067_marshal_pinvoke_cleanup, NULL, NULL, &WaitForSeconds_t3839502067_0_0_0 } /* UnityEngine.WaitForSeconds */,
 	{ NULL, YieldInstruction_t3462875981_marshal_pinvoke, YieldInstruction_t3462875981_marshal_pinvoke_back, YieldInstruction_t3462875981_marshal_pinvoke_cleanup, NULL, NULL, &YieldInstruction_t3462875981_0_0_0 } /* UnityEngine.YieldInstruction */,
+	{ DelegatePInvokeWrapper_ExceptionArgumentDelegate_t2443153790, NULL, NULL, NULL, NULL, NULL, &ExceptionArgumentDelegate_t2443153790_0_0_0 } /* Firebase.AppUtilPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate */,
+	{ DelegatePInvokeWrapper_ExceptionDelegate_t2876249339, NULL, NULL, NULL, NULL, NULL, &ExceptionDelegate_t2876249339_0_0_0 } /* Firebase.AppUtilPINVOKE/SWIGExceptionHelper/ExceptionDelegate */,
+	{ DelegatePInvokeWrapper_SWIGStringDelegate_t18001273, NULL, NULL, NULL, NULL, NULL, &SWIGStringDelegate_t18001273_0_0_0 } /* Firebase.AppUtilPINVOKE/SWIGStringHelper/SWIGStringDelegate */,
+	{ DelegatePInvokeWrapper_DestroyDelegate_t3635929227, NULL, NULL, NULL, NULL, NULL, &DestroyDelegate_t3635929227_0_0_0 } /* Firebase.FirebaseApp/DestroyDelegate */,
+	{ DelegatePInvokeWrapper_LogMessageDelegate_t1988210674, NULL, NULL, NULL, NULL, NULL, &LogMessageDelegate_t1988210674_0_0_0 } /* Firebase.FirebaseApp/FirebaseHandler/LogMessageDelegate */,
+	{ DelegatePInvokeWrapper_Action_t3062064994, NULL, NULL, NULL, NULL, NULL, &Action_t3062064994_0_0_0 } /* Firebase.FutureString/Action */,
+	{ DelegatePInvokeWrapper_SWIG_CompletionDelegate_t1819656562, NULL, NULL, NULL, NULL, NULL, &SWIG_CompletionDelegate_t1819656562_0_0_0 } /* Firebase.FutureString/SWIG_CompletionDelegate */,
+	{ DelegatePInvokeWrapper_Action_t2847228577, NULL, NULL, NULL, NULL, NULL, &Action_t2847228577_0_0_0 } /* Firebase.FutureVoid/Action */,
+	{ DelegatePInvokeWrapper_SWIG_CompletionDelegate_t2903358321, NULL, NULL, NULL, NULL, NULL, &SWIG_CompletionDelegate_t2903358321_0_0_0 } /* Firebase.FutureVoid/SWIG_CompletionDelegate */,
 	{ NULL, RaycastResult_t21186376_marshal_pinvoke, RaycastResult_t21186376_marshal_pinvoke_back, RaycastResult_t21186376_marshal_pinvoke_cleanup, NULL, NULL, &RaycastResult_t21186376_0_0_0 } /* UnityEngine.EventSystems.RaycastResult */,
 	{ NULL, ColorTween_t3438117476_marshal_pinvoke, ColorTween_t3438117476_marshal_pinvoke_back, ColorTween_t3438117476_marshal_pinvoke_cleanup, NULL, NULL, &ColorTween_t3438117476_0_0_0 } /* UnityEngine.UI.CoroutineTween.ColorTween */,
 	{ NULL, FloatTween_t2986189219_marshal_pinvoke, FloatTween_t2986189219_marshal_pinvoke_back, FloatTween_t2986189219_marshal_pinvoke_cleanup, NULL, NULL, &FloatTween_t2986189219_0_0_0 } /* UnityEngine.UI.CoroutineTween.FloatTween */,

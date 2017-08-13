@@ -36,16 +36,16 @@ struct ProviderSettingsCollection_t585304908_StaticFields
 {
 public:
 	// System.Configuration.ConfigurationPropertyCollection System.Configuration.ProviderSettingsCollection::props
-	ConfigurationPropertyCollection_t3473514151 * ___props_23;
+	ConfigurationPropertyCollection_t3473514151 * ___props_24;
 
 public:
-	inline static int32_t get_offset_of_props_23() { return static_cast<int32_t>(offsetof(ProviderSettingsCollection_t585304908_StaticFields, ___props_23)); }
-	inline ConfigurationPropertyCollection_t3473514151 * get_props_23() const { return ___props_23; }
-	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_props_23() { return &___props_23; }
-	inline void set_props_23(ConfigurationPropertyCollection_t3473514151 * value)
+	inline static int32_t get_offset_of_props_24() { return static_cast<int32_t>(offsetof(ProviderSettingsCollection_t585304908_StaticFields, ___props_24)); }
+	inline ConfigurationPropertyCollection_t3473514151 * get_props_24() const { return ___props_24; }
+	inline ConfigurationPropertyCollection_t3473514151 ** get_address_of_props_24() { return &___props_24; }
+	inline void set_props_24(ConfigurationPropertyCollection_t3473514151 * value)
 	{
-		___props_23 = value;
-		Il2CppCodeGenWriteBarrier(&___props_23, value);
+		___props_24 = value;
+		Il2CppCodeGenWriteBarrier(&___props_24, value);
 	}
 };
 

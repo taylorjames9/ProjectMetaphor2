@@ -30,26 +30,26 @@ struct  TlsServerKeyExchange_t2172608670  : public HandshakeMessage_t3938752374
 {
 public:
 	// System.Security.Cryptography.RSAParameters Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::rsaParams
-	RSAParameters_t1462703416  ___rsaParams_10;
+	RSAParameters_t1462703416  ___rsaParams_11;
 	// System.Byte[] Mono.Security.Protocol.Tls.Handshake.Client.TlsServerKeyExchange::signedParams
-	ByteU5BU5D_t3397334013* ___signedParams_11;
+	ByteU5BU5D_t3397334013* ___signedParams_12;
 
 public:
-	inline static int32_t get_offset_of_rsaParams_10() { return static_cast<int32_t>(offsetof(TlsServerKeyExchange_t2172608670, ___rsaParams_10)); }
-	inline RSAParameters_t1462703416  get_rsaParams_10() const { return ___rsaParams_10; }
-	inline RSAParameters_t1462703416 * get_address_of_rsaParams_10() { return &___rsaParams_10; }
-	inline void set_rsaParams_10(RSAParameters_t1462703416  value)
+	inline static int32_t get_offset_of_rsaParams_11() { return static_cast<int32_t>(offsetof(TlsServerKeyExchange_t2172608670, ___rsaParams_11)); }
+	inline RSAParameters_t1462703416  get_rsaParams_11() const { return ___rsaParams_11; }
+	inline RSAParameters_t1462703416 * get_address_of_rsaParams_11() { return &___rsaParams_11; }
+	inline void set_rsaParams_11(RSAParameters_t1462703416  value)
 	{
-		___rsaParams_10 = value;
+		___rsaParams_11 = value;
 	}
 
-	inline static int32_t get_offset_of_signedParams_11() { return static_cast<int32_t>(offsetof(TlsServerKeyExchange_t2172608670, ___signedParams_11)); }
-	inline ByteU5BU5D_t3397334013* get_signedParams_11() const { return ___signedParams_11; }
-	inline ByteU5BU5D_t3397334013** get_address_of_signedParams_11() { return &___signedParams_11; }
-	inline void set_signedParams_11(ByteU5BU5D_t3397334013* value)
+	inline static int32_t get_offset_of_signedParams_12() { return static_cast<int32_t>(offsetof(TlsServerKeyExchange_t2172608670, ___signedParams_12)); }
+	inline ByteU5BU5D_t3397334013* get_signedParams_12() const { return ___signedParams_12; }
+	inline ByteU5BU5D_t3397334013** get_address_of_signedParams_12() { return &___signedParams_12; }
+	inline void set_signedParams_12(ByteU5BU5D_t3397334013* value)
 	{
-		___signedParams_11 = value;
-		Il2CppCodeGenWriteBarrier(&___signedParams_11, value);
+		___signedParams_12 = value;
+		Il2CppCodeGenWriteBarrier(&___signedParams_12, value);
 	}
 };
 

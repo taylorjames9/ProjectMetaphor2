@@ -31,58 +31,58 @@ struct  SHA256Managed_t2029745292  : public SHA256_t582564463
 {
 public:
 	// System.UInt32[] System.Security.Cryptography.SHA256Managed::_H
-	UInt32U5BU5D_t59386216* ____H_4;
+	UInt32U5BU5D_t59386216* ____H_6;
 	// System.UInt64 System.Security.Cryptography.SHA256Managed::count
-	uint64_t ___count_5;
+	uint64_t ___count_7;
 	// System.Byte[] System.Security.Cryptography.SHA256Managed::_ProcessingBuffer
-	ByteU5BU5D_t3397334013* ____ProcessingBuffer_6;
+	ByteU5BU5D_t3397334013* ____ProcessingBuffer_8;
 	// System.Int32 System.Security.Cryptography.SHA256Managed::_ProcessingBufferCount
-	int32_t ____ProcessingBufferCount_7;
+	int32_t ____ProcessingBufferCount_9;
 	// System.UInt32[] System.Security.Cryptography.SHA256Managed::buff
-	UInt32U5BU5D_t59386216* ___buff_8;
+	UInt32U5BU5D_t59386216* ___buff_10;
 
 public:
-	inline static int32_t get_offset_of__H_4() { return static_cast<int32_t>(offsetof(SHA256Managed_t2029745292, ____H_4)); }
-	inline UInt32U5BU5D_t59386216* get__H_4() const { return ____H_4; }
-	inline UInt32U5BU5D_t59386216** get_address_of__H_4() { return &____H_4; }
-	inline void set__H_4(UInt32U5BU5D_t59386216* value)
+	inline static int32_t get_offset_of__H_6() { return static_cast<int32_t>(offsetof(SHA256Managed_t2029745292, ____H_6)); }
+	inline UInt32U5BU5D_t59386216* get__H_6() const { return ____H_6; }
+	inline UInt32U5BU5D_t59386216** get_address_of__H_6() { return &____H_6; }
+	inline void set__H_6(UInt32U5BU5D_t59386216* value)
 	{
-		____H_4 = value;
-		Il2CppCodeGenWriteBarrier(&____H_4, value);
+		____H_6 = value;
+		Il2CppCodeGenWriteBarrier(&____H_6, value);
 	}
 
-	inline static int32_t get_offset_of_count_5() { return static_cast<int32_t>(offsetof(SHA256Managed_t2029745292, ___count_5)); }
-	inline uint64_t get_count_5() const { return ___count_5; }
-	inline uint64_t* get_address_of_count_5() { return &___count_5; }
-	inline void set_count_5(uint64_t value)
+	inline static int32_t get_offset_of_count_7() { return static_cast<int32_t>(offsetof(SHA256Managed_t2029745292, ___count_7)); }
+	inline uint64_t get_count_7() const { return ___count_7; }
+	inline uint64_t* get_address_of_count_7() { return &___count_7; }
+	inline void set_count_7(uint64_t value)
 	{
-		___count_5 = value;
+		___count_7 = value;
 	}
 
-	inline static int32_t get_offset_of__ProcessingBuffer_6() { return static_cast<int32_t>(offsetof(SHA256Managed_t2029745292, ____ProcessingBuffer_6)); }
-	inline ByteU5BU5D_t3397334013* get__ProcessingBuffer_6() const { return ____ProcessingBuffer_6; }
-	inline ByteU5BU5D_t3397334013** get_address_of__ProcessingBuffer_6() { return &____ProcessingBuffer_6; }
-	inline void set__ProcessingBuffer_6(ByteU5BU5D_t3397334013* value)
+	inline static int32_t get_offset_of__ProcessingBuffer_8() { return static_cast<int32_t>(offsetof(SHA256Managed_t2029745292, ____ProcessingBuffer_8)); }
+	inline ByteU5BU5D_t3397334013* get__ProcessingBuffer_8() const { return ____ProcessingBuffer_8; }
+	inline ByteU5BU5D_t3397334013** get_address_of__ProcessingBuffer_8() { return &____ProcessingBuffer_8; }
+	inline void set__ProcessingBuffer_8(ByteU5BU5D_t3397334013* value)
 	{
-		____ProcessingBuffer_6 = value;
-		Il2CppCodeGenWriteBarrier(&____ProcessingBuffer_6, value);
+		____ProcessingBuffer_8 = value;
+		Il2CppCodeGenWriteBarrier(&____ProcessingBuffer_8, value);
 	}
 
-	inline static int32_t get_offset_of__ProcessingBufferCount_7() { return static_cast<int32_t>(offsetof(SHA256Managed_t2029745292, ____ProcessingBufferCount_7)); }
-	inline int32_t get__ProcessingBufferCount_7() const { return ____ProcessingBufferCount_7; }
-	inline int32_t* get_address_of__ProcessingBufferCount_7() { return &____ProcessingBufferCount_7; }
-	inline void set__ProcessingBufferCount_7(int32_t value)
+	inline static int32_t get_offset_of__ProcessingBufferCount_9() { return static_cast<int32_t>(offsetof(SHA256Managed_t2029745292, ____ProcessingBufferCount_9)); }
+	inline int32_t get__ProcessingBufferCount_9() const { return ____ProcessingBufferCount_9; }
+	inline int32_t* get_address_of__ProcessingBufferCount_9() { return &____ProcessingBufferCount_9; }
+	inline void set__ProcessingBufferCount_9(int32_t value)
 	{
-		____ProcessingBufferCount_7 = value;
+		____ProcessingBufferCount_9 = value;
 	}
 
-	inline static int32_t get_offset_of_buff_8() { return static_cast<int32_t>(offsetof(SHA256Managed_t2029745292, ___buff_8)); }
-	inline UInt32U5BU5D_t59386216* get_buff_8() const { return ___buff_8; }
-	inline UInt32U5BU5D_t59386216** get_address_of_buff_8() { return &___buff_8; }
-	inline void set_buff_8(UInt32U5BU5D_t59386216* value)
+	inline static int32_t get_offset_of_buff_10() { return static_cast<int32_t>(offsetof(SHA256Managed_t2029745292, ___buff_10)); }
+	inline UInt32U5BU5D_t59386216* get_buff_10() const { return ___buff_10; }
+	inline UInt32U5BU5D_t59386216** get_address_of_buff_10() { return &___buff_10; }
+	inline void set_buff_10(UInt32U5BU5D_t59386216* value)
 	{
-		___buff_8 = value;
-		Il2CppCodeGenWriteBarrier(&___buff_8, value);
+		___buff_10 = value;
+		Il2CppCodeGenWriteBarrier(&___buff_10, value);
 	}
 };
 

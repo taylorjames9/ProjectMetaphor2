@@ -18,7 +18,7 @@
       <string>AppIcon76x76~ipad.png</string>
     </array>
     <key>CFBundleIdentifier</key>
-    <string>com.projectmetaphorios.ios.${PRODUCT_NAME}</string>
+    <string>com.projectmetaphorios.${PRODUCT_NAME}</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
@@ -70,6 +70,6 @@
     <key>UnityCloudProjectID</key>
     <string></string>
     <key>UnityCrashSubmissionURL</key>
-    <string>https://a:b@perf-events.cloud.unity3d.com/symbolicate</string>
+    <string>https://perf-events.cloud.unity3d.com/symbolicate</string>
   </dict>
 </plist>
