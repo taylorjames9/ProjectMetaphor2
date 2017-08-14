@@ -11,7 +11,8 @@ public class MainDBScript : MonoBehaviour
 	[SerializeField]
 	private GameObject parentOfAllPrompts;
 
-	public GameObject promptContent_prefab;
+	public GameObject promptHolder_prefab;
+	public GameObject emptyMet;
 	    void Start()
     {
         // Set this before calling into the realtime database.
@@ -42,9 +43,24 @@ public class MainDBScript : MonoBehaviour
 		  foreach (var prompt in allPrompts.Children)
           {
 				Debug.Log("00"+prompt.Child("promptID").GetRawJsonValue());
-				GameObject newPromptAndContent_Empty = Instantiate(promptContent_prefab, parentOfAllPrompts.transform, true) as GameObject;
+				GameObject newPromptAndContent_Empty = Instantiate(promptHolder_prefab, parentOfAllPrompts.transform, true) as GameObject;
 				newPromptAndContent_Empty.name = "Prompt00"+prompt.Child("promptID").GetRawJsonValue();
 				newPromptAndContent_Empty.transform.GetChild(0).transform.GetChild(0).GetComponent<Text>().text = allPrompts.Child("prompt00"+i.ToString()).Child("content").GetRawJsonValue().ToString();
+				Debug.Log("prompt child count "+prompt.ChildrenCount);
+				int r = 1;
+				foreach(var cmt in prompt.Child("comments").Children){
+					Debug.Log("content for prompt"+cmt.Child("content").GetRawJsonValue());
+					GameObject newResponse = Instantiate(emptyMet, newPromptAndContent_Empty.transform, true) as GameObject;
+					newResponse.name = "response00"+r.ToString();
+					newResponse.transform.GetChild(0).GetComponent<Text>().text = cmt.Child("content").GetRawJsonValue();
+					r++;
+				}
+				//loop through each comment, check to see if its text is empty, delete it if empty
+				foreach(Transform t in newPromptAndContent_Empty.transform){
+					if(t.GetChild(0).GetComponent<Text>() && t.GetChild(0).GetComponent<Text>().text.Equals("")){
+						Destroy(t.gameObject);
+					}
+				}
 				i++;
           }
       }
