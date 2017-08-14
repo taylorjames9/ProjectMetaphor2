@@ -13,6 +13,8 @@ public class MainDBScript : MonoBehaviour
 
 	public GameObject promptHolder_prefab;
 	public GameObject emptyMet;
+
+	public GameObject InputField;
 	    void Start()
     {
         // Set this before calling into the realtime database.
@@ -39,6 +41,9 @@ public class MainDBScript : MonoBehaviour
           DataSnapshot allPrompts = task.Result;
           Debug.Log("Snapshot = " + allPrompts.ChildrenCount.ToString());
           Debug.Log("printing content of prompt 3" + allPrompts.Child("prompt003").Child("content").GetRawJsonValue());
+		  ///Write Comments to DB
+		  writeNewResponse("tay001", "Jamessss", 1, "like shiny pennies", allPrompts);
+
           int i = 1;
 		  foreach (var prompt in allPrompts.Children)
           {
@@ -66,6 +71,7 @@ public class MainDBScript : MonoBehaviour
       }
   });
 
+
     }
     private void writeNewUser(string userId, string name, string email)
     {
@@ -77,7 +83,34 @@ public class MainDBScript : MonoBehaviour
 		string key = reference.Child("users").Push().Key;
 		Debug.Log("Finished execution ...");
     }
+
+	private void writeNewResponse(string userID, string name, int promptID, string content, DataSnapshot allPrompts){
+		Response response = new Response(name, promptID, content);
+		string rep_json = JsonUtility.ToJson(response);
+		//int childCount = reference.Child("prompts").Child("prompt00"+promptID).Child("comments").ChildrenCount;
+		int childCount = (int)allPrompts.Child("prompt00"+promptID).Child("comments").ChildrenCount+1;
+
+		reference.Child("prompts").Child("prompt00"+promptID).Child("comments").Child("comment00"+childCount).SetRawJsonValueAsync(rep_json);
+		string key = reference.Child("prompts").Child("prompt00"+promptID).Push().Key;
+		Debug.Log("Finished adding new comment.. ...");
+	}
+
 }
+
+public class Response{
+	public string userID = "null for now";
+	public string name;
+
+	public int promptID;
+	public string content;
+	public Response(string name, int promptID, string content){
+		this.name = name;
+		this.promptID = promptID;
+		this.content = content;
+	}
+}
+
+
 
 public class User
 {
