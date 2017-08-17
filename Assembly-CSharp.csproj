@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\InputHandler.cs" />
      <Compile Include="Assets\MainDBScript.cs" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
      <None Include="Assets\PlayServicesResolver\proguard-messaging-workaround.txt" />
